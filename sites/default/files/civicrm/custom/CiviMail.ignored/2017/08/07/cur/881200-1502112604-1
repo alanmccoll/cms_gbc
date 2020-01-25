@@ -1,0 +1,536 @@
+Return-Path: <void-bounce-alan=itrva.com@express.medallia.com>
+Delivered-To: alan@itrva.com
+Received: from server22.websitehostserver.net
+	by server22.websitehostserver.net (Dovecot) with LMTP id 6TB9Hq1qiFlZ6gwAbtRU6Q
+	for <alan@itrva.com>; Mon, 07 Aug 2017 08:27:09 -0500
+Return-path: <void-bounce-alan=itrva.com@express.medallia.com>
+Envelope-to: alan@itrva.com
+Delivery-date: Mon, 07 Aug 2017 08:27:09 -0500
+Received: from inap225.mx.medallia.com ([199.102.178.225]:34622)
+	by server22.websitehostserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <void-bounce-alan=itrva.com@express.medallia.com>)
+	id 1dei3p-003fF9-Ao
+	for alan@itrva.com; Mon, 07 Aug 2017 08:27:09 -0500
+Received: from mx.medallia.com (localhost [127.0.0.1])
+	by mx.medallia.com (SMTP) with ESMTP id 990C57C9876
+	for <alan@itrva.com>; Mon,  7 Aug 2017 06:25:20 -0700 (PDT)
+Received: from express.medallia.com (nsmip.medallia.com [10.30.120.51])
+	by mx.medallia.com (SMTP) with ESMTP id 779D67C984B
+	for <alan@itrva.com>; Mon,  7 Aug 2017 06:25:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=medallia.com;
+	s=default; t=1502112320;
+	bh=+G+BQbzjHJA93dc4lcfFxac/ruN7M4zhRd4YoZWGI2c=; h=From:Subject;
+	b=Jl3LaeV9p8o6MqmVINnqcCkzVi18XfK9fpy0nVB36gSFZ6H6R5h4V2C5IhPyx/yD4
+	 JdzHHefdMbN58slI0QNIPSLHgO3nzPE43HHXT1pU9x/Agq6880qPJtep4LehJnw/Sa
+	 u2h9tdhGjzbMAxuCrCRMJGDm8DN25IOeJhN4mcZQ=
+Date: Mon, 7 Aug 2017 06:25:18 -0700 (PDT)
+From: Sam's Club Member Experience <SamsClub@express.medallia.com>
+To: alan@itrva.com
+Message-ID: <j626w43l.133ast2dx7tcp@express.medallia.com>
+Subject: Have 3 minutes? We value what you think
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_990101_544476783.1502112318995"
+X-Mail-Sequence: 150987750
+X-Virus-Scanned: ClamAV
+
+------=_Part_990101_544476783.1502112318995
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Alan,
+
+Thank you for being a member of Sam's Club.
+
+How is Sam's Club doing? We'd love to hear your feedback.=20
+             =20
+Take the survey: http://survey.medallia.com/?evwz8pxfr669wr9ycwb9  =20
+
+Thank you in advance. Your responses help us ensure you have the best possi=
+ble experience as a Sam's Club Member.
+
+We appreciate your time and your business!
+
+Sincerely,
+Tracey Brown
+Senior Vice President Operations and Chief Experience Officer
+
+---------------------------------------------------------------------------=
+------
+
+Please visit us again soon at SamsClub.com
+
+This survey invitation will expire on September 06, 2017 at 4:30 AM.
+
+Should you need help accessing or completing this survey, please visit: htt=
+p://surveysupport.medallia.com/s/?id=3Dhttp://survey.medallia.com/?evwz8pxf=
+r669wr9ycwb9
+
+Privacy Policy and Terms & Conditions
+
+Sam's Club wants to protect your security and privacy. Be assured that we w=
+ill never ask for personal information (such as passwords or credit card nu=
+mbers) in an email newsletter. If you receive such a request, please do not=
+ respond to that email. See our Privacy Policy and Terms and Conditions to =
+learn more: http://corporate.samsclub.com/sams-club-privacy-policy?xid=3Dft=
+r:privacy-policy
+
+Sam's Club has contracted Medallia, an independent firm, to conduct this su=
+rvey. To unsubscribe from future Medallia surveys for Sam's Club, please cl=
+ick here: http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&reject=3Dyes=20
+
+Sam's Club Member Services  2101 SE Simple Savings Drive, Bentonville, AR 7=
+2716-0745  =C2=A9 2000-2017, Sam's West, Inc. All rights reserved.
+
+------=_Part_990101_544476783.1502112318995
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+=09<head>
+=09<a name=3D"31"></a>
+=09=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF=
+-8" />
+=09=09<title>Medallia HTML Template</title>
+=09=09<style type=3D"text/css">
+
+=09=09=09/* Take care of image borders and formatting */
+=09=09=09img =09=09{ max-width:600px !important; outline:none; text-decorat=
+ion:none; -ms-interpolation-mode: bicubic; }=20
+=09=09=09a img =09{ border:none; }
+
+=09=09=09/* Fix Apple contact links */
+=09=09=09.applefix a =09=09=09=09=09{color:#9999ff; text-decoration: none;}
+
+=09=09=09/* Responsive Styles*/
+=09=09=09@media only screen and (max-width:600px){
+=09=09=09=09/* set column image maximum width for mobile screens */
+=09=09=09=09img[class=3D"columnImage"]{ height:auto !important; max-width:2=
+80px !important; width:100% !important; }
+=09=09=09=09table[id=3D"emailContainer"]{ width:100% !important; }
+=09=09=09=09table[class=3D"columnContainer"]{ width:100% !important; }
+=09=09=09=09table[class=3D"mobileButton"] { width:60% !important; }
+=09=09=09=09td[class=3D"columnSingle"] { display:block !important; width:10=
+0% !important; }
+=09=09=09}
+
+=09=09</style>
+=09</head>
+=09<body bgcolor=3D"#ffffff" style=3D"background-color:#ffffff; -webkit-tex=
+t-size-adjust: none;">
+=09=09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"600" id=3D"emailContainer" style=3D"display:block; max-width:6=
+00px; background-color:#ffffff; width:100%!important;">
+=09=09=09<tr><!--=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =
+ Start email header  =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D-->
+=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" style=3D"max-width:600px;">
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"max-width:600px;">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<!--**************** HEADER IMAGE=
+ ****************=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09Images need to have the width and=
+ height specified. The style property "display:block" is necessary to get r=
+id of unwanted margings in some older email clients Remember that email cli=
+ents have images turned off by default, alternate text "alt-text" is necess=
+ary, The color, background-color and font styles are for the alt text in ca=
+se images are turned off =20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09It is best to reference the image=
+ through the images set in the LNF instead of hardcoding the image URL
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09-->
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://survey.medalli=
+a.com/sfilemanager/71e0a3b4d3822161386212f42201b14a.png" width=3D"500px" he=
+ight=3D"116px" border=3D"0" alt=3D"" border=3D"0" style=3D"display:block; c=
+olor:#efefef; text-align:center; font-family: Myriad Pro, Arial, Helvetica,=
+ Verdana, sans-serif; font-size:28px; font-weight:bold; background-color:#f=
+fffff;" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr><!--///////////////////  End email header  /////////=
+//////////-->
+=09=09=09=09=09=09
+=09=09=09=09=09=09<tr><!--=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D  Start email body  =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D-->
+=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"max-width:600px;">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"10" cel=
+lspacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-family:Myriad=
+ Pro, Arial, Helvetica, Verdana, sans-serif; font-size:24px; font-weight:bo=
+ld; color:#000000;">Dear Alan,</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-family:Myriad=
+ Pro, Arial, Helvetica, Verdana, sans-serif; font-size:16px; color:#000000;=
+">Thank you for being a member of Sam's Club. <br/> <br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09How is Sam's Club doing? We'd =
+love to hear your feedback.
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top"><!=
+-- Set main horizontal and vertical alignment. Horizontal: left, center, ri=
+ght; Vertical: top, middle, bottom -->
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-family:Myriad=
+ Pro, Arial, Helvetica, Verdana, sans-serif; font-size:14px; font-weight:bo=
+ld; color:#000000;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09How likely are you to recommen=
+d Sam's Club to a friend or family member?
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif; font-size:13px; color=
+: #000000;">Not at all<br/>Likely</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"right">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif; font-size:13px; color=
+: #000000;">Extremely<br/>Likely</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 <td colspan=3D"2" align=3D=
+"center">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09<table class=3D"number-=
+scale" width=3D"100%" border=3D"1" bordercolor=3D"#ffffff" cellspacing=3D"0=
+" cellpadding=3D"5" style=3D"border-style:solid;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" style=3D"=
+background-color: #00549F; text-align:center;" bgcolor=3D"#ffffff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"display:block; =
+padding:5px; font-family:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;=
+ text-decoration: none; color: #eeeeee; font-weight:bold; font-size: 13px;"=
+ href=3D"http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&_score=3D0">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;; text-decoration: non=
+e; color: #eeeeee; font-weight:bold; font-size: 16px;">0</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" style=3D"=
+background-color: #00549F; text-align:center;" bgcolor=3D"#ffffff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"display:block; =
+padding:5px; font-family:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;=
+ text-decoration: none; color: #eeeeee; font-weight:bold; font-size: 13px;"=
+ href=3D"http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&_score=3D1">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;; text-decoration: non=
+e; color: #eeeeee; font-weight:bold; font-size: 16px;">1</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" style=3D"=
+background-color: #00549F; text-align:center;" bgcolor=3D"#ffffff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"display:block; =
+padding:5px; font-family:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;=
+ text-decoration: none; color: #eeeeee; font-weight:bold; font-size: 13px;"=
+ href=3D"http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&_score=3D2">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;; text-decoration: non=
+e; color: #eeeeee; font-weight:bold; font-size: 16px;">2</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" style=3D"=
+background-color: #00549F; text-align:center;" bgcolor=3D"#ffffff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"display:block; =
+padding:5px; font-family:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;=
+ text-decoration: none; color: #eeeeee; font-weight:bold; font-size: 13px;"=
+ href=3D"http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&_score=3D3">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;; text-decoration: non=
+e; color: #eeeeee; font-weight:bold; font-size: 16px;">3</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" style=3D"=
+background-color: #00549F; text-align:center;" bgcolor=3D"#ffffff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"display:block; =
+padding:5px; font-family:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;=
+ text-decoration: none; color: #eeeeee; font-weight:bold; font-size: 13px;"=
+ href=3D"http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&_score=3D4">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;; text-decoration: non=
+e; color: #eeeeee; font-weight:bold; font-size: 16px;">4</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" style=3D"=
+background-color: #00549F; text-align:center;" bgcolor=3D"#ffffff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"display:block; =
+padding:5px; font-family:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;=
+ text-decoration: none; color: #eeeeee; font-weight:bold; font-size: 13px;"=
+ href=3D"http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&_score=3D5">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;; text-decoration: non=
+e; color: #eeeeee; font-weight:bold; font-size: 16px;">5</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" style=3D"=
+background-color: #00549F; text-align:center;" bgcolor=3D"#ffffff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"display:block; =
+padding:5px; font-family:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;=
+ text-decoration: none; color: #eeeeee; font-weight:bold; font-size: 13px;"=
+ href=3D"http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&_score=3D6">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;; text-decoration: non=
+e; color: #eeeeee; font-weight:bold; font-size: 16px;">6</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" style=3D"=
+background-color: #00549F; text-align:center;" bgcolor=3D"#ffffff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"display:block; =
+padding:5px; font-family:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;=
+ text-decoration: none; color: #eeeeee; font-weight:bold; font-size: 13px;"=
+ href=3D"http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&_score=3D7">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;; text-decoration: non=
+e; color: #eeeeee; font-weight:bold; font-size: 16px;">7</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" style=3D"=
+background-color: #00549F; text-align:center;" bgcolor=3D"#ffffff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"display:block; =
+padding:5px; font-family:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;=
+ text-decoration: none; color: #eeeeee; font-weight:bold; font-size: 13px;"=
+ href=3D"http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&_score=3D8">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;; text-decoration: non=
+e; color: #eeeeee; font-weight:bold; font-size: 16px;">8</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" style=3D"=
+background-color: #00549F; text-align:center;" bgcolor=3D"#ffffff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"display:block; =
+padding:5px; font-family:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;=
+ text-decoration: none; color: #eeeeee; font-weight:bold; font-size: 13px;"=
+ href=3D"http://survey.medallia.com/?evwz8pxfr669wr9ycwb9&_score=3D9">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-fami=
+ly:Myriad Pro, Arial, Helvetica, Verdana, sans-serif;; text-decoration: non=
+e; color: #eeeeee; font-weight:bold; font-size: 16px;">9</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09 =09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09<td align=3D"cent=
+er" style=3D"background-color: #00549F; text-align:center;" bgcolor=3D"#fff=
+fff">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09<a style=3D"di=
+splay:block; padding:3px; word-break:normal; font-family:Myriad Pro, Arial,=
+ Helvetica, Verdana, sans-serif; text-decoration: none; color: #eeeeee; fon=
+t-weight:bold; font-size: 13px;" href=3D"http://survey.medallia.com/?evwz8p=
+xfr669wr9ycwb9&_score=3D10">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09=09 <span styl=
+e=3D"word-break:normal; font-family:Myriad Pro, Arial, Helvetica, Verdana, =
+sans-serif; text-decoration: none; color: #eeeeee; font-weight:bold; font-s=
+ize: 16px;">10</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09 =09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09    =09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09       =09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-family:Myriad=
+ Pro, Arial, Helvetica, Verdana, sans-serif; font-size:16px; color:#000000;=
+">Thank you in advance. Your responses help us ensure you have the best pos=
+sible experience as a Sam's Club Member. <br /> <br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09We appreciate your time and yo=
+ur business!<br /><br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Sincerely, <br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"http://survey.meda=
+llia.com/sfilemanager/328486637feb4ed536c8680694a33a16.jpg" width=3D"180px"=
+ border=3D"0" alt=3D"" border=3D"0" style=3D"display:block; color:#efefef; =
+text-align:left; font-family: Myriad Pro, Arial, Helvetica, Verdana, sans-s=
+erif; font-size:28px; font-weight:bold; background-color:#ffffff;" /><br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Tracey Brown<br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Senior Vice President Operatio=
+ns and Chief Experience Officer<br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</span>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr><!--/////////////////////  End email body  /////////=
+////////////-->
+=09=09=09=09=09=09
+=09=09=09=09=09=09<tr><!--=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D  Start email footer  =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D-->
+=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"max-width: 600px; background-color:#f6f6f6; =
+border-top-color:#f6f6f6; border-top-style:solid; border-top-width:1px;">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"10" cel=
+lspacing=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top" st=
+yle=3D"line-height:12px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"font-family:Myriad=
+ Pro, Arial, Helvetica, Verdana, sans-serif; font-size:12px; color:#888888;=
+">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Please visit us again soon at =
+<a href=3D"www.samsclub.com" style=3D"font-family:Myriad Pro, Arial, Helvet=
+ica, Verdana, sans-serif; color:#0087cd; text-decoration:none;"><b>SamsClub=
+..com</b></a>.<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09This survey invitation will ex=
+pire on September 06, 2017 at 4:30 AM<br /><br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Should you need help accessing=
+ or completing this survey, please visit: <a href=3D"http://surveysupport.m=
+edallia.com/s/?id=3Dhttp://survey.medallia.com/?evwz8pxfr669wr9ycwb9" targe=
+t=3D"_blank" style=3D"font-family:Myriad Pro, Arial, Helvetica, Verdana, sa=
+ns-serif; color:#0087cd; text-decoration:none;">surveysupport.medallia.com<=
+/a>.<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Privacy Policy and Terms & Con=
+ditions<br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br/>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Sam's Club wants to protect yo=
+ur security and privacy. Be assured that we will never ask for personal inf=
+ormation (such as passwords or credit card numbers) in an email newsletter.=
+ If you receive such a request, please do not respond to that email. See ou=
+r <a href=3D"http://corporate.samsclub.com/sams-club-privacy-policy?xid=3Df=
+tr:privacy-policy" style=3D"font-family:Myriad Pro, Arial, Helvetica, Verda=
+na, sans-serif; color:#0087cd; text-decoration:none;">Privacy Policy and Te=
+rms and Conditions</a> to learn more.<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Sam's Club has contracted Meda=
+llia, an independent firm, to conduct this survey. To unsubscribe from futu=
+re Medallia surveys for Sam's Club, please click <a href=3D"http://survey.m=
+edallia.com/?evwz8pxfr669wr9ycwb9&reject=3Dyes" style=3D"font-family:Myriad=
+ Pro, Arial, Helvetica, Verdana, sans-serif; color:#0087cd; text-decoration=
+:none;">here</a>.<br /><br />=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Sam's Club Member Services  21=
+01 SE Simple Savings Drive, Bentonville, AR 72716-0745  =C2=A9 2000-2017, S=
+am's West, Inc. All rights reserved.<br/><br/>
+
+=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr><!--/////////////////////  End email footer  ///////=
+//////////////-->
+=09=09=09=09=09</table>
+=09=09=09=09</td>
+=09=09=09</tr>
+=09=09</table>
+=09</body>
+</html>
+------=_Part_990101_544476783.1502112318995--

@@ -1,0 +1,143 @@
+Return-Path: <>
+Delivered-To: alan@itrva.com
+Received: from server22.websitehostserver.net
+	by server22.websitehostserver.net (Dovecot) with LMTP id ETbQEfagcFn88Q0AbtRU6Q
+	for <alan@itrva.com>; Thu, 20 Jul 2017 07:24:22 -0500
+Return-path: <>
+Envelope-to: alan@itrva.com
+Delivery-date: Thu, 20 Jul 2017 07:24:22 -0500
+Received: from mailnull by server22.websitehostserver.net with local (Exim 4.89)
+	id 1dYAVC-003tPL-6x
+	for alan@itrva.com; Thu, 20 Jul 2017 07:24:22 -0500
+X-Failed-Recipients: admin@example.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server22.websitehostserver.net>
+To: alan@itrva.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1500553462-eximdsn-46389207
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dYAVC-003tPL-6x@server22.websitehostserver.net>
+Date: Thu, 20 Jul 2017 07:24:22 -0500
+
+--1500553462-eximdsn-46389207
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  admin@example.com
+    all hosts for 'example.com' have been failing for a long time (and retry time not reached)
+
+--1500553462-eximdsn-46389207
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server22.websitehostserver.net
+
+Action: failed
+Final-Recipient: rfc822;admin@example.com
+Status: 5.0.0
+
+--1500553462-eximdsn-46389207
+Content-type: message/rfc822
+
+Return-path: <alan@itrva.com>
+Received: from itrvacom by server22.websitehostserver.net with local (Exim 4.89)
+	(envelope-from <alan@itrva.com>)
+	id 1dWw77-000Wfq-FH
+	for admin@example.com; Sun, 16 Jul 2017 21:50:25 -0500
+To: admin@example.com
+Subject: New release(s) available for Goodwill Pastor Search
+X-PHP-Script: search.goodwillbaptist.org/index.php for 5.255.250.12
+X-PHP-Filename: /home/itrvacom/public_html/site_pastor_search/index.php REMOTE_ADDR: 5.255.250.12
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8Bit
+X-Mailer: Drupal
+From: "Goodwill Pastor Search" <alan@itrva.com>
+Message-Id: <E1dWw77-000Wfq-FH@server22.websitehostserver.net>
+Sender:  <itrvacom@server22.websitehostserver.net>
+Date: Sun, 16 Jul 2017 21:50:25 -0500
+
+<html>
+<head>
+<style type="text/css">
+<!--
+/**
+ * Banner handling
+ */
+..oa-banner-img {
+  max-width: 600px;
+  height: auto;
+}
+/**
+ * Traditional split diff theming
+ */
+table.diff {
+  border-spacing: 4px;
+  margin-bottom: 20px;
+  table-layout: fixed;
+  width: 100%;
+}
+table.diff tr.even, table.diff tr.odd {
+  background-color: inherit;
+  border: none;
+}
+td.diff-section-title, div.diff-section-title {
+  background-color: #f0f0ff;
+  font-size: 0.83em;
+  font-weight: bold;
+  padding: 0.1em 1em;
+}
+td.diff-deletedline {
+  background-color: #ffa;
+  width: 50%;
+}
+td.diff-addedline {
+  background-color: #afa;
+  width: 50%;
+}
+td.diff-context {
+  background-color: #fafafa;
+}
+span.diffchange {
+  color: #f00;
+  font-weight: bold;
+}
+
+table.diff col.diff-marker {
+  width: 1.4em;
+}
+table.diff col.diff-content {
+  width: 50%;
+}
+table.diff th {
+  padding-right: inherit;
+}
+table.diff td div {
+  overflow: auto;
+  padding: 0.1ex 0.5em;
+  word-wrap: break-word;
+}
+table.diff td {
+  padding: 0.1ex 0.4em;
+}
+-->
+</style>
+</head>
+<body>
+<div class='htmlmail-body'>
+There is a security update available for your version of Drupal. To ensure the security of your server, you should update immediately!<br />
+<br />
+There are security updates available for one or more of your modules or themes. To ensure the security of your server, you should update immediately!<br />
+<br />
+See the available updates page for more information:
+https://search.goodwillbaptist.org/admin/reports/updates<br />
+<br />
+Your site is currently configured to send these emails when any updates are available. To get notified only for security updates, https://search.goodwillbaptist.org/admin/reports/updates/settings.</div>
+</body>
+</html>
+
+
+--1500553462-eximdsn-46389207--

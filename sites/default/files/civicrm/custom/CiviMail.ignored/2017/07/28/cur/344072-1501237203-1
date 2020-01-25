@@ -1,0 +1,1998 @@
+Return-Path: <bounces+2090196-fb11-alan=itrva.com@mk.mint.com>
+Delivered-To: alan@itrva.com
+Received: from server22.websitehostserver.net
+	by server22.websitehostserver.net (Dovecot) with LMTP id md2HIGwPe1nmKgUAbtRU6Q
+	for <alan@itrva.com>; Fri, 28 Jul 2017 05:18:20 -0500
+Return-path: <bounces+2090196-fb11-alan=itrva.com@mk.mint.com>
+Envelope-to: alan@itrva.com
+Delivery-date: Fri, 28 Jul 2017 05:18:20 -0500
+Received: from o2.mk.mint.com ([167.89.46.233]:61536)
+	by server22.websitehostserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.89)
+	(envelope-from <bounces+2090196-fb11-alan=itrva.com@mk.mint.com>)
+	id 1db2Lc-001PyM-8v
+	for alan@itrva.com; Fri, 28 Jul 2017 05:18:20 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=mint.com; 
+	h=content-type:from:mime-version:reply-to:subject:to:list-unsubscribe; 
+	s=s1; bh=EcT8N4INz/vEvmP4nq5QBVqgTBo=; b=hJX/yEUv/ng6kW0sjx/W1/H
+	HGHMFxsGJDQZcBaZhbU7djRJ4csN0FCAbq77XC2pvGp8eXSKHNaR+Hlw4T/KqCN8
+	wKZBqPLfRuoufnmt7IfmB6UfMAAh2tGQpV0/xBi2Bfk3dECDeRtvcnbKq3jcZhpS
+	I2AzawOpYlyntglOvCnw=
+Received: by filter0631p1mdw1.sendgrid.net with SMTP id filter0631p1mdw1-28988-597B0EBE-27
+        2017-07-28 10:15:26.241440061 +0000 UTC
+Received: from MjA5MDE5Ng (unknown [10.42.2.4])
+	by ismtpd0036p1mdw1.sendgrid.net (SG) with HTTP id WGUbr0VQQD6xai5V40rnFQ
+	for <team@mint.com>; Fri, 28 Jul 2017 10:15:26.235 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=9179b7e530124d1fc2816d5b8aaed0d366c3ee8744de820016521e24e6bd
+Date: Fri, 28 Jul 2017 10:16:57 +0000 (UTC)
+From: "Mint" <team@mint.com>
+Mime-Version: 1.0
+Reply-to: No-Reply@mint.com
+Subject: We fixed up our Credit Score feature with you in mind
+To: alan@itrva.com
+Message-ID: <WGUbr0VQQD6xai5V40rnFQ@ismtpd0036p1mdw1.sendgrid.net>
+List-Unsubscribe: <mailto:unsubscribe@mk.mint.com?subject=https://links.mint.com/asm/unsubscribe/*q*user_id=2090196*a*data=xUU45IQEI4QieDqom4CO3W9fWoJX0tgVbBj7m3iaYfG51ekb5qFbaOpeslzfr0GW3ramGVYweMrxmDJMCjJzDIXv0HXMKdY2QlnpEYx-AKjxXK421ZLsrsy2bMu0GTqS2vHJJujLYao6x4svBJ9kpuohRuC8CWQWt3YV1DLUkIbDXox2ZXl6YKdljZsiXUTiCQI5QPhQBQIV5etQsqGQ6o7tMEvN3ugnkDk1K9jaHejnPOL7jSegQ6JO18vf-xm5pg-ROnnG0Rk_P1LArBifF7AeHEbi86ay0Qg0eePy4T1D2go284BJONHnMGR8HkXCVqIeNVoDTxm0s3RXf80e0EaTele7kczpC_IGsF3i5nVwjq_vBEZqvvn3Yuun0xx-A8UW_mtAAvs0RBO5kDMWQLcbyFN7cX-YAG7DsJBDf4S5RVGV_WgQQCViy2916jsSRWnMTntOaTQFfnty_Xi6TBM1e3KpxmqGLs4CpqPTCgMLpnYBzDnHaQDy9VojmfwJ-jdm6SKi62W_aTSTbbDW4Z-6GxNQJLxOrcshfmz5yK48VEUWzfgHkSOF3LtSOJaUhQYZ0O6iJZQqM2DzDw4nv2MlXXfthpanlDBk1_wk-wpoH3dyWOo_dehchDlCY0KlA3P5kpBuoZueZYJLgKtjag==>
+X-SG-EID: j8wdlB4+s5XBAkiJHgaFxbjl/KlLhdkr6jqAzuj9HiYzQ8wb0Arg4bpmbugFTRXcS7/pbpnwK2DMjQ
+ mizvhsKhgnO3vkSgth3xUkyf/y58dvbLlLVVqQkB2gvUyjwDpiAcxeL8ksQzk6rD2eL0St/NC7mc1c
+ d74NN0WzeZzG/t5hJFFQf/N/dzFYTUgKq5nq2ECLEZqirkvYyfxVCA9Biw==
+X-SG-ID: Z2FxZazunBjVeNuNdzHDqrF8mxuCpi0krmont6YQrP2QyKasQg5XnY2mwwEth7VFpgQQsDxItCqNJj
+ rlvp5zK2IW+35bKV1K0CIabnBNTgi0KmJfeCLSuAhTs9aNxEf71hubDFv0mxPag7wTmo8nsjmMxCO9
+ Uimich7o1o882Ed8x5lBdu1ExrAcZ94SAXMonGtzEsmKWMPUzkRp2rh55GWmnwzljpvnhBimxCEZQF
+ xmNcG/5CiwohskAzXm8+VJvoZWvmO6mG/4PIayoFuLisgFYc7shuSzPNGaICtAPqI=
+
+--9179b7e530124d1fc2816d5b8aaed0d366c3ee8744de820016521e24e6bd
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+Mime-Version: 1.0
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+Confused about credit?
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+We get it. That=E2=80=99s why our new Credit Score feature teaches you abou=
+t your credit and gives you small steps toward your goals. No credit card r=
+equired, and checking doesn=E2=80=99t hurt your=C2=A0score.
+
+GET=C2=A0MY=C2=A0FREE=C2=A0CREDIT=C2=A0SCORE=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0 https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+Win big with small=C2=A0steps
+
+Focus on the big things first. Every month we highlight the top two factors=
+=C2=A0impacting your score, with clear next steps to improve=C2=A0them.
+
+SEE=C2=A0MY=C2=A0TOP=C2=A02=C2=A0FACTORS=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0 https://smartlinks.intuit.com/mt.htm?type=3Dcreditsco=
+re
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+Know what changed and=C2=A0why
+
+See how your actions affect your score. We tell you how many points=C2=A0yo=
+ur=C2=A0score changed and which factors went up=C2=A0or=C2=A0down.
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+Scan for the highlights
+
+Know at a glance which factors of your score are excellent, good, fair,=C2=
+=A0or=C2=A0poor, so you know what=E2=80=99s going well and what can=C2=A0im=
+prove.
+
+SEE=C2=A0THE=C2=A0NEW=C2=A0EXPERIENCE=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0 https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+http://www.facebook.com/mint
+ http://twitter.com/mint
+ https://www.instagram.com/mintapp/
+ http://blog.mint.com/
+ http://itunes.apple.com/app/mint-com-personal-finance/id300238550?mt=3D8
+ https://market.android.com/details?id=3Dcom.mint
+
+This message was sent to alan@itrva.com
+
+If you would like to update your email address, please click=C2=A0here http=
+://links.email-m.mint.com/ui/modules/display/preferences.jsp?f=3D589839.
+
+If you no longer wish to receive e-mails from Mint, click=C2=A0here https:/=
+/links.mint.com/asm/unsubscribe/?user_id=3D2090196&data=3DxUU45IQEI4QieDqom=
+4CO3W9fWoJX0tgVbBj7m3iaYfG51ekb5qFbaOpeslzfr0GW3ramGVYweMrxmDJMCjJzDIXv0HXM=
+KdY2QlnpEYx-AKjxXK421ZLsrsy2bMu0GTqS2vHJJujLYao6x4svBJ9kpuohRuC8CWQWt3YV1DL=
+UkIbDXox2ZXl6YKdljZsiXUTiCQI5QPhQBQIV5etQsqGQ6o7tMEvN3ugnkDk1K9jaHejnPOL7jS=
+egQ6JO18vf-xm5pg-ROnnG0Rk_P1LArBifF7AeHEbi86ay0Qg0eePy4T1D2go284BJONHnMGR8H=
+kXCVqIeNVoDTxm0s3RXf80e0EaTele7kczpC_IGsF3i5nVwjq_vBEZqvvn3Yuun0xx-A8UW_mtA=
+Avs0RBO5kDMWQLcbyFN7cX-YAG7DsJBDf4S5RVGV_WgQQCViy2916jsSRWnMTntOaTQFfnty_Xi=
+6TBM1e3KpxmqGLs4CpqPTCgMLpnYBzDnHaQDy9VojmfwJ-jdm6SKi62W_aTSTbbDW4Z-6GxNQJL=
+xOrcshfmz5yK48VEUWzfgHkSOF3LtSOJaUhQYZ0O6iJZQqM2DzDw4nv2MlXXfthpanlDBk1_wk-=
+wpoH3dyWOo_dehchDlCY0KlA3P5kpBuoZueZYJLgKtjag=3D=3D.
+
+=C2=A92007=E2=80=932017 Mint Software, Inc. | All=C2=A0Rights=C2=A0Reserved.
+
+Mint 2632 Marine Way, Mountain View, CA=C2=A094043
+
+Privacy Policy https://security.intuit.com/index.php/privacy | Terms=C2=A0a=
+nd=C2=A0Conditions https://www.mint.com/terms
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+Confused about credit?
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+We get it. That=E2=80=99s why our new Credit Score feature teaches you abou=
+t your credit and gives you small steps toward your goals. No credit card r=
+equired, and checking doesn=E2=80=99t hurt your=C2=A0score.
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+Win big with small=C2=A0steps
+
+Focus on the big things first. Every month we highlight the top two factors=
+ impacting your score, with clear next steps to improve=C2=A0them.
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+Know what changed and=C2=A0why
+
+See how your actions affect your score. We tell you how many points your sc=
+ore changed and which factors went up or=C2=A0down.
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+Scan for the highlights
+
+Know at a glance which factors of your score are excellent, good, fair, or =
+poor, so you know what=E2=80=99s going well and what can=C2=A0improve.
+
+https://smartlinks.intuit.com/mt.htm?type=3Dcreditscore
+
+http://www.facebook.com/mint
+ http://twitter.com/mint
+ https://www.instagram.com/mintapp/
+ http://blog.mint.com/
+ http://itunes.apple.com/app/mint-com-personal-finance/id300238550?mt=3D8
+ https://market.android.com/details?id=3Dcom.mint
+
+This message was sent to alan@itrva.com
+
+If you would like to update your email address, please=C2=A0click=C2=A0here=
+ http://links.email-m.mint.com/ui/modules/display/preferences.jsp?f=3D58983=
+9.
+
+If you no longer wish to receive e-mails from Mint, click=C2=A0here https:/=
+/links.mint.com/asm/unsubscribe/?user_id=3D2090196&data=3DxUU45IQEI4QieDqom=
+4CO3W9fWoJX0tgVbBj7m3iaYfG51ekb5qFbaOpeslzfr0GW3ramGVYweMrxmDJMCjJzDIXv0HXM=
+KdY2QlnpEYx-AKjxXK421ZLsrsy2bMu0GTqS2vHJJujLYao6x4svBJ9kpuohRuC8CWQWt3YV1DL=
+UkIbDXox2ZXl6YKdljZsiXUTiCQI5QPhQBQIV5etQsqGQ6o7tMEvN3ugnkDk1K9jaHejnPOL7jS=
+egQ6JO18vf-xm5pg-ROnnG0Rk_P1LArBifF7AeHEbi86ay0Qg0eePy4T1D2go284BJONHnMGR8H=
+kXCVqIeNVoDTxm0s3RXf80e0EaTele7kczpC_IGsF3i5nVwjq_vBEZqvvn3Yuun0xx-A8UW_mtA=
+Avs0RBO5kDMWQLcbyFN7cX-YAG7DsJBDf4S5RVGV_WgQQCViy2916jsSRWnMTntOaTQFfnty_Xi=
+6TBM1e3KpxmqGLs4CpqPTCgMLpnYBzDnHaQDy9VojmfwJ-jdm6SKi62W_aTSTbbDW4Z-6GxNQJL=
+xOrcshfmz5yK48VEUWzfgHkSOF3LtSOJaUhQYZ0O6iJZQqM2DzDw4nv2MlXXfthpanlDBk1_wk-=
+wpoH3dyWOo_dehchDlCY0KlA3P5kpBuoZueZYJLgKtjag=3D=3D.
+
+=C2=A92007=E2=80=932017 Mint Software, Inc. | All=C2=A0Rights=C2=A0Reserved.
+
+Mint 2632 Marine Way, Mountain View, CA=C2=A094043
+
+Privacy Policy https://security.intuit.com/index.php/privacy | Terms=C2=A0a=
+nd=C2=A0Conditions https://www.mint.com/terms=
+
+--9179b7e530124d1fc2816d5b8aaed0d366c3ee8744de820016521e24e6bd
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+
+<head>
+  <title></title>
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1, maximum-scale=3D1" />
+  <style type=3D"text/css">
+    .ExternalClass * {
+      line-height: 100%;
+    }
+
+    @media screen and (max-width: 639px) {
+      .desktopSection110 {
+        display: none !important;
+      }
+      .logo {
+        width: 108px !important;
+        height: 38px !important;
+      }
+      .cta {
+        width: 305px !important;
+        height: 39px !important;
+      }
+      .icon {
+        width: 305px !important;
+        height: 206px !important;
+      }
+      .icon1 {
+        width: 280px !important;
+        height: 74px !important;
+      }
+      .icon2 {
+        width: 280px !important;
+        height: 155px !important;
+      }
+      .icon3 {
+        width: 280px !important;
+        height: 177px !important;
+      }
+      .top1 {
+        width: 305px !important;
+        height: 167px !important;
+      }
+      .social1 {
+        width: 31px !important;
+        height: 36px !important;
+      }
+      .social2 {
+        width: 44px !important;
+        height: 36px !important;
+      }
+      .social3 {
+        width: 37px !important;
+        height: 36px !important;
+      }
+      table[class=3Demailwrapto100pct],
+      img[class=3Demailwrapto100pct] {
+        display: block !important;
+        width: 100% !important;
+      }
+      .mobile_again {
+        display: block !important;
+        width: auto !important;
+        visibility: inherit !important;
+      }
+    }
+
+    @media not screen and (max-width: 639px) {
+      img.emailMobileHide {
+        width: 1px;
+        height: 1px;
+      }
+      span.emailMobileHide {
+        color: #ffffff;
+      }
+    }
+
+    .emailwrapto100pct {
+      width: 0;
+      overflow: hidden;
+      float: left;
+      display: none;
+    }
+
+    .ios-phone a {
+      color: #333333 !important;
+      text-decoration: none;
+    }
+
+    .ios-addr a {
+      color: #999999 !important;
+      text-decoration: none;
+    }
+
+    @media yahoo {
+      .desktopSection110 {
+        display: inline !important;
+      }
+    }
+  </style>
+  <!--[if mso]>
+<style type=3D"text/css">
+span {font-family: Arial, Helvetica, sans-serif !important;}
+</style>
+<![endif]-->
+  <!-- start padding for iOS -->
+
+
+
+
+
+
+
+
+  <!-- end padding for iOS -->
+</head>
+
+<body style=3D"padding:0; margin:0;-webkit-text-size-adjust:none;-ms-text-s=
+ize-adjust:100%; background-color:#f5f5f5;" bgcolor=3D"#f5f5f5">
+  <!-- START DESKTOP -->
+  <table class=3D"desktopSection110" width=3D"640" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" align=3D"center" bgcolor=3D"#f5f5f5">
+    <tr>
+      <td colspan=3D"3" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><img=
+ style=3D"min-width:600px; display:block;" src=3D"https://marketing-image-p=
+roduction.s3.amazonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e26855=
+6b2db84ebc97a3653134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697=
+e122aa0474570.gif" width=3D"640"
+          height=3D"1" alt=3D"" border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td colspan=3D"3" valign=3D"top" bgcolor=3D"#f5f5f5"><img style=3D"di=
+splay:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/up=
+loads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f9=
+3b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" w=
+idth=3D"1" height=3D"40"
+          border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td colspan=3D"3" valign=3D"top" align=3D"center" bgcolor=3D"#f5f5f5"=
+><a href=3D"https://links.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA=
+5yoVKkyIsojCHAbJ-2FixwPXvZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D=
+_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2F=
+PO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ37=
+94HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEP=
+y-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEntHWijXOewF3gw8tLswETNzUb96ZwE=
+xn7Sv-2B98bGMqlQH95GMz2KR3L9Ar942VMAEy-2Fwq25uf6NV-2FFAgZkcbnH3pHvzyKaxNudn=
+Xx8ArK0RkVVaNb3-2FT2OzUKd4pizjRpS7kTBrpNWdHnkhsOWVdgT-2BWRfBW4UCvb4JfjHQWWI=
+V42Jvx3AF48xHSO382sVY1NZ-2Fr21vPSUkIvvNJjY4vZSSO0BbrbVB2j1axHnfwNyAxEm3CHln=
+TL3zGWOXnM6FTKqdNK1XgNwZv3JslGi4HoVw-3D-3D" name=3D"Logo" style=3D"text-dec=
+oration:none;" target=3D"_blank"><img alt=3D"Intuit(R) Mint" border=3D"0" h=
+eight=3D"41" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/7f33ec96ed347bc3bb5dbaf8f9d055b871c00b06ed5487455a3565c202e16819ad0526=
+4690f41e961d639edcc780746787fe659a54108c9d7c3d32e745b91f03.gif" style=3D"di=
+splay:block; font-size: 14px; font-weight: bold; font-family: Avenir, Helve=
+tica, sans-serif; color: rgb(0, 200, 112); width: 113px; height: 41px;" tit=
+le=3D"Intuit Mint" width=3D"113" /></a></td>
+    </tr>
+    <tr>
+      <td colspan=3D"3" valign=3D"top" bgcolor=3D"#f5f5f5"><img style=3D"di=
+splay:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/up=
+loads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f9=
+3b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" w=
+idth=3D"1" height=3D"25"
+          border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+      <td valign=3D"top" bgcolor=3D"#FFFFFF">
+        <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" bgcolor=3D"#FFFFFF">
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"85" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"580"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><span style=3D"font-size:26=
+px; line-height:30px; font-family:'Avenir Next', Avenir, Arial, Helvetica, =
+sans-serif; color:#333333; font-weight:700;">Confused about credit?</span><=
+/td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"25" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <!-- new -->
+            <td colspan=3D"3" valign=3D"top" align=3D"center"><a href=3D"ht=
+tps://links.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHA=
+bJ-2FixwPXvZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dM=
+AXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrn=
+qmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjA=
+mzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ=
+6l03ED2jzacE4nImsVbH-2BU-2BLHOEnBrnk-2FPwQ9M2yU1NMn8tx3PyAk-2BX-2B7SCaqCq90=
+zPgTpixEInufbdZtlP1-2FZIAUcaTxgGoUQ1uCoAHG7Am5FktqVkCz7l4yyL-2BI8dIbAOlNKft=
+uQs9v-2F4kKV0lmlEFQH8Z3g0KxBOe0bvyPVPL9jAVd-2F47FqO3YoYIEWv-2FyDnQNAFswrjso=
+JcWrMlS4TmIdXkzniDgnbLeH-2FbtUAKYz6nubGTumWdVQPoqr9-2B7fbzCrLU0oVzKwuZg22jn=
+HZtoXPrM5yp4I69PyNuPHYPxySlg2A-3D-3D" name=3D"Top" target=3D"_blank"><img s=
+tyle=3D"display:block;" src=3D"https://marketing-image-production.s3.amazon=
+aws.com/uploads/4f93e83d1bca1482634aa6b66066aa6df6f88f725a7e77cc1be2cdfdc40=
+a476cfc95f348861bdcaf80e6794bc091b91800885c714a1d296aadfdedb8c1d69c3c.gif" =
+alt=3D"" width=3D"346" height=3D"190" border=3D"0" /></a></td>
+            <!-- new -->
+          </tr>
+
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"15" border=3D"0" /></td>
+          </tr>
+        </table>
+      </td>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+      <td valign=3D"top" bgcolor=3D"#FFFFFF">
+        <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" bgcolor=3D"#FFFFFF">
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"480"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><span style=3D"font-size:16=
+px; line-height:22px; font-family:'Avenir Next', Avenir, Arial, Helvetica, =
+sans-serif; color:#333333; font-weight:500;">We get it. That&rsquo;s why ou=
+r new Credit Score feature teaches you about your credit and gives you smal=
+l steps toward your goals. No credit card required, and checking doesn&rsqu=
+o;t hurt your&nbsp;score.</span></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"40" border=3D"0" /></td>
+          </tr>
+        </table>
+      </td>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+      <td valign=3D"top" bgcolor=3D"#FFFFFF">
+        <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" bgcolor=3D"#FFFFFF">
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"580"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center">
+              <!-- BP CTA START -->
+              <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                <tr>
+                  <td background=3D"https://marketing-image-production.s3.a=
+mazonaws.com/uploads/8389f074ac7d9217d26167614aecbd5cfd91c26e1cb00931d7b4f9=
+41f4a359bbce646509b5eebf99d91dc1f7def1e921f0dbf0e2a7aa0a9a1b4e059b0d9e1ac7.=
+gif" bgcolor=3D"#ff9e40"><img src=3D"https://marketing-image-production.s3.=
+amazonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a=
+3653134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570=
+..gif" style=3D"display:block;" width=3D"5"
+                      height=3D"38" alt=3D"" border=3D"0" /></td>
+                  <td bgcolor=3D"#ff9e40" align=3D"center" valign=3D"middle=
+"><a href=3D"https://links.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83I=
+A5yoVKkyIsojCHAbJ-2FixwPXvZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3=
+D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2=
+FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3=
+794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUE=
+Py-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEnq7PBKF-2BaW66fmAIaTCGwmTlqqO=
+hXE4WKFgNNirUbe0y0UPNompxkagM7gru23dnq07Da4V-2B6IlNl6EQEwyoNK-2FsAZayJyaAWZ=
+aO6lxZAcp4UgYdIRZU2OQ6143t9hwdonepZTwifrXt7T-2FZXtL9adUcywH55XtpBAOuuhqn7P2=
+ntNoA8DQ784lp6SbLmciaIVwRe-2BnDo2aRsHKvlOBjHs1i71fAx0M1i0UvUet5d5wkcqAyOyci=
+NESbNasJDr4Crcm8AbpcuuMXPKUJKSCuzBQ-3D-3D" name=3D"CTA1" style=3D"font-fami=
+ly:Avenir, Arial, Helvetica, sans-serif; font-size:14px; color:#ffffff; tex=
+t-decoration:none;" target=3D"_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;<span style=3D"font-weight:400;">GET&nbsp;MY&nbsp;FREE&nbsp;CREDIT&nbs=
+p;SCORE</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+                  <td background=3D"https://marketing-image-production.s3.a=
+mazonaws.com/uploads/9f5567fbf7cadf0e033759b23224d10b7d82bc46ff881cdd181159=
+edd777bdda1498fae94254b5b502694a03fa76dd0ca68525b0d5c3bb744ea164b8e5e235af.=
+gif" bgcolor=3D"#ff9e40"><img src=3D"https://marketing-image-production.s3.=
+amazonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a=
+3653134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570=
+..gif" style=3D"display:block;" width=3D"5"
+                      height=3D"38" alt=3D"" border=3D"0" /></td>
+                </tr>
+              </table>
+              <!-- BP CTA END -->
+            </td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"60" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><a href=3D"https://links.mi=
+nt.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHAbJ-2FixwPXvZdC=
+gp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66U=
+Ytbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGubixS=
+WKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnHqJMI=
+htyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jzacE4n=
+ImsVbH-2BU-2BLHOEn6-2BG60pZurgsGEhKKryOMdFqwd-2BiYT-2BqldL03LeWd93-2BPSVwhz=
+085bTV38JMpS-2B2FUhFV1M-2Fz2yu1JTQGRnNSEV-2FoaEcFldBDLizwvCix8Zl1exrKnKslDI=
+XnEmg6cjQc6wlaAuDlPBNyGOoWjLVq4vsTNNW5LumzkvtujBElb3Qvr72-2BEKt-2Bi8B-2F6Cr=
+wyNBXUeezH3dTQ36xQHZi-2BxrZhcSJD3lm6F4TvpYyG705-2FyV6bGwHbM9VB7kJ-2B9-2BJcf=
+wSObwm-2FPkjTyfwj1vJidOZuQ-3D-3D" name=3D"Icon1" target=3D"_blank"><img sty=
+le=3D"display:block;" src=3D"https://marketing-image-production.s3.amazonaw=
+s.com/uploads/fe40477a59ba5ea720ee55de1f249ee04a73871856abd86bba1949cce001a=
+2045357a09b45d52ab7c41cd39f7eb018f8490336dc50f7f32dbfeffec84a9fc3a5.gif" wi=
+dth=3D"350" height=3D"92" alt=3D"" border=3D"0" /></a></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"23" border=3D"0" /></td>
+          </tr>
+        </table>
+      </td>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+      <td valign=3D"top" bgcolor=3D"#FFFFFF">
+        <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" bgcolor=3D"#FFFFFF">
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"480"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><span style=3D"font-size:16=
+px; line-height:21px; font-family:'Avenir Next', Avenir, Arial, Helvetica, =
+sans-serif; color:#333333; font-weight:700;">Win big with small&nbsp;steps<=
+/span></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top" style=3D"line-height:15px;"><i=
+mg style=3D"display:block;" src=3D"https://marketing-image-production.s3.am=
+azonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a36=
+53134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.g=
+if" alt=3D"" width=3D"1"
+                height=3D"15" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><span style=3D"font-size:14=
+px; line-height:21px; font-family:'Avenir Next', Avenir, Arial, Helvetica, =
+sans-serif; color:#333333; font-weight:500;">Focus on the big things first.=
+ Every month we highlight the top two factors&nbsp;impacting your score, wi=
+th clear next steps to improve&nbsp;them.</span></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"25" border=3D"0" /></td>
+          </tr>
+        </table>
+      </td>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+      <td valign=3D"top" bgcolor=3D"#FFFFFF">
+        <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" bgcolor=3D"#FFFFFF">
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"580"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center">
+              <!-- BP CTA START -->
+              <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                <tr>
+                  <td background=3D"https://marketing-image-production.s3.a=
+mazonaws.com/uploads/8389f074ac7d9217d26167614aecbd5cfd91c26e1cb00931d7b4f9=
+41f4a359bbce646509b5eebf99d91dc1f7def1e921f0dbf0e2a7aa0a9a1b4e059b0d9e1ac7.=
+gif" bgcolor=3D"#ff9e40"><img src=3D"https://marketing-image-production.s3.=
+amazonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a=
+3653134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570=
+..gif" style=3D"display:block;" width=3D"5"
+                      height=3D"38" alt=3D"" border=3D"0" /></td>
+                  <td bgcolor=3D"#ff9e40" align=3D"center" valign=3D"middle=
+"><a href=3D"https://links.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83I=
+A5yoVKkyIsojCHAbJ-2FixwPXvZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3=
+D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2=
+FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3=
+794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUE=
+Py-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEnHEFisFTjGd1ag7hzEPL4vYYL-2Bt=
+GlDCoy2PGseMxa9hLZ19bXa-2F0omYDj7cmNT2sCWraLul5lPM3k2g0-2F1erMPN-2BukP8WQZ1=
+3-2FHpEzDjc8MzEk-2BfefzThOKwg327j8AIngYtHWKWA2b0VOpYML9S2CI8MZZ0goikhKbgZtm=
+GVn2D1dZFi0snpkNpIP3Rls2NPMnFMk4CXfrxT8jbtm2y-2FPqO-2F2lJBeG5zTR2kA25-2Ba4Z=
+81DIAhW5SB-2BJq8kp0NPrAsKyijlqi2trWOskILEGacA-3D-3D" name=3D"CTA2" style=3D=
+"font-family:Avenir, Arial, Helvetica, sans-serif; font-size:14px; color:#f=
+fffff; text-decoration:none;" target=3D"_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=3D"font-weight:400;">SEE&nbsp;MY&nbs=
+p;TOP&nbsp;2&nbsp;FACTORS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;</a></td>
+                  <td background=3D"https://marketing-image-production.s3.a=
+mazonaws.com/uploads/9f5567fbf7cadf0e033759b23224d10b7d82bc46ff881cdd181159=
+edd777bdda1498fae94254b5b502694a03fa76dd0ca68525b0d5c3bb744ea164b8e5e235af.=
+gif" bgcolor=3D"#ff9e40"><img src=3D"https://marketing-image-production.s3.=
+amazonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a=
+3653134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570=
+..gif" style=3D"display:block;" width=3D"5"
+                      height=3D"38" alt=3D"" border=3D"0" /></td>
+                </tr>
+              </table>
+              <!-- BP CTA END -->
+            </td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"60" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><a href=3D"https://links.mi=
+nt.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHAbJ-2FixwPXvZdC=
+gp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66U=
+Ytbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGubixS=
+WKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnHqJMI=
+htyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jzacE4n=
+ImsVbH-2BU-2BLHOEn139HaxtRIDvOSzyDvh7iiHE8gZz4mh4u1tRpcgGqVqzyJSRDQkIWjI3k8=
+-2F5SPJj40T-2FEBzjlkKRE2bTqudSFKKjdNoOY6FY6zY3xd6QTCiekzXMCco2CwiMb5rS2i1N3=
+SiRJ0Y3-2BkYjKuBzE5ZYnO1orR56W0gLqjXZafqVSN-2FHE38Ngx4PhBi8tcr46CQnQBE1RsKU=
+4kD0q29C6Oy0ezzv6JkNevY1kr2sWpmIh7x6iXeBkOy1ebgwWU5jmBgQcYGwD-2FxEqUANokcg-=
+2BX2uJhw-3D-3D" name=3D"Icon2" target=3D"_blank"><img style=3D"display:bloc=
+k;" src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/c184=
+006f475040ab39ff0a9fb294ee0c9029dde6f58d71dddc921af29a4a4fa598d5c59a3368e80=
+02d5c1e45ac2d5c6b2313aba2a640303eb4c648e87f5fa442.gif" width=3D"308" height=
+=3D"171" alt=3D"" border=3D"0" /></a></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"23" border=3D"0" /></td>
+          </tr>
+        </table>
+      </td>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+      <td valign=3D"top" bgcolor=3D"#FFFFFF">
+        <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" bgcolor=3D"#FFFFFF">
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"480"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><span style=3D"font-size:16=
+px; line-height:21px; font-family:'Avenir Next', Avenir, Arial, Helvetica, =
+sans-serif; color:#333333; font-weight:700;">Know what changed and&nbsp;why=
+</span></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top" style=3D"line-height:15px;"><i=
+mg style=3D"display:block;" src=3D"https://marketing-image-production.s3.am=
+azonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a36=
+53134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.g=
+if" alt=3D"" width=3D"1"
+                height=3D"15" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><span style=3D"font-size:14=
+px; line-height:21px; font-family:'Avenir Next', Avenir, Arial, Helvetica, =
+sans-serif; color:#333333; font-weight:500;">See how your actions affect yo=
+ur score. We tell you how many points&nbsp;your&nbsp;score changed and whic=
+h factors went up&nbsp;or&nbsp;down.</span></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"60" border=3D"0" /></td>
+          </tr>
+        </table>
+      </td>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+      <td valign=3D"top" bgcolor=3D"#FFFFFF">
+        <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" bgcolor=3D"#FFFFFF">
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"480"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><a href=3D"https://links.mi=
+nt.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHAbJ-2FixwPXvZdC=
+gp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66U=
+Ytbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGubixS=
+WKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnHqJMI=
+htyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jzacE4n=
+ImsVbH-2BU-2BLHOEnp46sCGBWO74s5tGJ25Xhm09dXuoERbJdy3wsPmA1pCxBEYdnEcJFihSKi=
+BDDhUtT-2FZkkaYX6rpLgb5qVvklNuleg5-2FIp0ydzuXT3LEiPiflAA3WoS-2FqYRSPZ9zK4Qn=
+NKXhcw1a77KegVSLt4sLEtseBEGiJKYfvxP1mlYP9kusJAaoe9gxx49urT4NnoKg4xO3-2FChYW=
+sOV8I4JRfusEvtu1Htv81-2B5HxYQIWlKzOFXcOHZSVGeRRRIL5wJ0Zxz0MpatZjEhZmswVu5mL=
+fRow2w-3D-3D" name=3D"Icon3" target=3D"_blank"><img style=3D"display:block;=
+" src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/cc059c=
+280053e83962327e4d8bba3729bc2613aeaa0b009c0eb30f4515ef61074b86968a015c6ed78=
+ca54609c7a944c0e1b3bcb9aeaff52f26265a6c0674f8af.gif" width=3D"384" height=
+=3D"243" alt=3D"" border=3D"0" /></a></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"23" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><span style=3D"font-size:16=
+px; line-height:21px; font-family:'Avenir Next', Avenir, Arial, Helvetica, =
+sans-serif; color:#333333; font-weight:700;">Scan for the highlights</span>=
+</td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top" style=3D"line-height:15px;"><i=
+mg style=3D"display:block;" src=3D"https://marketing-image-production.s3.am=
+azonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a36=
+53134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.g=
+if" alt=3D"" width=3D"1"
+                height=3D"15" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><span style=3D"font-size:14=
+px; line-height:21px; font-family:'Avenir Next', Avenir, Arial, Helvetica, =
+sans-serif; color:#333333; font-weight:500;">Know at a glance which factors=
+ of your score are excellent, good, fair,&nbsp;or&nbsp;poor, so you know wh=
+at&rsquo;s going well and what can&nbsp;improve.</span></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"60"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"25" border=3D"0" /></td>
+          </tr>
+        </table>
+      </td>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+      <td valign=3D"top" bgcolor=3D"#FFFFFF">
+        <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" bgcolor=3D"#FFFFFF">
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"580"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center">
+              <!-- BP CTA START -->
+              <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                <tr>
+                  <td background=3D"https://marketing-image-production.s3.a=
+mazonaws.com/uploads/8389f074ac7d9217d26167614aecbd5cfd91c26e1cb00931d7b4f9=
+41f4a359bbce646509b5eebf99d91dc1f7def1e921f0dbf0e2a7aa0a9a1b4e059b0d9e1ac7.=
+gif" bgcolor=3D"#ff9e40"><img src=3D"https://marketing-image-production.s3.=
+amazonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a=
+3653134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570=
+..gif" style=3D"display:block;" width=3D"5"
+                      height=3D"38" alt=3D"" border=3D"0" /></td>
+                  <td bgcolor=3D"#ff9e40" align=3D"center" valign=3D"middle=
+"><a href=3D"https://links.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83I=
+A5yoVKkyIsojCHAbJ-2FixwPXvZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3=
+D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2=
+FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3=
+794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUE=
+Py-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEnFzdUPSM2B3Th082uaDrKKe6wVPA5=
+DCrdBCtFlEBwUKSU9GP1r0KB4U4amnPgJN98J4JBHWAz5HqENXP-2Fs5s20aeiUvAsodv3xu1am=
+hxy7jt98ymKlwxo3WSqLqSDJoK-2FmcChyjWPxy8utJrkEPU4r2mVpI5xwG2NGp0Pl6oLX3gak9=
+Zm6CPmCEZK9tiKFlSQWxZKrvTVU-2B2EclM-2FNkl0tFRWx2w287sYwk1aqFR6YI5-2F385l6Zu=
+P0NEboqanOAeOw97759yIi8xbIHyKQHu5KQ-3D-3D" name=3D"CTA3" style=3D"font-fami=
+ly:Avenir, Arial, Helvetica, sans-serif; font-size:14px; color:#ffffff; tex=
+t-decoration:none;" target=3D"_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;<span style=3D"font-weight:400;">SEE&nbsp;THE&nbsp;NEW&nbsp;EXPE=
+RIENCE</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+                  <td background=3D"https://marketing-image-production.s3.a=
+mazonaws.com/uploads/9f5567fbf7cadf0e033759b23224d10b7d82bc46ff881cdd181159=
+edd777bdda1498fae94254b5b502694a03fa76dd0ca68525b0d5c3bb744ea164b8e5e235af.=
+gif" bgcolor=3D"#ff9e40"><img src=3D"https://marketing-image-production.s3.=
+amazonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a=
+3653134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570=
+..gif" style=3D"display:block;" width=3D"5"
+                      height=3D"38" alt=3D"" border=3D"0" /></td>
+                </tr>
+              </table>
+              <!-- BP CTA END -->
+            </td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"10"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"125" border=3D"0" /></td>
+          </tr>
+        </table>
+      </td>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+      <td valign=3D"top" bgcolor=3D"#f5f5f5">
+        <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"600"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top"><img style=3D"display:block;" src=3D"https:/=
+/marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3fd35724ab727338=
+574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb48e1a20b65d5029=
+b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"35" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" align=3D"center" bgcolor=3D"#f5f5f5">
+              <table width=3D"244" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+                <tr>
+                  <td valign=3D"top"><a href=3D"https://links.mint.com/wf/c=
+lick?upn=3DTlK-2Fhdjna8rZiew5KuB1Bw6Y10FKgvrELYNRXxlc72Jl8-2Buwq4xDheF1bX8S=
+Ywff_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXh=
+G-2FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANg=
+kZ3794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OK=
+RUEPy-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEntsY-2BBBa7y2ziJeJ0UU0Yokz=
+BfekiKoylJ1Dor7rqqPUU0DGQq09aVbbeVIVNmHKS24adFiEilUZDg0uLY91cQw13qnbqKKnrXk=
+KRRurSb47WpnMxchRXrcoQVLr4DjA-2F7hJDsU2JtqWM0JUaeMGX-2BUqSuxKFi9NE391zerSgn=
+XA6jDwKdRpEz8R7vv-2FoqkkSpOHIEvvZKxyD9OQ7pDNGhddzdqitu4mGr187itfznDuEPBPlHC=
+0q1eTNfMnZt7Ga8FwskI-2BA7FXwGao38EdjMA-3D-3D" name=3D"Facebook" style=3D"te=
+xt-decoration:none;" target=3D"_blank"><img alt=3D"Facebook" border=3D"0" h=
+eight=3D"36" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/05358634fee1976b57604c6b66f216457075e49809e6623abee6a237ac27855d99d79d=
+a8b29469ab09a6aecad505071164f583404061ce7d032c62fdc08d500f.gif" style=3D"di=
+splay:block; font-size: 9px; font-family: Avenir, Helvetica, sans-serif; co=
+lor: rgb(255, 255, 255); width: 31px; height: 36px; background-color: rgb(7=
+7, 197, 226);" width=3D"31" /></a></td>
+                  <td valign=3D"top"><a href=3D"https://links.mint.com/wf/c=
+lick?upn=3DCUUzqeJY3SDI0n14ZPSBubt0Zga-2Ff6vM-2BqNodvkwReg-3D_G0-2BAnoQl4dM=
+AXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrn=
+qmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjA=
+mzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ=
+6l03ED2jzacE4nImsVbH-2BU-2BLHOEnyC4k-2BDVTcUH6bqs-2Bvv3MTsvEfWhgRauPu65VB4y=
+fzWAFtVHcFsfFec0-2BFddGw8xoAdujjiiLWOrj925YSbZMCQL0qLvEJAX9i128vwDGYehYRyBN=
+ZqMpHlbHtOd8yBC5eNHCpRk-2FR7yY-2BWW8zbMoO4is4QPVPm2nP2Vybh74aAojpjGgMxYxa7T=
+eWptdXvKud-2BylXVXeZhasWs1YdYF0XWIEVJ8lkdaUYC2gyEuQ6PXXzvju8WBQXAztLaB-2BW8=
+E250id-2Fn7BzR5yJ6FKqeL0lw-3D-3D" name=3D"Twitter" style=3D"text-decoration=
+:none;" target=3D"_blank"><img alt=3D"Twitter" border=3D"0" height=3D"36" s=
+rc=3D"https://marketing-image-production.s3.amazonaws.com/uploads/38e9c32c1=
+d62bfba630303c3184e9259856b6c21df2d66fb03428eb5651654e77c74dff50658fd232c90=
+26e1c1317c4211d4a4a567311c77ab249210d4096e43.gif" style=3D"display:block; f=
+ont-size: 9px; font-family: Avenir, Helvetica, sans-serif; color: rgb(255, =
+255, 255); width: 44px; height: 36px; background-color: rgb(77, 197, 226);"=
+ width=3D"44" /></a></td>
+                  <td valign=3D"top"><a href=3D"https://links.mint.com/wf/c=
+lick?upn=3DoyckVjc2OTlfj1IBa4Lfr5enpFUE-2F3Qd0z5080vmJTynn-2FIkmoFiIlx6ytr1=
+D27B_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXh=
+G-2FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANg=
+kZ3794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OK=
+RUEPy-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEnq-2BcV6coxyG4WU8UoJXkH1lx=
+hkff1-2BtoWC-2FuylYfwY8-2FBvDC4wtjNivuumIWIkZRg9TUmjR-2BdzkZlv7Bm3SzvPrgVD3=
+Hlo-2F-2FoM2FPF5PQHLGkcf8w-2BO6O4fsF8YeaWTffnAw9eGkeM1o0e1u1EMlhVzmDyL6ir5J=
+16R8zIdLr06yYs9FIczZx1-2BPeNPb96LYBMO3HAqz9He02A0FhcWT2A-2FlzBifOdcATLX0nJJ=
+10Svwa87Zl-2FPGp5plzUGIIBPzSBNUhgdKyZW-2BYLbBJYZ-2FbvQ-3D-3D" name=3D"Insta=
+gram" style=3D"text-decoration:none;" target=3D"_blank"><img style=3D"displ=
+ay:block; font-size: 9px; font-family: Avenir, Helvetica, sans-serif; color=
+: rgb(255, 255, 255); width: 44px; height: 36px; background-color: rgb(77, =
+197, 226);" src=3D"https://marketing-image-production.s3.amazonaws.com/uplo=
+ads/2ff3c6e4113319951f610aa827fafdafbfd3225ce4bea9226c6f498e037067179dc4bd5=
+7456038bca7c737541c63f71f7c1dbcb091450ab2132118788df10894.gif" width=3D"44"=
+ height=3D"36" alt=3D"Instagram" border=3D"0" /></a></td>
+                  <td valign=3D"top"><a href=3D"https://links.mint.com/wf/c=
+lick?upn=3DGsRHKzd1DtNMg-2Fc22A048ls1p3AY50rxN5ak9uoLM3o-3D_G0-2BAnoQl4dMAX=
+yDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqm=
+yglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmz=
+KdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l=
+03ED2jzacE4nImsVbH-2BU-2BLHOEnyMGS0MTENODn3I96gxjQGJUDEssfwYSDKrQ03wYJVowA9=
+XugYbQoKvUl11F6tsUgc0NFo1RMpA2lK-2BUe-2B9ctHHADiJQN1jOjshjkrJjdLoYEaKhOFtIg=
+Lneg949vDBiR0VcdCSrK02hsi1m4-2BI2j2DBDigLkUYxXeN-2FUVzwtK-2FZYsPCgOR1Ytyt43=
+Y3DtMIbkFWq852mFfCj4T5sdTUj-2BXiUQUJa-2BhZV6KwoJpyZBrSh5fROm2tffCFotjiqOXVz=
+35wzgSwYOJqDaSdTVRFb-2Bw-3D-3D" name=3D"Blog" style=3D"text-decoration:none=
+;" target=3D"_blank"><img alt=3D"Blog" border=3D"0" height=3D"36" src=3D"ht=
+tps://marketing-image-production.s3.amazonaws.com/uploads/83ee04483b6881b03=
+fbe1a977fb7828eee69da29770f6ec6f67a53d1a6d15d5aca04730b1dd7fce597986fd04539=
+51b4c76389a0c506c1812096fee62e97bc47.gif" style=3D"display:block; font-size=
+: 9px; font-family: Avenir, Helvetica, sans-serif; color: rgb(255, 255, 255=
+); width: 37px; height: 36px; background-color: rgb(77, 197, 226);" width=
+=3D"37" /></a></td>
+                  <td valign=3D"top"><a href=3D"https://links.mint.com/wf/c=
+lick?upn=3DVYK8kT7QIc5-2BVz0GjRu2M-2BDJ3CrgdN4NG4WCS6Y16p20rS7NTTa5vPlWkIbZ=
+zbGXAfGJCFxzm9foPbyb1-2BEEX4I86uk730tCar63U2MJ45U-3D_G0-2BAnoQl4dMAXyDaoYko=
+Up66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIG=
+ubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVn=
+HqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jz=
+acE4nImsVbH-2BU-2BLHOEnVzft97lr4kGHQWpCrpj4O5fx9Z2wG80ajCaeo2mXowZH-2BXMS5E=
+AjpH3vtlw-2B7PK-2BA5UU-2FxM1uawzqYV6bBhTP8ZjyX60u7r4OBD-2FK5bciNVUjGewhMFdg=
+w5mWTTUPCVlLZsCuPuDTHdR7uD4APfkdwWHjik2WuT4bqCll2mI-2FR81LRNYSgCupdbAT-2FIC=
+SCyMLniUnoschFu1MKAWOIxBqwy44YsIGi18eq-2BkfAk5eT9tt8RM-2BMGn8JK6DBGALyd-2F3=
+we8Pi5wcrygiW-2F4rnIftw-3D-3D" name=3D"Apple" style=3D"text-decoration:none=
+;" target=3D"_blank"><img alt=3D"Apple" border=3D"0" height=3D"36" src=3D"h=
+ttps://marketing-image-production.s3.amazonaws.com/uploads/4b08ae6d064cd471=
+97b47fe52805b8861273f4989bf47daed418425f92e1c71249ae9e07cce2037649aa4f23510=
+f33e6ceeb75f0907d9fae96e3263f4574d8fc.gif" style=3D"display:block; font-siz=
+e: 9px; font-family: Avenir, Helvetica, sans-serif; color: rgb(255, 255, 25=
+5); width: 44px; height: 36px; background-color: rgb(77, 197, 226);" width=
+=3D"44" /></a></td>
+                  <td valign=3D"top"><a href=3D"https://links.mint.com/wf/c=
+lick?upn=3DoyckVjc2OTlfj1IBa4Lfr0JevSspvJ1WXsZ1jfvHx-2BfSklm76E9R4xmZm8pPyN=
+-2FdRZOtNx6UhP33dIwLnuZ9Fw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS=
+2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP=
+61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8=
+JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLH=
+OEnJYkEizjWMAnViLgk0sIFjzLhsXokkobbOG3P-2FJ6T1vTUEBIZkcuS04v5Y-2BX7SLbNEUgt=
+NmRFZT-2FwzbKe0-2FNJFxgzC-2B1Js93op1VFtf1WPRfuukDHWsdLN59exWTNP0vQy7N9kJ7wO=
+OsonSLNcAj-2Bso2Ab1-2BcoFN2Z8tgHez2BrKkuE8mhA6Y3z1-2B-2FBYVjEc0hYsL6eCNnr90=
+amQ9ckFAQDaQrkrOgwpdglOYEq-2BM3j0SYfPJwNR1UVuEnr1G-2FkdNK3wFsUlAShMo72rqY8c=
+1kw-3D-3D" name=3D"Android" style=3D"text-decoration:none;" target=3D"_blan=
+k"><img alt=3D"Android" border=3D"0" height=3D"36" src=3D"https://marketing=
+-image-production.s3.amazonaws.com/uploads/3fb403611409aaddde50e7fb11a44bba=
+b0be2c0ffb47963d8e9b5cab4348ea51d1de0f59f9138ea5d57d9ea54fb98a550417623caf6=
+c88b0911c2a9ea84fecbe.gif" style=3D"display:block; font-size: 9px; font-fam=
+ily: Avenir, Helvetica, sans-serif; color: rgb(255, 255, 255); width: 44px;=
+ height: 36px; background-color: rgb(77, 197, 226);" width=3D"44" /></a></t=
+d>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td valign=3D"top"><img style=3D"display:block;" src=3D"https:/=
+/marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3fd35724ab727338=
+574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb48e1a20b65d5029=
+b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"30" border=3D"0" /></td>
+          </tr>
+        </table>
+      </td>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+    </tr>
+    <tr>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+      <td valign=3D"top" bgcolor=3D"#f5f5f5">
+        <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"50"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"500"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"50"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"50"
+                height=3D"1" border=3D"0" /></td>
+            <td valign=3D"top" align=3D"center"><span style=3D"font-size:11=
+px; line-height:15px; font-family:'Avenir Next', Avenir, Helvetica, sans-se=
+rif; color:#999999;">This message was sent to alan@itrva.com<br />
+				If you would like to update your email address, please <a href=3D"https=
+://links.mint.com/wf/click?upn=3DYSA0WdO04SwOhC5hWahJFqWjcQcFFCAbzFHP6Z-2Bu=
+-2BG8n-2Fyxrk9zmaPcsH6DHT1qxF8DgV1m-2FJIQoBZB08CW-2BTK0CfwaN5sGptX74OD4dT6f=
+VC4B8-2BZYBstjCeoa1TCRL_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heD=
+GNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8C=
+xUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SW=
+oQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEn5lybZO=
+ikdvdXBJh0K3ChKGnJ1HxEHGOSzEqch-2B3D7ZiqhEmwOjny7uExWC-2F49YEiq7s4ODScWWL2q=
+URFxe-2BE-2FyaYnbC3UpiJABai9yrLih01b37svRS1V6i1bL6HSdoFDHnh1K-2Fo45eXWmLWz-=
+2BwCsGFVJfyM72vh4gLxqbfz6vbY4BoklNSsRcmj55Ve32N14pl9Y1cL0xWHmPWYtFQ6sIfB2TM=
+jA5u0OqNnmsRi3DmSgtk49E7CBi5aTGUyx8hZZKasiilGIuV-2FW7d1NsfBWA-3D-3D" name=
+=3D"ManagePreferences" style=3D"color:#999999; text-decoration:underline;" =
+target=3D"_blank">click&nbsp;here</a>.<br />
+				If you no longer wish to receive e-mails from Mint, <a href=3D"https://=
+links.mint.com/asm/unsubscribe/?user_id=3D2090196&data=3DxUU45IQEI4QieDqom4=
+CO3W9fWoJX0tgVbBj7m3iaYfG51ekb5qFbaOpeslzfr0GW3ramGVYweMrxmDJMCjJzDIXv0HXMK=
+dY2QlnpEYx-AKjxXK421ZLsrsy2bMu0GTqS2vHJJujLYao6x4svBJ9kpuohRuC8CWQWt3YV1DLU=
+kIbDXox2ZXl6YKdljZsiXUTiCQI5QPhQBQIV5etQsqGQ6o7tMEvN3ugnkDk1K9jaHejnPOL7jSe=
+gQ6JO18vf-xm5pg-ROnnG0Rk_P1LArBifF7AeHEbi86ay0Qg0eePy4T1D2go284BJONHnMGR8Hk=
+XCVqIeNVoDTxm0s3RXf80e0EaTele7kczpC_IGsF3i5nVwjq_vBEZqvvn3Yuun0xx-A8UW_mtAA=
+vs0RBO5kDMWQLcbyFN7cX-YAG7DsJBDf4S5RVGV_WgQQCViy2916jsSRWnMTntOaTQFfnty_Xi6=
+TBM1e3KpxmqGLs4CpqPTCgMLpnYBzDnHaQDy9VojmfwJ-jdm6SKi62W_aTSTbbDW4Z-6GxNQJLx=
+Orcshfmz5yK48VEUWzfgHkSOF3LtSOJaUhQYZ0O6iJZQqM2DzDw4nv2MlXXfthpanlDBk1_wk-w=
+poH3dyWOo_dehchDlCY0KlA3P5kpBuoZueZYJLgKtjag=3D=3D" name=3D"Unsubscribe" st=
+yle=3D"color:#999999; text-decoration:underline;" target=3D"_blank">click&n=
+bsp;here</a>.
+				<br />&nbsp;<br />
+				&copy;2007&ndash;2017 Mint Software, Inc. | All&nbsp;Rights&nbsp;Reserv=
+ed.<br />
+				Mint 2632 Marine Way, Mountain View, CA&nbsp;94043<br />
+				<a href=3D"https://links.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr7=
+PVFM-2FtPX6eLX5fXFYUX3wRg-2Fggbvu8HdRvrzlgJb6GW30ilVLwwtLSytsLeLIiHg-3D-3D_=
+G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FP=
+O08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ379=
+4HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy=
+-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEnC-2FbvY0UjvKVVyL8SpD-2B9h2V3de=
+eI7-2FxpNbXSurqLyJY9XUfuIma-2F22jvXcnSESsF7BcAqDxaMhx-2BwNMd-2Fw-2B6SmuuhLo=
+L-2F7bWvXCgEtVMnAUL6rCN6-2BkKywlFzPt8avuxlxIywOHfaMSzkO2YXEBJpA-2FSFAf9-2Bh=
+ePvjyrlq4gmphRAI3Kn5xUO5h6j8HT4Vth80LMi-2Fvre392rLXZa9QxIPfW5oS2Udlmk4TPx36=
+HARnzQdoQkTFA8PCJOvL2CSBuKuYFXLRQ0T0-2BnE-2Fjq66gBw-3D-3D" name=3D"PrivacyP=
+olicy" style=3D"color:#999999; text-decoration:underline;" target=3D"_blank=
+">Privacy Policy</a> | <a href=3D"https://links.mint.com/wf/click?upn=3Doyc=
+kVjc2OTlfj1IBa4Lfr6pPxx5qmFzW8c0JHGUUfcFzwfeZY3rrVJoKL-2BqBp1ET_G0-2BAnoQl4=
+dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQB=
+rnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgv=
+jAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOau=
+FZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEn-2F7okuztDiorClwLBEoaxgigBtht-2FuuHrWNTLn=
+bRvf0uuchxkmU0VHmU0PT6HG6s8w8l3xmM16N1HLSddKyLaBBoRuhACpcA8D7OZbOnJfWw5cZ9V=
+97wh4tTVsmvkNQ-2FB7xr1CqSfOkO6p0AKmm9z6nRbzdJSqXt9ncZXnT8wbAHG1eeBy-2FES6o3=
+ob9PgCdf3G38R0zoBISv9Q8nKQVT0xbYiOb5XB7GJqHLafzLO6gsRCvlzVMAEHGuQ2TGwvXdUAs=
+jTew3q5EyvwkLIoUf7Ag-3D-3D" name=3D"TermsOfUse" style=3D"color:#999999; tex=
+t-decoration:underline;" target=3D"_blank">Terms&nbsp;and&nbsp;Conditions</=
+a><br />&nbsp;<br />&nbsp;<br />&nbsp;</span></td>
+            <td valign=3D"top" style=3D"line-height:1px;"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93=
+b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" wi=
+dth=3D"50"
+                height=3D"1" border=3D"0" /></td>
+          </tr>
+          <tr>
+            <td colspan=3D"3" valign=3D"top"><img style=3D"display:block;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/3ba5ca3f=
+d35724ab727338574ef045ca76e268556b2db84ebc97a3653134ee15c77f93b079882519cb4=
+8e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gif" alt=3D"" width=3D"1"
+                height=3D"30" border=3D"0" /></td>
+          </tr>
+        </table>
+      </td>
+      <td valign=3D"top" style=3D"line-height:1px;" bgcolor=3D"#f5f5f5"><im=
+g style=3D"display:block;" src=3D"https://marketing-image-production.s3.ama=
+zonaws.com/uploads/3ba5ca3fd35724ab727338574ef045ca76e268556b2db84ebc97a365=
+3134ee15c77f93b079882519cb48e1a20b65d5029b3d52db5d4818fc697e122aa0474570.gi=
+f" alt=3D"" width=3D"20"
+          height=3D"1" border=3D"0" /></td>
+    </tr>
+  </table>
+  <div style=3D"display:none; white-space:nowrap; font:15px courier; color:=
+#ffffff;">
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  </div>
+  <!-- END DESKTOP -->
+  <!-- START MOBILE -->
+  <!--[if !gte mso 9]><!-->
+  <div style=3D"mso-hide:all">
+    <div class=3D"mobile_again" style=3D"width:0; overflow:hidden; display:=
+none; visibility:hidden;">
+      <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" align=3D"center" bgcolor=3D"#ffffff">
+        <tr>
+          <td colspan=3D"3" align=3D"center" style=3D"padding-top:30px; pad=
+ding-bottom:20px;align:center;" bgcolor=3D"#f5f5f5">
+            <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center">
+              <tr>
+                <td align=3D"center"><a name=3D"MintLogo_Mobile" href=3D"ht=
+tps://links.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHA=
+bJ-2FixwPXvZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dM=
+AXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrn=
+qmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjA=
+mzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ=
+6l03ED2jzacE4nImsVbH-2BU-2BLHOEnAlsKy0O8WjitWZCI7xTaxvaXQMKxLkkXH4OOY55OVLX=
+InyahN6lMx11CaHTj9kZQiB-2B2rX7NeA4JgMHCOpybr7q6p-2FpzWqANCnUnOBHRZjv0FL8cPx=
+nzCqaawaA3hZmKshEB5Grc5iDZVwthI6pt-2Fqiu3SsjApTrg1Do-2Ff9HAxOtNtWaa2ZZ-2Fyj=
+xNcuLOTYrEtvPkl5XgD3wzymPe-2FiRHs6H143TUB8qO3swp-2BrQ8n4SOD-2BASVcvMdc2azCW=
+VtK94kfxiAb-2FlW9vXEN6ND-2B-2BCw-3D-3D" target=3D"_blank"><img style=3D"dis=
+play:block; font-size:18px; font-weight:bold; font-family:Avenir, Helvetica=
+, sans-serif; color:#333333; text-align:center; background-color:#09c675;" =
+src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/a74b9064=
+fd316ccc1e9ae31441ba8bd9fd2e122f4bb7e298b0cbeee6c50a51c08c64e182202ce20dbb7=
+0f5c85acb935fcb78e0a4ed2c5db74dd7ccb439d80ed1.gif" width=3D"108" height=3D"=
+38" alt=3D"intuit&reg; mint" class=3D"emailwrapto100pct logo" border=3D"0" =
+/></a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" valign=3D"top" style=3D"padding-top:60px; paddi=
+ng-bottom:20px;">
+            <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" bgcolor=3D"#FFFFFF">
+              <tr>
+                <td width=3D"5%">&nbsp;</td>
+                <td width=3D"90%" align=3D"center"><span style=3D"font-size=
+:26px; line-height:30px; font-family:'Avenir Next', Avenir, Arial, Helvetic=
+a, sans-serif; color:#333333; font-weight:700;">Confused about credit?</spa=
+n></td>
+                <td width=3D"5%">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan=3D"3" valign=3D"top" align=3D"center" style=3D"paddin=
+g-top:0px; padding-bottom:20px;" bgcolor=3D"#FFFFFF">
+            <table width=3D"305" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" bgcolor=3D"#FFFFFF">
+              <tr>
+                <td align=3D"center" valign=3D"top"><a href=3D"https://link=
+s.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHAbJ-2FixwPX=
+vZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoU=
+p66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGu=
+bixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnH=
+qJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jza=
+cE4nImsVbH-2BU-2BLHOEnUvrVUt5HQDPc3x4Gd-2BYfjpWBstfB7VoOccOrBDXtUXIDiab66kq=
+tZZJqEkU5Y0n7roS6OTrQ9tg-2Fpp26PZ0nnWw6I6Dizjb8WHD-2Bsn5VT6SDcjgAB2bDHkU90v=
+Ot1rYu5FfwdIikEkgK3WRzhGm-2BM42IQSaKGbgnr9Y9siHIkI8dNiD-2B1rKZ1eY-2Fa5iXWge=
+y3JfIM8a4dO3333cNhqNVHbKbGL9X52CuMLE0LjKdwiRUZleLgzcn4lcIQw3N0ojsVSooa8YVYU=
+JGyyecsvgTXw-3D-3D" name=3D"Top" target=3D"_blank"><img style=3D"display:bl=
+ock;" src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/4f=
+93e83d1bca1482634aa6b66066aa6df6f88f725a7e77cc1be2cdfdc40a476cfc95f348861bd=
+caf80e6794bc091b91800885c714a1d296aadfdedb8c1d69c3c.gif" alt=3D"" width=3D"=
+305" height=3D"167" class=3D"emailwrapto100pct top1" border=3D"0" /></a></t=
+d>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan=3D"3" valign=3D"top" style=3D"padding-top:0px; paddin=
+g-bottom:30px;">
+            <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" bgcolor=3D"#FFFFFF">
+              <tr>
+                <td width=3D"5%">&nbsp;</td>
+                <td width=3D"90%" align=3D"center"><span style=3D"font-size=
+:16px; line-height:22px; font-family:'Avenir Next', Avenir, Arial, Helvetic=
+a, sans-serif; color:#333333; font-weight:500;">We get it. That&rsquo;s why=
+ our new Credit Score feature teaches you about your credit and gives you s=
+mall steps toward your goals. No credit card required, and checking doesn&r=
+squo;t hurt your&nbsp;score.</span></td>
+                <td width=3D"5%">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" valign=3D"top" align=3D"center" style=3D"paddin=
+g-top:0px; padding-bottom:60px;" bgcolor=3D"#FFFFFF">
+            <table width=3D"305" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" bgcolor=3D"#FFFFFF">
+              <tr>
+                <td align=3D"center" valign=3D"top"><a href=3D"https://link=
+s.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHAbJ-2FixwPX=
+vZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoU=
+p66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGu=
+bixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnH=
+qJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jza=
+cE4nImsVbH-2BU-2BLHOEnQfTsJVCdr5LA9iGx-2BSfLw95wPjvCzPDUaYT8O1diIPdatIAd5ao=
+CeXnKkFi1d0pHj3mnMfhTs9OAdwgr7c6ww6GMPPGXXw105H6cn4zqxJAFuan8WOOrRBqQbqAwko=
+aubSitEqPPcCokEsDrFdF54fuytnOrl2VSBd3ocY42FgRwDO3ynBbGrLOUfRs8lIEbj0HpIHgqn=
+MuBI2sgBjKe50Prn4iOjaPz-2FW3Gxv6Uzf-2BdDfxMukNZinq2zgk607NZwDRtOLpYlge5lVBr=
+jqdYWg-3D-3D" name=3D"CTA1_Mobile" target=3D"_blank"><img style=3D"display:=
+block; font-family:'Avenir Next', Avenir, Helvetica, sans-serif; color:#FFF=
+FFF; background-color:#ff9e40; font-size:14px; text-align:center;" src=3D"h=
+ttps://marketing-image-production.s3.amazonaws.com/uploads/e6edd0496659f234=
+4f12968e6be52dbba0567b0e274af46ebf9f20e4f2353c2588ec926c9b98b3e8d735f74abdd=
+131828fc8e820a86aa80abf91d2b01a372bc5.gif" width=3D"305" height=3D"39" alt=
+=3D"GET MY FREE CREDIT SCORE" class=3D"emailwrapto100pct cta" border=3D"0" =
+/></a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" valign=3D"top" align=3D"center" style=3D"paddin=
+g-top:0px; padding-bottom:20px;" bgcolor=3D"#FFFFFF">
+            <table width=3D"280" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" bgcolor=3D"#FFFFFF">
+              <tr>
+                <td align=3D"center" valign=3D"top"><a href=3D"https://link=
+s.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHAbJ-2FixwPX=
+vZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoU=
+p66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGu=
+bixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnH=
+qJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jza=
+cE4nImsVbH-2BU-2BLHOEnxBBaIl9rkhWsunrggXNcEyRW21W-2F0NupZ8c5FFZ51QC4KW-2FXh=
+gEvMpgzbtzbVkdxx2bywKmfuCEkeS22MsPUaB7oGnu6csbrz9fb0QM9Z0z6uJfbqeA54Q5kEn5o=
+rRVfoB2bgld4-2BCHEqFIS2d3f2VX-2BJ2ZgBTdhc4oSUmnVC9ADhjnc8oFIQcNZdZczk11F4j4=
+P19JdzIUBVzJw96GMrJTE4Da7FhnTw4frwr701vp5CcpQMqA4mti6oYoLhQOli3EN2-2FbGbMVg=
+ouxFAuW9og-3D-3D" name=3D"Icon1_Mobile" target=3D"_blank"><img style=3D"dis=
+play:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/upl=
+oads/fe40477a59ba5ea720ee55de1f249ee04a73871856abd86bba1949cce001a2045357a0=
+9b45d52ab7c41cd39f7eb018f8490336dc50f7f32dbfeffec84a9fc3a5.gif" width=3D"28=
+0" height=3D"74" alt=3D"" class=3D"emailwrapto100pct icon1" border=3D"0" />=
+</a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td width=3D"10%">&nbsp;</td>
+          <td width=3D"80%" align=3D"center" style=3D"padding-top:0px; padd=
+ing-bottom:15px;"><span style=3D"font-size:16px; line-height:21px; font-fam=
+ily:'Avenir Next', Avenir, Arial, Helvetica, sans-serif; color:#333333; fon=
+t-weight:700;">Win big with small&nbsp;steps</span></td>
+          <td width=3D"10%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width=3D"10%">&nbsp;</td>
+          <td width=3D"80%" align=3D"center" style=3D"padding-top:0px; padd=
+ing-bottom:25px;"><span style=3D"font-size:14px; line-height:21px; font-fam=
+ily:'Avenir Next', Avenir, Arial, Helvetica, sans-serif; color:#333333; fon=
+t-weight:500;">Focus on the big things first. Every month we highlight the =
+top two factors impacting your score, with clear next steps to improve&nbsp=
+;them.</span></td>
+          <td width=3D"10%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" valign=3D"top" align=3D"center" style=3D"paddin=
+g-top:0px; padding-bottom:60px;" bgcolor=3D"#FFFFFF">
+            <table width=3D"305" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" bgcolor=3D"#FFFFFF">
+              <tr>
+                <td align=3D"center" valign=3D"top"><a href=3D"https://link=
+s.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHAbJ-2FixwPX=
+vZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoU=
+p66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGu=
+bixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnH=
+qJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jza=
+cE4nImsVbH-2BU-2BLHOEnM4jjR2SI-2FXJuTKxPazg4otJFqR-2B4dKF2I-2F-2BAmZGOOs3BO=
+sHsEUxn9NbqXktA1TpNgBfZWEy9uQUwJ47KvB-2B-2BT8cc0hRnUlOvszXVmqheRDQrzcrabwDc=
+2Jakv8ErdBSYDtnHV5iQ5ZTg-2FQCltJo5VDY-2FBiib-2FForI8NyVnOtBIRDYYOiunBsa8UuJ=
+s8tmdSTKQa2YARvKLIzV040GaeCASn1i-2Fsol6-2Fi3HtVFoPN-2B3vUOWlLzYj5NAkOlLD0go=
+yoAiYSXVqCBYXKTS9onkPm5w-3D-3D" name=3D"CTA2_Mobile" target=3D"_blank"><img=
+ style=3D"display:block; font-family:'Avenir Next', Avenir, Helvetica, sans=
+-serif; color:#FFFFFF; background-color:#ff9e40; font-size:14px; text-align=
+:center;" src=3D"https://marketing-image-production.s3.amazonaws.com/upload=
+s/fb9670a635bef3f7d6d19545bbaeb3e5847582ee712b0c7f1c8e3fa3f7b61b50e0346a9f4=
+fc423591f864724da4cb7b98abb1b5b7b53f0952d398a2058882a65.gif" width=3D"305" =
+height=3D"39" alt=3D"SEE MY TOP 2 FACTORS" class=3D"emailwrapto100pct cta" =
+border=3D"0" /></a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" valign=3D"top" align=3D"center" style=3D"paddin=
+g-top:0px; padding-bottom:20px;" bgcolor=3D"#FFFFFF">
+            <table width=3D"280" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" bgcolor=3D"#FFFFFF">
+              <tr>
+                <td align=3D"center" valign=3D"top"><a href=3D"https://link=
+s.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHAbJ-2FixwPX=
+vZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoU=
+p66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGu=
+bixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnH=
+qJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jza=
+cE4nImsVbH-2BU-2BLHOEnuDAVFOAYU23ae2JEgECCBJP5ux8R7KTknmy3TYDE8DLWxtV7oNY6M=
+UoDF-2BaOeToPLvBFMjOQSS6-2B8ugHkXmvgNMRCWdojpleGwa6Ln5LkyAsuE9nfci9NHDPRP8h=
+OGM5POjzsEKwozfjDL-2FoJOdw5K7CLF2ofP8SQsPKoBNQejvrWxJEKT2MdobhaHycVuoAN8Z7S=
+LItZ9HxuZVsxXSzdPwE7ugRX8X2aQB1qJXtlXAD5ZpdjofffS8-2BVzlvfSP9xZPAX5ROMZvlGi=
+WabKtIAw-3D-3D" name=3D"Icon2_Mobile" target=3D"_blank"><img style=3D"displ=
+ay:block;" src=3D"https://marketing-image-production.s3.amazonaws.com/uploa=
+ds/c184006f475040ab39ff0a9fb294ee0c9029dde6f58d71dddc921af29a4a4fa598d5c59a=
+3368e8002d5c1e45ac2d5c6b2313aba2a640303eb4c648e87f5fa442.gif" width=3D"280"=
+ height=3D"155" alt=3D"" class=3D"emailwrapto100pct icon2" border=3D"0" /><=
+/a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td width=3D"10%">&nbsp;</td>
+          <td width=3D"80%" align=3D"center" style=3D"padding-top:0px; padd=
+ing-bottom:15px;"><span style=3D"font-size:16px; line-height:21px; font-fam=
+ily:'Avenir Next', Avenir, Arial, Helvetica, sans-serif; color:#333333; fon=
+t-weight:700;">Know what changed and&nbsp;why</span></td>
+          <td width=3D"10%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width=3D"10%">&nbsp;</td>
+          <td width=3D"80%" align=3D"center" style=3D"padding-top:0px; padd=
+ing-bottom:60px;"><span style=3D"font-size:14px; line-height:21px; font-fam=
+ily:'Avenir Next', Avenir, Arial, Helvetica, sans-serif; color:#333333; fon=
+t-weight:500;">See how your actions affect your score. We tell you how many=
+ points your score changed and which factors went up or&nbsp;down.</span></=
+td>
+          <td width=3D"10%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" valign=3D"top" align=3D"center" style=3D"paddin=
+g-top:0px; padding-bottom:20px;" bgcolor=3D"#FFFFFF">
+            <table width=3D"280" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" bgcolor=3D"#FFFFFF">
+              <tr>
+                <td align=3D"center" valign=3D"top"><a href=3D"https://link=
+s.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHAbJ-2FixwPX=
+vZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoU=
+p66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGu=
+bixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnH=
+qJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jza=
+cE4nImsVbH-2BU-2BLHOEnSeCPZwXnqGdRytjryq93w7fNMZw66OMs4H-2BYJ161B655QqkVr-2=
+FV-2FD5b-2B4e-2BboQ84LQZODndk0SvUdV48A92-2FHoEh1cnxZuqOSBAkLhUvZ8F6UR9iexuL=
+jcJpDK1SBAhX4jFeO3fUaOAdFqxZvZd4fSserKyJgNSuxFLNOlxMtIVEVEXNnOeI7If9s0t069i=
+MO275yCN3iY1W-2Fm-2FVqlOQTKZ8ThFQWje8-2BD6qmcOmJz8D286F2KbvE3fdMiwCPOvfPMd7=
+g0gHWJb2OBVCYehWmQ-3D-3D" name=3D"Icon3_Mobile" target=3D"_blank"><img styl=
+e=3D"display:block;" src=3D"https://marketing-image-production.s3.amazonaws=
+..com/uploads/cc059c280053e83962327e4d8bba3729bc2613aeaa0b009c0eb30f4515ef61=
+074b86968a015c6ed78ca54609c7a944c0e1b3bcb9aeaff52f26265a6c0674f8af.gif" wid=
+th=3D"280" height=3D"177" alt=3D"" class=3D"emailwrapto100pct icon3" border=
+=3D"0" /></a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td width=3D"10%">&nbsp;</td>
+          <td width=3D"80%" align=3D"center" style=3D"padding-top:0px; padd=
+ing-bottom:15px;"><span style=3D"font-size:16px; line-height:21px; font-fam=
+ily:'Avenir Next', Avenir, Arial, Helvetica, sans-serif; color:#333333; fon=
+t-weight:700;">Scan for the highlights</span></td>
+          <td width=3D"10%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width=3D"10%">&nbsp;</td>
+          <td width=3D"80%" align=3D"center" style=3D"padding-top:0px; padd=
+ing-bottom:25px;"><span style=3D"font-size:14px; line-height:21px; font-fam=
+ily:'Avenir Next', Avenir, Arial, Helvetica, sans-serif; color:#333333; fon=
+t-weight:500;">Know at a glance which factors of your score are excellent, =
+good, fair, or poor, so you know what&rsquo;s going well and what can&nbsp;=
+improve.</span></td>
+          <td width=3D"10%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" valign=3D"top" align=3D"center" style=3D"paddin=
+g-top:0px; padding-bottom:100px;" bgcolor=3D"#FFFFFF">
+            <table width=3D"305" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" bgcolor=3D"#FFFFFF">
+              <tr>
+                <td align=3D"center" valign=3D"top"><a href=3D"https://link=
+s.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr83IA5yoVKkyIsojCHAbJ-2FixwPX=
+vZdCgp-2B2sQUmM89dbMZe-2ByDyMRUi6DSW-2Frx7Oyw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoU=
+p66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGu=
+bixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnH=
+qJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jza=
+cE4nImsVbH-2BU-2BLHOEn5tCjYaX6LYqsfBfKWVfKS1r0UT6ZldsJ-2FUpkQUIVPTPqHx1SQTy=
+1jJpB-2Br65-2FuqN7xuxCf92B7-2BP0JOY3VazB13TMqH-2FwQ-2FF8gqD7m8GaIBNW3gHjURP=
+cLhIdyK21YxEChGTx7xpmmnsziDYVC3Yx48lkB92Cnw9rzgM3wnwA0S3Y-2B0Imojhjh65PdDTe=
+IJCkVqPSJqFiRdNJteN9iNfZy1Qpd0oBQoPvisyZv8NkGFB-2FtJk2M8JqPlYL740MgNkpwTUZo=
+1GRspUJ4fJ0-2F4L4A-3D-3D" name=3D"CTA3_Mobile" target=3D"_blank"><img style=
+=3D"display:block; font-family:'Avenir Next', Avenir, Helvetica, sans-serif=
+; color:#FFFFFF; background-color:#ff9e40; font-size:14px; text-align:cente=
+r;" src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/7e84=
+6d28ee33ca226a238b359c14789f622c6254b74427ae31a8a4b86d3b528b15cbe0759f2c840=
+1eabceaef5513e04229dd5ce7fcdb2fddefe07d0a7bb346a8.gif" width=3D"305" height=
+=3D"39" alt=3D"SEE THE NEW EXPERIENCE" class=3D"emailwrapto100pct cta" bord=
+er=3D"0" /></a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan=3D"3" align=3D"center" bgcolor=3D"#f5f5f5" style=3D"p=
+adding-top:35px; padding-bottom:30px;">
+            <table width=3D"244" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+              <tr>
+                <td valign=3D"top"><a href=3D"https://links.mint.com/wf/cli=
+ck?upn=3DTlK-2Fhdjna8rZiew5KuB1Bw6Y10FKgvrELYNRXxlc72Jl8-2Buwq4xDheF1bX8SYw=
+ff_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-=
+2FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ=
+3794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRU=
+EPy-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEnDWzeKOWxniAf2-2BNssGzi7wpmt=
+brIQGAUfNil7IcT4HldnmGoe-2BWnmnKfa0bnrE8fvUlA0deW-2FZOKXbAysdA3t-2BK9jTL6OQ=
+Gaz9BXmTxQJboDlUGUWCDB9emvHlxUc0PwAEuhCmFMsM9bOWWgTjjO9jn-2FowYdw9FTe4G-2BE=
+U25bVd99N2A2m0eUk-2FlxqkSQsN471dPfXl7XK6SBr0AsGm1OZg-2F79BlzZkZbEY8UyFbDEs5=
+-2BVnvt2CMkKuppQ-2FYnVUr4NBD-2BJmSvkEtz2GiR1isWQ-3D-3D" name=3D"Facebook_Mo=
+bile" style=3D"text-decoration:none;" target=3D"_blank"><img alt=3D"Faceboo=
+k" border=3D"0" height=3D"36" src=3D"https://marketing-image-production.s3.=
+amazonaws.com/uploads/05358634fee1976b57604c6b66f216457075e49809e6623abee6a=
+237ac27855d99d79da8b29469ab09a6aecad505071164f583404061ce7d032c62fdc08d500f=
+..gif" style=3D"display:block; font-size: 9px; font-family: Avenir, Helvetic=
+a, sans-serif; color: rgb(255, 255, 255); width: 31px; height: 36px; backgr=
+ound-color: rgb(77, 197, 226);" width=3D"31" class=3D"emailwrapto100pct soc=
+ial1" /></a></td>
+                <td valign=3D"top"><a href=3D"https://links.mint.com/wf/cli=
+ck?upn=3DCUUzqeJY3SDI0n14ZPSBubt0Zga-2Ff6vM-2BqNodvkwReg-3D_G0-2BAnoQl4dMAX=
+yDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqm=
+yglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmz=
+KdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l=
+03ED2jzacE4nImsVbH-2BU-2BLHOEna4W2t-2BZwSaWgQ39A-2BRDCgzPCapfjSdlviedMkaDCk=
+dxKFhR1peWZdPKOepNBK5jwcNHdyBh3ajPS2kXec6Fd23axJJnJhjKrTZUwWNM41YSDOYvSkQAc=
+P25PKVadDzWmc52DZ7j0jYCAs3fl9y8twd-2FXIjfJM7eZ52BgJmAyFpHhlxj6WFJYYVI6FThZ2=
+x5wh6e6PhFHB05Ae1bYlknPlMyozFnj6yx9-2BlkAI-2FDHwkVuntL9N7gXjSAT80ICwrkZMcjk=
+zSkKwTGNBllik5ARNw-3D-3D" name=3D"Twitter_Mobile" style=3D"text-decoration:=
+none;" target=3D"_blank"><img alt=3D"Twitter" border=3D"0" height=3D"36" sr=
+c=3D"https://marketing-image-production.s3.amazonaws.com/uploads/38e9c32c1d=
+62bfba630303c3184e9259856b6c21df2d66fb03428eb5651654e77c74dff50658fd232c902=
+6e1c1317c4211d4a4a567311c77ab249210d4096e43.gif" style=3D"display:block; fo=
+nt-size: 9px; font-family: Avenir, Helvetica, sans-serif; color: rgb(255, 2=
+55, 255); width: 44px; height: 36px; background-color: rgb(77, 197, 226);" =
+width=3D"44" class=3D"emailwrapto100pct social2" /></a></td>
+                <td valign=3D"top"><a href=3D"https://links.mint.com/wf/cli=
+ck?upn=3DoyckVjc2OTlfj1IBa4Lfr5enpFUE-2F3Qd0z5080vmJTynn-2FIkmoFiIlx6ytr1D2=
+7B_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-=
+2FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ=
+3794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRU=
+EPy-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEnmAu82IR5Xu36RFhtmwvnxK3ZnmO=
+f2wh4Kz8leEj5tGFzvrrU4Hv8O6yd7COCjl1vhq47u-2BpLDWbq946-2BdGlRmkz4LMPvPSoNjh=
+tH3qalw7E8j0Yy2hJElmTWJ2KWbeFv3eXYlw1zniwBqmQRDVpEK1o1XgLqqOk4L0ZNdO8DyQOoy=
+ZmLk7v0NqnKOwZm8fnAjD3A0gOf3DShli1slCf-2BEVNN5MbOdv-2Fks02LL0S-2FdesQBckLtp=
+l5jtG-2B-2BPjltRhT3TBHPGTlS-2BLKpqdv2s374Q-3D-3D" name=3D"Instagram_Mobile"=
+ style=3D"text-decoration:none;" target=3D"_blank"><img style=3D"display:bl=
+ock; font-size: 9px; font-family: Avenir, Helvetica, sans-serif; color: rgb=
+(255, 255, 255); width: 44px; height: 36px; background-color: rgb(77, 197, =
+226);" src=3D"https://marketing-image-production.s3.amazonaws.com/uploads/2=
+ff3c6e4113319951f610aa827fafdafbfd3225ce4bea9226c6f498e037067179dc4bd574560=
+38bca7c737541c63f71f7c1dbcb091450ab2132118788df10894.gif" width=3D"44" heig=
+ht=3D"36" alt=3D"Instagram" class=3D"emailwrapto100pct social2" border=3D"0=
+" /></a></td>
+                <td valign=3D"top"><a href=3D"https://links.mint.com/wf/cli=
+ck?upn=3DGsRHKzd1DtNMg-2Fc22A048ls1p3AY50rxN5ak9uoLM3o-3D_G0-2BAnoQl4dMAXyD=
+aoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyg=
+lvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKd=
+ADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03=
+ED2jzacE4nImsVbH-2BU-2BLHOEnlKIjSkcrjngJQXTMr6ObrVRyZOlwl47QQxDmwt9y1Mqmrty=
+WbRRNDV0ootMKCRxlQZDrlKWHB1o0lRNOvnr1kX1qLH7WFVoUVaTJvRUp8p8N-2F-2F5tCYe7of=
+9k1jjeNDiyBc7pDMxk21eNQXAYvryIhwRCvSivmfpG1sSjcOQ9aXldR4sBcglgoGuG-2BTSze3M=
+kgmEfCEj5u0uu4gIaY7XvCfP49L1te1dPbhkBkQYkc4vCIqE6ARXTyGsmriu-2FbLbiKSysfeIT=
+dEwT-2FAKS6Ie3jA-3D-3D" name=3D"Blog_Mobile" style=3D"text-decoration:none;=
+" target=3D"_blank"><img alt=3D"Blog" border=3D"0" height=3D"36" src=3D"htt=
+ps://marketing-image-production.s3.amazonaws.com/uploads/83ee04483b6881b03f=
+be1a977fb7828eee69da29770f6ec6f67a53d1a6d15d5aca04730b1dd7fce597986fd045395=
+1b4c76389a0c506c1812096fee62e97bc47.gif" style=3D"display:block; font-size:=
+ 9px; font-family: Avenir, Helvetica, sans-serif; color: rgb(255, 255, 255)=
+; width: 37px; height: 36px; background-color: rgb(77, 197, 226);" width=3D=
+"37" class=3D"emailwrapto100pct social3" /></a></td>
+                <td valign=3D"top"><a href=3D"https://links.mint.com/wf/cli=
+ck?upn=3DVYK8kT7QIc5-2BVz0GjRu2M-2BDJ3CrgdN4NG4WCS6Y16p20rS7NTTa5vPlWkIbZzb=
+GXAfGJCFxzm9foPbyb1-2BEEX4I86uk730tCar63U2MJ45U-3D_G0-2BAnoQl4dMAXyDaoYkoUp=
+66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGub=
+ixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnHq=
+JMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jzac=
+E4nImsVbH-2BU-2BLHOEnr3s0OFLcSBo0EMriY6hMw0VQ0klOIqbDQy7qvZ7zVDid3AP1nIzSxP=
+b8NVnqAvS945iJpxKEjqpFdNdU5ORj4RmKJelInyIMYEIVfthxziQO-2F1K3VzsJL85tN27PArU=
+wQwNeNI-2BU-2BUTuVrXTA9WpAafVUZL-2FufkoVZVFInobrc3913p7NRgiPKyrX1MwSs6AiDq0=
+iPG2MSNGRNl6JfECdBJjxxvdibyoVPX5iI1QaJegwMlDaye-2BDRxGRjKLLniRA-2FsDNKRoUNR=
+yORUV9vwClg-3D-3D" name=3D"Apple_Mobile" style=3D"text-decoration:none;" ta=
+rget=3D"_blank"><img alt=3D"Apple" border=3D"0" height=3D"36" src=3D"https:=
+//marketing-image-production.s3.amazonaws.com/uploads/4b08ae6d064cd47197b47=
+fe52805b8861273f4989bf47daed418425f92e1c71249ae9e07cce2037649aa4f23510f33e6=
+ceeb75f0907d9fae96e3263f4574d8fc.gif" style=3D"display:block; font-size: 9p=
+x; font-family: Avenir, Helvetica, sans-serif; color: rgb(255, 255, 255); w=
+idth: 44px; height: 36px; background-color: rgb(77, 197, 226);" width=3D"44=
+" class=3D"emailwrapto100pct social2" /></a></td>
+                <td valign=3D"top"><a href=3D"https://links.mint.com/wf/cli=
+ck?upn=3DoyckVjc2OTlfj1IBa4Lfr0JevSspvJ1WXsZ1jfvHx-2BfSklm76E9R4xmZm8pPyN-2=
+FdRZOtNx6UhP33dIwLnuZ9Fw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2P=
+U1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61=
+N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8Jj=
+T3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOE=
+n5EYvD-2BNBbQUxskcHv5khKthwZgTZHuSNXjlaXyOfCRp01ZmIQFJCoyloaMOrC9JwT46ObMnz=
+r72RQ5j0AblV8tBer-2BDSmtIqscTTKLf7iPCFdm-2FPsy0usR4bNAA0pk0B2AADm1VLWxnZyJm=
+j3f5AnMiYvls6YFLpSVvVM1WR4WHGJZOgNJiFrDgR5GAjmwbrJy5Pd5Zn-2FRKpSmCAJbyYj3zB=
+rUR9EovdRTisQLGwFAL-2FBY2yUc7f5AV-2Fm1z-2FBXP-2B-2FU1WIKj37mro4fv-2Bl0rTrw-=
+3D-3D" name=3D"Android_Mobile" style=3D"text-decoration:none;" target=3D"_b=
+lank"><img alt=3D"Android" border=3D"0" height=3D"36" src=3D"https://market=
+ing-image-production.s3.amazonaws.com/uploads/3fb403611409aaddde50e7fb11a44=
+bbab0be2c0ffb47963d8e9b5cab4348ea51d1de0f59f9138ea5d57d9ea54fb98a550417623c=
+af6c88b0911c2a9ea84fecbe.gif" style=3D"display:block; font-size: 9px; font-=
+family: Avenir, Helvetica, sans-serif; color: rgb(255, 255, 255); width: 44=
+px; height: 36px; background-color: rgb(77, 197, 226);" width=3D"44" class=
+=3D"emailwrapto100pct social2" /></a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td width=3D"10%" bgcolor=3D"#f5f5f5">&nbsp;</td>
+          <td width=3D"80%" bgcolor=3D"#f5f5f5" align=3D"center" style=3D"p=
+adding-top:0px; padding-bottom:35px;"><span style=3D"font-size:11px; line-h=
+eight:15px; font-family:'Avenir Next', Avenir, Helvetica, sans-serif; color=
+:#999999;">This message was sent to alan@itrva.com<br />
+		If you would like to update your email address, please&nbsp;<a href=3D"ht=
+tps://links.mint.com/wf/click?upn=3DYSA0WdO04SwOhC5hWahJFqWjcQcFFCAbzFHP6Z-=
+2Bu-2BG8n-2Fyxrk9zmaPcsH6DHT1qxF8DgV1m-2FJIQoBZB08CW-2BTK0CfwaN5sGptX74OD4d=
+T6fVC4B8-2BZYBstjCeoa1TCRL_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3=
+heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3ID=
+x8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH=
+3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEnVyN=
+nZzMbFKHr4nYv2rnBwcAu9895FwJlLL-2BM8tHVmlt-2F54ULzCvGb2-2FRDac3U5Pt0i8NGJTw=
+Eqlf0uB6t-2BHEt71jYdsQOMSOXcF4fUOuJecpV-2BuROhAPKckMB9Ve-2Fa3SR0lp9zpaitlaB=
+siZBl9iiWRvRq1ykDZ071jw0TtMqKg27-2F7fc-2F-2BO-2FI6dJuaGhXQEvo4JDgJGjPGhcy-2=
+Fm91WtUpO0VslAur5BdoG7c8HX-2B5TFvThVQr5PCmhBPqAyrg-2FN5MjaLVXONSu1duBobTz1v=
+w-3D-3D" name=3D"ManagePreferences_Mobile" style=3D"color:#999999; text-dec=
+oration:underline;" target=3D"_blank">click&nbsp;here</a>.<br />
+		If you no longer wish to receive e-mails from Mint, <a href=3D"https://li=
+nks.mint.com/asm/unsubscribe/?user_id=3D2090196&data=3DxUU45IQEI4QieDqom4CO=
+3W9fWoJX0tgVbBj7m3iaYfG51ekb5qFbaOpeslzfr0GW3ramGVYweMrxmDJMCjJzDIXv0HXMKdY=
+2QlnpEYx-AKjxXK421ZLsrsy2bMu0GTqS2vHJJujLYao6x4svBJ9kpuohRuC8CWQWt3YV1DLUkI=
+bDXox2ZXl6YKdljZsiXUTiCQI5QPhQBQIV5etQsqGQ6o7tMEvN3ugnkDk1K9jaHejnPOL7jSegQ=
+6JO18vf-xm5pg-ROnnG0Rk_P1LArBifF7AeHEbi86ay0Qg0eePy4T1D2go284BJONHnMGR8HkXC=
+VqIeNVoDTxm0s3RXf80e0EaTele7kczpC_IGsF3i5nVwjq_vBEZqvvn3Yuun0xx-A8UW_mtAAvs=
+0RBO5kDMWQLcbyFN7cX-YAG7DsJBDf4S5RVGV_WgQQCViy2916jsSRWnMTntOaTQFfnty_Xi6TB=
+M1e3KpxmqGLs4CpqPTCgMLpnYBzDnHaQDy9VojmfwJ-jdm6SKi62W_aTSTbbDW4Z-6GxNQJLxOr=
+cshfmz5yK48VEUWzfgHkSOF3LtSOJaUhQYZ0O6iJZQqM2DzDw4nv2MlXXfthpanlDBk1_wk-wpo=
+H3dyWOo_dehchDlCY0KlA3P5kpBuoZueZYJLgKtjag=3D=3D" name=3D"Unsubscribe_Mobil=
+e" style=3D"color:#999999; text-decoration:underline;" target=3D"_blank">cl=
+ick&nbsp;here</a>.
+		<br />&nbsp;<br />
+		&copy;2007&ndash;2017 Mint Software, Inc. | All&nbsp;Rights&nbsp;Reserved=
+..<br />
+		Mint 2632 Marine Way, Mountain View, CA&nbsp;94043<br />
+		<a href=3D"https://links.mint.com/wf/click?upn=3DoyckVjc2OTlfj1IBa4Lfr7PV=
+FM-2FtPX6eLX5fXFYUX3wRg-2Fggbvu8HdRvrzlgJb6GW30ilVLwwtLSytsLeLIiHg-3D-3D_G0=
+-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO0=
+8Llkf7WQBrnqmyglvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794H=
+bOitNpqgvjAmzKdADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2=
+BvunZiOauFZ6l03ED2jzacE4nImsVbH-2BU-2BLHOEnHl5SwNkAbps23ejGdnE2CR8IWHOYHME7=
+mVaderHx5ZibG18zp89Fe0605lfIvEYJ5vxBsJwcoRlOj9jJoUneGGSEq663Dr9A1-2FU6bpUmZ=
+GSWbXLwf3WlxswARxkaAX2x0wsynyO3n1JDlAQIz2O3-2FMMruJhZn-2FRDrxrAHwVQtqnl8Jvk=
+qpgIbkuUqKboOHhcWeHV3Hv4xgBzkFNLMxZJUrljne-2F-2BqGNDo2-2FMu5LhxxlZT-2Frw4Gt=
+UeZuyrh-2FeIrr-2BTecurrih3QN6mD4YwOOBbQ-3D-3D" name=3D"PrivacyPolicy_Mobile=
+" style=3D"color:#999999; text-decoration:underline;" target=3D"_blank">Pri=
+vacy Policy</a> | <a href=3D"https://links.mint.com/wf/click?upn=3DoyckVjc2=
+OTlfj1IBa4Lfr6pPxx5qmFzW8c0JHGUUfcFzwfeZY3rrVJoKL-2BqBp1ET_G0-2BAnoQl4dMAXy=
+DaoYkoUp66UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmy=
+glvLIGubixSWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzK=
+dADCVnHqJMIhtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l0=
+3ED2jzacE4nImsVbH-2BU-2BLHOEn6O7IEQlyvmLTnJdUfW-2B8Pr9dp5NwYfpW4cIwllH6-2Fb=
+haMiA4OEp8ylg9UhpHI4j-2BvR7BOiOdSB7VZu4hSrrPTKx3icUo5h5j6LZUnnkjMNl5n0o5AOf=
+mJTzHyx7KgH3tYSOPpXXPRpxXZdfesF-2FpGeW1lXwSmvsa2KuAK8gZEJmvzpt8ZlLilM-2Bj62=
+IYerCERPWiJHj-2FE9WpgUbPVPttiVEnZeUdjNvO5uasUS0MZSScASD4B-2FNoc5LsbjikFAWT9=
+FPgCmP-2FKqktSB2CspJCig-3D-3D" name=3D"TermsOfUse_Mobile" style=3D"color:#9=
+99999; text-decoration:underline;" target=3D"_blank">Terms&nbsp;and&nbsp;Co=
+nditions</a><br />&nbsp;</span></td>
+          <td bgcolor=3D"#f5f5f5" width=3D"10%">&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <!--<![endif]-->
+  <!-- END MOBILE -->
+
+<img src=3D"https://links.mint.com/wf/open?upn=3DG0-2BAnoQl4dMAXyDaoYkoUp66=
+UYtbb1JVSqwXjQZS2PU1U3heDGNo9lsvkMUci7eyKuXhG-2FPO08Llkf7WQBrnqmyglvLIGubix=
+SWKf3ilO1ZubM0dP61N3IDx8CxUiqOo2JCcpt8wLBANgkZ3794HbOitNpqgvjAmzKdADCVnHqJM=
+Ihtyl-2BW4L-2Fr8JjT3PH3SWoQQcZklvjGm7fY5j2OKRUEPy-2BvunZiOauFZ6l03ED2jzacE4=
+nImsVbH-2BU-2BLHOEn3IlanvtZIlIok49O-2F1GhqofMwvLhU2XZsr6czGvGm6Z1pDZ393J0g5=
+1IbXHjiE6eLeScAUAJZ-2FcZjxKIM84dehiS7BAzEfCWDP2dZZCc5G6swbKJMvfCdvTmX6O8eMv=
+esg44SKbDATihOrSH5b6ylrKsm4G2aEwTKnXybwZ5MrbT4R8ylcdC0pCDP9Nq8FW8ovmkDrS9nT=
+MBo98L9-2FH0OJPRHAv3ZqJE8LDA5ZfD-2FtRKUvm0ZA-2Fln9vGvljLrmStVjy7o6xcDIjaGP3=
+f40YLjw-3D-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"heig=
+ht:1px !important;width:1px !important;border-width:0 !important;margin-top=
+:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-l=
+eft:0 !important;padding-top:0 !important;padding-bottom:0 !important;paddi=
+ng-right:0 !important;padding-left:0 !important;"/>
+</body>
+
+</html>
+
+--9179b7e530124d1fc2816d5b8aaed0d366c3ee8744de820016521e24e6bd--

@@ -1,0 +1,173 @@
+# Copyright CiviCRM LLC (c) 2004-2014
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: reportplus\n"
+"POT-Creation-Date: 2017-03-13 18:19+0100\n"
+"Language-Team: iXiam Global Solutions <info@ixiam.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Luciano <l.spiegel@ixiam.com>\n"
+"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+msgid "The Page"
+msgstr "La página"
+
+msgid "To add a column to resultset, click on and drag the field to <b>Selected Columns</b> box"
+msgstr "Para añadir una columna al resultado, haga click y arrastre el campo a <b>Columnas Seleccionadas</b>"
+
+msgid "Columns marked with an [X] are required and cannot be disposed"
+msgstr "Las columnas marcadas con una [X] son obligatorias y no pueden ser eliminadas"
+
+msgid "Available Columns"
+msgstr "Columnas Disponibles"
+
+msgid "Selected Columns"
+msgstr "Columnas Seleccionadas"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "You cannot drop a required columns"
+msgstr "No puedes eliminar una columna obligatoria"
+
+msgid "Contribution Summary Plus"
+msgstr "ReportPlus de Resumen de Contribuciones"
+
+msgid "Contribution Matrix Plus"
+msgstr "ReportPlus de Matriz de Contribuciones"
+
+msgid "Contribution Detail Plus"
+msgstr "ReportPlus de Detalle de Contribuciones"
+
+msgid "Member Summary Plus"
+msgstr "ReportPlus de Resumen de Miembros"
+
+msgid "Member Matrix Plus"
+msgstr "ReportPlus de Matriz de Miembros"
+
+msgid "Member Detail Plus"
+msgstr "ReportPlus de Detalle de Miembros"
+
+msgid "Contact Summary Plus"
+msgstr "ReportPlus de Resumen de Contactos"
+
+msgid "Contact Matrix Plus"
+msgstr "ReportPlus de Matriz de Contactos"
+
+msgid "Contact Detail Plus"
+msgstr "ReportPlus de Detalle de Contactos"
+
+msgid "Contact Birthday"
+msgstr "ReportPlus de Cumpleaños de Contactos"
+
+msgid "Contribution Count"
+msgstr "Cantidad de Contribuciones"
+
+msgid "Contribution Total"
+msgstr "Importe total de Contribuciones"
+
+msgid "Contribution Avg"
+msgstr "Importe Promedio de Contribuciones"
+
+msgid "Contribution Max"
+msgstr "Importe máximo de Contribuciones"
+
+msgid "Contribution Min"
+msgstr "Importe mínimo de Contribuciones"
+
+msgid "Please select one statistic to be displayed"
+msgstr ""
+
+msgid "Please select only one statistic to be displayed"
+msgstr "Por favor selecciona solamente una estadística para ser mostrada"
+
+msgid "Please select one field to be the rows"
+msgstr "Por favor seleccione un campo para ser las filas"
+
+msgid "Please select one field to be the columns"
+msgstr "Por favor seleccione un campo para ser las columnas"
+
+msgid "Please select only one field to be the rows"
+msgstr "Por favor seleccione sólo un campo para ser las filas"
+
+msgid "Please select only one field to be the columns"
+msgstr "Por favor seleccione sólo un campo para ser las columnas"
+
+msgid "rows"
+msgstr "filas"
+
+msgid "columns"
+msgstr "columnas"
+
+msgid "Rows"
+msgstr "Filas"
+
+msgid "Columns"
+msgstr "Columnas"
+
+msgid "Select Rows"
+msgstr "Seleccionar Filas"
+
+msgid "Select Columns"
+msgstr "Seleccionar Columnas"
+
+msgid "-- Select --"
+msgstr "-- Seleccionar --"
+
+msgid "Is empty"
+msgstr "Está vacio"
+
+msgid "Is not empty"
+msgstr "No está vacio"
+
+msgid "Is Null"
+msgstr "Es nulo"
+
+msgid "Is not Null"
+msgstr "No es nulo"
+
+msgid "Is empty or Null"
+msgstr "Está vacio o nulo"
+
+msgid "Is not empty and Null"
+msgstr "No está vacio ni nulo"
+
+msgid "CSV Encoding"
+msgstr "Codificación de CSV"
+
+msgid "Contribution TopDonor Plus"
+msgstr "ReportPlus de Principales Donantes"
+
+msgid "Unique Contacts"
+msgstr "Contactos únicos"
+
+msgid "Total Values"
+msgstr "Valores totales"
+
+msgid "Quarter"
+msgstr "Trimestre"
+
+msgid "Transpose"
+msgstr "Transponer"
+
+msgid "Hide Empty Headers"
+msgstr "Ocultar filas/columnas sin categoría"
+
+msgid "Show Totals"
+msgstr "Mostrar Totales"
+
+msgid "Birth Date (Year)"
+msgstr "Fecha de nacimiento (Año)"
+
+msgid "Birth Date (Month)"
+msgstr "Fecha de nacimiento (Mes)"
+
+msgid "Birth Date (Day)"
+msgstr "Fecha de nacimiento (Día)"

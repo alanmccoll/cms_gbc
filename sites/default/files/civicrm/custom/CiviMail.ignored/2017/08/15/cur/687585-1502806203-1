@@ -1,0 +1,130 @@
+Return-Path: <415-ERC-447.0.95688.0.0.45996.9.8958098@em-sj-77.mktomail.com>
+Delivered-To: alan@itrva.com
+Received: from server22.websitehostserver.net
+	by server22.websitehostserver.net (Dovecot) with LMTP id +emOJRsAk1kNXAoAbtRU6Q
+	for <alan@itrva.com>; Tue, 15 Aug 2017 09:07:23 -0500
+Return-path: <415-ERC-447.0.95688.0.0.45996.9.8958098@em-sj-77.mktomail.com>
+Envelope-to: alan@itrva.com
+Delivery-date: Tue, 15 Aug 2017 09:07:23 -0500
+Received: from sjsmtp.mktroute.com ([199.15.215.16]:44983)
+	by server22.websitehostserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <415-ERC-447.0.95688.0.0.45996.9.8958098@em-sj-77.mktomail.com>)
+	id 1dhcV9-002qxy-IA
+	for alan@itrva.com; Tue, 15 Aug 2017 09:07:23 -0500
+X-MSFBL: YWxhbkBpdHJ2YS5jb21AZHZwLTE5OS0xNS0yMTUtODhAaXBiLXNqLTAxQDQxNS1F
+	UkMtNDQ3OjM1MDk0OjMyNDcwOjE0MTc3NjowOjQ1OTk2Ojk6OTU2ODg6ODk1ODA5
+	OA==
+Received: from [10.0.87.249] ([10.0.87.249:55735] helo=sjmas03.marketo.org)
+	by sjmta10.marketo.org (envelope-from <dallas.ramsden@acquia.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id BD/B8-28428-3FFF2995; Tue, 15 Aug 2017 09:06:43 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1502806003;
+	s=m1; d=mktroute.com; i=@mktroute.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=pA9akJLchBF3+t8L+LxiM6eL+TM4hb4mDj8OQB6vPmI=;
+	b=KhGijUUhaBHxfXZDJMF12ynNqPRzlPXDqwfbhkGaiEh6KFjGgpBKyjdSkVmXDZpL
+	hBxHTxGME7mw6zurmGhWJd2JF5GvYdNXG0BGyBWAkWLeO4Abtu++7/lqAMkfbmmcCXQ
+	vaQSBo//EiCVkv9h86AXSxWwn0dJzVUvkLiElYXk=
+Date: Tue, 15 Aug 2017 09:06:43 -0500 (CDT)
+From: Dallas Ramsden <dallas.ramsden@acquia.com>
+Reply-To: dallas.ramsden@acquia.com
+To: alan@itrva.com
+Message-ID: <1768066283.-1655775149.1502806003515.JavaMail.root@sjmas03.marketo.org>
+Subject: Learn Drupal 8 with Me Online and Get Acquia Certified
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_-1655775150_1148310051.1502806003515"
+X-PVIQ: mkto-415ERC447-000001-000000-095688
+X-Binding: ipb-sj-01
+X-MarketoID: 415-ERC-447:35094:32470:141776:0:45996:9:95688:8958098
+X-MktArchive: false
+List-Unsubscribe: <mailto:OVWW6VZSKVSXIRTHLIYGC4SEPFKWGUSXIJTT2PI.95688.45996.9@unsub-sj.mktomail.com>
+X-Mailfrom: 415-ERC-447.0.95688.0.0.45996.9.8958098@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+
+------=_Part_-1655775150_1148310051.1502806003515
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello!
+
+I wanted to tell you about an exciting new course aimed at getting you Acqu=
+ia certified as a Drupal 8 developer. I=E2=80=99m Dallas, a trainer on the =
+Learning Services team here at Acquia.
+
+Acquia certification ensures you and your team have the right Drupal skills=
+ to work on ambitious Drupal projects. Of the 3,000 worldwide Acquia Certif=
+ied professionals, many have asked =E2=80=98how can I best prepare for the =
+certification exams?
+
+To answer that, we designed this course to:
+
+ - Teach you comprehensive and professional Drupal 8 development: Site Buil=
+ding, theming, and module development
+ - Configuration management, multilingual, and security are also covered
+ - Build your skills and confidence to take and pass the Acquia Certified D=
+eveloper - Drupal 8 exam
+
+We=E2=80=99ll also have a private Slack channel, weekly office hours, and o=
+ther goodies to keep you learning and motivated. Even better: the course fe=
+e includes a voucher to take the D8 Developer exam ($250 value).
+
+If you=E2=80=99d like to learn more, click here, or feel free to respond di=
+rectly to me. Every email goes to directly me.
+
+Thanks and keep on Drupaling!
+
+Dallas
+
+If you no longer wish to receive these emails, go to the following link to =
+unsubscribe: http://go.acquia.com/UnsubscribePage.html?mkt_unsubscribe=3D1&=
+mkt_tok=3DeyJpIjoiWWpobVptSmpNVEkzWm1FeiIsInQiOiJWb09uRzB1TlIwMUNtRlhlVlVES=
+HJXTUtxeTNYYkFVZXU3QTBOY3RrZ3VqWXZjOWVYTUZzOW1NWFRqT1ZMVC9SZFlrQTU3czB6amNC=
+cW9peEdLTEtkMElCQXozTFJHcC9oa1hPZ2F1cmhjN083dmo5ZzJWaDJ6elNFTTdjckdmciJ9.
+
+------=_Part_-1655775150_1148310051.1502806003515
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+</head>
+
+<body ><div ><div class="mktEditable" id="edit_text_1" ><p><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">Hello!</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">I wanted to tell you about an exciting <a style="color: #29aae1;" href=
+"http://em.acquia.com/BM00GE1C4000B0MR0ppLsAK" target="_blank" id=""
+>new course</a> aimed at getting you Acquia certified as a Drupal 8 developer. I&rsquo;m Dallas, a trainer on the Learning Services team here at Acquia.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">Acquia certification ensures you and your team have the right Drupal skills to work on ambitious Drupal projects. Of the 3,000 worldwide Acquia Certified professionals, many have asked &lsquo;how can I best prepare for the certification exams?</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">To answer that, we designed <a style="color: #29aae1;" href=
+"http://em.acquia.com/BM00GE1C4000B0MR0ppLsAK" target="_blank" id=""
+>this course to</a>:</span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">Teach you comprehensive and professional Drupal 8 development: Site Building, theming, and module development</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">Configuration management, multilingual, and security are also covered</span></li>
+<li><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">Build your skills and confidence to take and pass the <a style="color: #29aae1;" href=
+"http://em.acquia.com/R00LBpMRAK0010s0EqCMH40" target="_blank" id=""
+>Acquia Certified Developer - Drupal 8 exam</a></span></li>
+</ul>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">We&rsquo;ll also have a private Slack channel, weekly office hours, and other goodies to keep you learning and motivated. Even better: the course fee includes a voucher to take the D8 Developer exam ($250 value).</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">If you&rsquo;d like to learn more, click <a style="color: #29aae1;" href=
+"http://em.acquia.com/BM00GE1C4000B0MR0ppLsAK" target="_blank" id=""
+>here</a>, or feel free to respond directly to me. Every email goes to directly me.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">Thanks and keep on Drupaling!</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12px;">Dallas</span></p></div>
+</div>
+<a href=
+"http://em.acquia.com/R00LBpMRAK0010s0ErCMI40"
+></a>
+<img src="http://em.acquia.com/trk?t=1&mid=NDE1LUVSQy00NDc6MzUwOTQ6MzI0NzA6MTQxNzc2OjA6NDU5OTY6OTo5NTY4ODo4OTU4MDk4OmFsYW5AaXRydmEuY29t" width="1" height="1" style="display:none !important;" alt="" />
+
+<p align="center" ><font face="Verdana" size="1" color="silver">If you no longer wish to receive these emails, click on the following link: <a href=
+"http://em.acquia.com/u/I0M0sEp0LBsJ4K1A0M0RC00" style="color:#C0C0C0; text-decoration:none;"
+>Unsubscribe</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_-1655775150_1148310051.1502806003515--

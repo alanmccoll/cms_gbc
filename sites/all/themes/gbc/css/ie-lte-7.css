@@ -1,0 +1,27 @@
+/**
+ * Footheme ie-lte-7.css
+ *
+ * SEE footheme_preprocess_html() in
+ * template.php for detials on how to
+ * load this or additional IE stylesheets.
+ */
+#logo {
+float:left;
+}
+hgroup {
+float:left;
+}
+#site-name {
+height:auto;
+padding-bottom:.45em;
+}
+ul .menu-ul {
+z-index:2;
+position:relative;
+}
+#toolbar {
+z-index:-1;
+}
+#menu-bar-wrapper {
+z-index:0;
+}

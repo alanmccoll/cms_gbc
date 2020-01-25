@@ -1,0 +1,246 @@
+<?php
+
+/**
+ * @file
+ * views_civicrm_contact_page.module
+ *
+ * Views in CiviCRM Contact Page module allows users to create a Additional Tab or Region in Summaray Tab
+ * with an embedded Drupal View.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function views_civicrm_contact_page_help($path, $arg) {
+  switch ($path) {
+    case 'admin/help#views_civicrm_contact_page':
+      return check_markup(file_get_contents(dirname(__FILE__) . "/README.txt"));
+  }
+}
+
+/**
+ * Implements hook_views_api().
+ */
+function views_civicrm_contact_page_views_api() {
+  return array(
+    'api' => 3,
+  );
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function views_civicrm_contact_page_form_alter(&$form, &$form_state, $form_id) {
+  // When view is saved, set a handler.
+  if ($form_id == 'views_ui_edit_form') {
+    array_unshift($form['actions']['save']['#submit'], '_views_civicrm_contact_page_display_save_prehandle');
+  }
+}
+
+/**
+ * Iterate though each civi_contact_page_view display and run display_save_handle on it.
+ */
+function _views_civicrm_contact_page_display_save_prehandle(&$form, &$form_state) {
+  $view = $form_state['view'];
+  if (isset($view->changed_display)) {
+    foreach ($view->changed_display as $current_display => $value) {
+      if (isset($form_state['view']->display[$current_display]) &&
+        $form_state['view']->display[$current_display]->display_plugin == 'civi_contact_page_view'
+      ) {
+        _views_civicrm_contact_page_display_save_handle($form, $form_state, $current_display);
+      }
+    }
+  }
+}
+
+/**
+ * Submit handler to set up contact-page-manipulation on contact-page-display save.
+ */
+function _views_civicrm_contact_page_display_save_handle(&$form, &$form_state, &$current_display) {
+  $view = $form_state['view'];
+  // If display is set to be deleted, then return.
+  if (isset($view->display[$current_display]->deleted) && $view->display[$current_display]->deleted) {
+    if (isset($view->display[$current_display]->display_options['id'])) {
+      $id = $view->display[$current_display]->display_options['id'];
+    }
+    return;
+  }
+
+  // If all settings aren't set, return message stating need to set all settings.
+  if (!(isset($view->display[$current_display]->display_options['is_active']) &&
+      isset($view->display[$current_display]->display_options['is_region']) &&
+      isset($view->display[$current_display]->display_options['weight'])
+    )) {
+    drupal_set_message(t('Please set all Contact Page Settings first.'), 'error');
+    return;
+  }
+
+  // Check and store if contact page display is enabled.
+  $active = isset($view->display[$current_display]->display_options['enabled']) ? $view->display[$current_display]->display_options['enabled'] : TRUE;
+  $id = isset($view->display[$current_display]->display_options['id']) ? $view->display[$current_display]->display_options['id'] : "";
+
+  // Set args to be passed to contact-page-manipulation handler.
+  $args = array(
+    'id' => $id,
+    'label' => $view->display[$current_display]->display_title,
+    'name' => $view->vid . '-' . $view->display[$current_display]->id,
+    'active' => $view->display[$current_display]->display_options['is_active'],
+    'region' => $view->display[$current_display]->display_options['is_region'],
+    'weight' => $view->display[$current_display]->display_options['weight'],
+    'path' => $view->display[$current_display]->display_options['path'],
+  );
+
+  // If id is not set for this display then $action = 'create'.
+  if (empty($args['id'])) {
+    unset($args['id']);
+  }
+  else {
+    switch ($active) {
+      case 0:
+        $args['active'] = 'No';
+        $args['region'] = 'No';
+        $view->display_handler->set_option('is_active', 'No');
+        $view->display_handler->set_option('is_region', 'No');
+        break;
+      case 1:
+        $args['active'] = 'Yes';
+        $args['region'] = 'Yes';
+        $view->display_handler->set_option('is_active', 'Yes');
+        $view->display_handler->set_option('is_region', 'Yes');
+        break;
+    }
+  }
+
+  $view->save();
+}
+
+/**
+ * Callback function for $items[$path] that creates the view passed.
+ */
+function _views_civicrm_contact_page_menu_callback($name, $display_id, $contact_id = 0, $_return_set = FALSE) {
+  // Create the view passed
+  if (isset($_GET['cid'])) {
+    $contact_id = $_GET['cid'];
+  }
+
+  $view = views_get_view($name);
+  $content = views_embed_view($name, $display_id, $contact_id);
+
+  if ( $view->display[$display_id]->display_options['is_region'] == 'Yes' && $view->display[$display_id]->display_options['is_active'] == 'Yes' && isset($_REQUEST['fix_json'] )) {
+    $content = str_ireplace("fix_json=1", "", $content);
+    CRM_Core_Page_AJAX::returnJsonResponse($content);
+  }
+
+  if ($_return_set) {
+    return $content;
+  }
+  else {
+    print $content;
+  }
+
+}
+
+/**
+ * Delivery callback function for $items[$path] that renders the view passed.
+ * This function also loads any css/js needed.
+ */
+function _views_civicrm_contact_page_menu_delivery_callback($page_callback_result) {
+  $content = drupal_render($page_callback_result);
+  print $content;
+
+  // Add CSS ans JS files, add some markup
+  $html = '<html><head><title></title>' . drupal_get_css() . drupal_get_js() . '</head><body class="contact-page-ajax-load">' . $content . '</body></html>';
+  print $html;
+
+  // Perform end-of-request tasks.
+  drupal_page_footer();
+}
+
+/**
+ * Implements hook_civicrm_tabs().
+ */
+function views_civicrm_contact_page_civicrm_tabs( &$tabs, $contact_id ) {
+  $views = views_get_all_views();
+  foreach ($views as $view) {
+    // Skip disabled views.
+    if (!empty($view->disabled)) {
+      continue;
+    }
+    if (empty($view->display)) {
+      // Skip this view as it is broken.
+      continue;
+    }
+    foreach ($view->display as $display) {
+      if ($display->display_plugin == 'civi_contact_page_view') {
+        if ($display->display_options['is_region'] == 'Yes' && $display->display_options['is_active'] == 'Yes' && !empty($display->display_options['path']) ) {
+
+          $_path = $display->display_options['path'];
+          $_url = CRM_Utils_System::url($_path, "force=1&reset=1&snippet=1&cid=$contact_id&fix_json=1");
+          $_id = t($view->name . '_' . $display->id  );
+
+          $_heading = (
+            (isset($display->display_options['title'])) ?
+            t($display->display_options['title']) :
+            t($view->human_name)
+          );
+
+          $tabs[] = array(
+            'id'    => $_id,
+            'url'   => $_url,
+            'title' => t('Contact Page : ' . $_heading),
+            'weight' => 101
+          );
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_civicrm_summary().
+ */
+function views_civicrm_contact_page_civicrm_summary( $contact_id, &$content, &$content_placement ) {
+  // REPLACE default Contact Summary with your customized content
+  $content_placement = 1;
+  $views = views_get_all_views();
+  $_return_set = FALSE;
+
+  $_content = '<div class="ht-one"></div><div class="spacer"></div><h3>' . t('CiviCRM Contact Page') . '</h3><div class="spacer"></div>';
+
+  foreach ($views as $view) {
+    // Skip disabled views.
+    if (!empty($view->disabled)) {
+      continue;
+    }
+    if (empty($view->display)) {
+      // Skip this view as it is broken.
+      continue;
+    }
+    foreach ($view->display as $display) {
+      if ($display->display_plugin == 'civi_contact_page_view') {
+        if ($display->display_options['is_region'] == 'No' && $display->display_options['is_active'] == 'Yes' && !empty($display->display_options['path']) ) {
+
+          $_return_set = TRUE;
+          $path = $display->display_options['path'];
+          $_heading = (
+            (isset($display->display_options['title'])) ?
+            t($view->human_name . ' : ' . $display->display_options['title']) :
+            t($view->human_name)
+          );
+
+          $_content .= '<div class="crm-accordion-wrapper crm-ajax-accordion crm-' . $view->name . '-accordion">';
+          $_content .= '<div class="crm-accordion-header" contact_id="' . $contact_id . '">' . $_heading . '</div>';
+          $_content .= '<div class="crm-accordion-body" id="' . $view->name . '">';
+          $_content .=  '<div id="' . $view->name . '">';
+          $_content .=  _views_civicrm_contact_page_menu_callback($view->name, $display->id, $contact_id, $_return_set);
+          $_content .=  '</div>';
+          $_content .=  '</div>';
+          $_content .= '</div><div class="spacer"></div>';
+        }
+      }
+    }
+  }
+  if ($_return_set) {
+    $content = $_content;
+  }
+}

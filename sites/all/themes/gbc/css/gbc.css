@@ -1,0 +1,25 @@
+/**
+ * Footheme footheme.css
+ *
+ * Use this file to add your custom styles.
+ *
+ * You can change the name of this file, just
+ * remember to update the name in the info file
+ * as well.
+ */
+
+body {
+font-size:12px;
+color:#232323;
+}
+#site-name a {
+font-size:.85em;
+text-align:center;
+}
+#branding {
+padding:.2em 0 .2em 0;
+}
+
+#site-name {
+height:auto;
+}

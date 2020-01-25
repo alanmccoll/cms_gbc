@@ -1,0 +1,25 @@
+Aug 05 13:23:45  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for ct
+    [code] => 
+)
+
+
+Aug 05 13:23:45  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(385): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Utils/Request.php(121): CRM_Core_Error::fatal("Could not find valid value for ct")
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Contact/Form/Contact.php(165): CRM_Utils_Request::retrieve("ct", "String", Object(CRM_Contact_Form_Contact), TRUE, NULL, "REQUEST")
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Form.php(585): CRM_Contact_Form_Contact->preProcess()
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Upload.php(129): CRM_Core_Form->buildForm()
+#5 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Upload->perform(Object(CRM_Contact_Form_Contact), "upload")
+#6 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Contact), "upload")
+#7 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Controller.php(349): HTML_QuickForm_Page->handle("upload")
+#8 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(114): CRM_Core_Controller->run()
+#9 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(284): CRM_Utils_Wrapper->run("CRM_Contact_Form_Contact", "New Contact", (Array:1))
+#10 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(85): CRM_Core_Invoke::runItem((Array:13))
+#11 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#12 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/drupal/civicrm.module(444): CRM_Core_Invoke::invoke((Array:3))
+#13 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(527): civicrm_invoke("contact", "add")
+#14 /var/www/html/cms.goodwillbaptist.org/public_html/index.php(21): menu_execute_active_handler()
+#15 {main}
+
+

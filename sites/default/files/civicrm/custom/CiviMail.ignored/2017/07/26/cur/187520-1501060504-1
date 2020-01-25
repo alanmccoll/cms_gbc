@@ -1,0 +1,763 @@
+Return-Path: <bounces+2090234-1ba7-alan=itrva.com@tx.mint.com>
+Delivered-To: alan@itrva.com
+Received: from server22.websitehostserver.net
+	by server22.websitehostserver.net (Dovecot) with LMTP id qQDQIpZceFlwlwIAbtRU6Q
+	for <alan@itrva.com>; Wed, 26 Jul 2017 04:10:46 -0500
+Return-path: <bounces+2090234-1ba7-alan=itrva.com@tx.mint.com>
+Envelope-to: alan@itrva.com
+Delivery-date: Wed, 26 Jul 2017 04:10:46 -0500
+Received: from o6.tx.mint.com ([167.89.39.194]:15193)
+	by server22.websitehostserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.89)
+	(envelope-from <bounces+2090234-1ba7-alan=itrva.com@tx.mint.com>)
+	id 1daIL8-000kCV-Cu
+	for alan@itrva.com; Wed, 26 Jul 2017 04:10:46 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=mint.com; 
+	h=content-type:from:mime-version:reply-to:subject:to; s=s1; 
+	bh=04pB3Xkcu4Kk7/gbJUjwC4UFfnY=; b=kK+sibNy6eNr8YUoCV4DWtttmc5al
+	Y8FDSC3EGi8vShjp9GO5FtdAoX8+5mJFfdbvz1gX1zNEzUIE6EkrF+eUX1zaATla
+	GNGjWpX8u8gWmIyAFfv9P1N/RMKpDzIstl8mM+f3UCedoJnSFYQZwcx4PG9ps1oV
+	ccdR0kbIQgv1+g=
+Received: by filter0277p1las1.sendgrid.net with SMTP id filter0277p1las1-31169-59785C6E-F
+        2017-07-26 09:10:06.326152767 +0000 UTC
+Received: from MjA5MDIzNA (ec2-54-148-109-57.us-west-2.compute.amazonaws.com [54.148.109.57])
+	by ismtpd0004p1las1.sendgrid.net (SG) with HTTP id kH2Rv_sXTc-UwNmor10xnA
+	for <alan@itrva.com>; Wed, 26 Jul 2017 09:10:06.351 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=ced2248c2ebf68201e6bce72c704524d460f794684a340027896397e60a0
+Date: Wed, 26 Jul 2017 09:10:06 +0000 (UTC)
+From: "Mint" <team@mint.com>
+Mime-Version: 1.0
+Reply-To: no-reply@mint.com
+Subject: See our favorite offers for you
+To: alan@itrva.com
+Message-ID: <kH2Rv_sXTc-UwNmor10xnA@ismtpd0004p1las1.sendgrid.net>
+X-SG-EID: j8wdlB4+s5XBAkiJHgaFxbjl/KlLhdkr6jqAzuj9HibwH3/bHrlq0C1g1vy7CPMuJ1ecV09F0GlSAc
+ Gp5P4juDSUNbjwJzd0/1TrE3UNvgSjFpE0SIKyCT4I7ohs+kvkMqzA8nlN10FzTAE/3YeWc7jUyfIm
+ GZon74M6e4J/FqCR9focowBKROtCqpPOvt/ymPhe7xFeq9FmI1tOSadSEQ==
+X-SG-ID: p+ZBrOV5QccaCZ9QS1/Vc6ykCuhBMuTCOJLdROsh5UZW/faRPKIyarOp8iP0BwRdmd+gN7kXaKoMXu
+ siKUPJFnjz0vKkXdPaFxO/0wT4afUGkfpKaegACQTrDzT6h497OfnJAMOYn7CeLnUjLipz6c3Nw+AL
+ 62Qook/arK4NQtrCyZIT+fT2zrh88KHjwfpuw2w2crv9p/USBVBLCbc277bde7msL80cIJ2qYVpiah
+ Y=
+
+--ced2248c2ebf68201e6bce72c704524d460f794684a340027896397e60a0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+Mime-Version: 1.0
+
+See our favorite offers for you
+We keep an eye on the market, as well as your situation and goals, to match=
+ you with things you might otherwise miss. Check out the offers we=E2=80=99=
+ve found for you.
+https://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSSFyeQ6DkybDqx9=
+o-2BH2Yt7xuhZlRc-2BH-2FsAlA9CFPqo0TADtOnVP-2BJSoRyvleuHAxIA2VdnqMbrWUfn9muw=
+XhAOhZ58RKEWltDYMe-2FUg3jpBLmZTqHE2ahulz-2FIS-2B1k6kFHthYVyjBeMXPepD7Fc1Cjn=
+azPL6H2M-2FUc8AwnvwSvjuwxvthcr-2FxT8pUOXaR5uoPTsU34mkY0kIgnPrV-2BXkf4aMbrQ2=
+WZ3dON-2FcSe7rwhLe1OwOFtMa-2BUaxCNcGhQC-2B7GevocBPe6wY4CDbsr25bsuw92VXyz5-2=
+BfeDJ4eBsd1nyuiLWt8R9zzCNQOkN-2FPpaLYNNadjdO12Wo-2F4Slxhj4eO8lxHFLPRWcE8TTt=
+wY8dr6z0VuMBHNyu0z1px-2BO6LC8p0O-2B3NokBb9wevqkCwq5Wo-3D_G0-2BAnoQl4dMAXyDa=
+oYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2FbrYEbEbyF9XVPwX=
+6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2BENYnBKIeDICF=
+o2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJs-2FrSx5r9MisF8yhVh-2Fj5bpdyN-2FFa6AW=
+M0QRBU1-2FqnoTwzpopHgbl4KNtADzGaZInv7XUdSm1BlGPFgfjJfX-2B32VnX-2FvXfHrhrH6l=
+MxBQhPvsw93urYT-2B8DSDfIPfw5sanxfOQHpZ-2F3MDq-2Bsloaus0Lri3M6Uv212P0CSXFDGF=
+89AufNhotTp0iNA075bH9vdcZjjnrko7OaUZolLDHVy-2FOHtsweUYj-2BzJP-2B2t5QF2JmSai=
+5Oflf4onrC2D4INkjp=
+
+--ced2248c2ebf68201e6bce72c704524d460f794684a340027896397e60a0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+Mime-Version: 1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0" />
+<style type=3D"text/css">
+
+..ExternalClass * {line-height: 100%;}
+
+@media screen and (max-width: 480px) {
+  .desktopSection110 {display: none !important;}
+  .logo {width: 305px !important; height: 37px !important;}
+  .hero {width: 305px !important; height: 163px !important;}
+  .pod {width: 305px !important; height: 143px !important;}
+  .social1 {width: 44px !important; height: 44px !important;}
+  .social2 {width: 1px !important; height: 44px !important;}
+  .social3 {width: 52px !important; height: 44px !important;}
+  .social4 {width: 17px !important; height: 17px !important;}
+  .grayline {width: 305px !important; height: 1px !important;}
+  .colorbar {width: 305px !important; height: 5px !important;}
+  .loginbutton {width: 305px !important; height: 38px !important;}
+  .seemoreadvicebutton {width: 305px !important; height: 45px !important;}
+  .budgetchart {width: 305px !important; height: 15px !important;}
+  .check {width: 305px !important; height: 86px !important;}
+  .engagement {width: 305px !important; height: 76px !important;}
+  .icon {width: 305px !important; height: 45px !important;}
+  .mobilescreens {width: 305px !important; height: 165px !important;}
+  .mobilescreens2 {width: 305px !important; height: 91px !important;}
+  .summaryblock {width: 15px !important; height: 14px !important;}
+  .summarywheel {width: 185px !important; height: 240px !important;}
+  .summarywheel_nullcase {width: 186px !important; height: 187px !important=
+;}
+	.acorns {width: 305px !important; height: 27px !important;}
+	.cta {width: 305px !important; height: 60px !important;}
+	.sponsored {width: 305px !important; height: 25px !important;}
+	.icons {width: 305px !important; height: 40px !important;}
+	.icond7 {width: 305px !important; height: 399px !important;}
+	.icond3 {width: 305px !important; height: 30px !important;}
+	.stash {width: 305px !important; height: 32px !important;}
+
+    .goal {width: 84px !important; height: 84px !important;}
+
+    .mar24_compare_button {width: 280px !important; height: 38px !important=
+;}
+    .mar24_categorize_button {width: 174px !important; height: 38px !import=
+ant;}
+    .mar24_fix_button {width: 149px !important; height: 38px !important;}
+    .mar24_icon1 {width: 27px !important; height: 27px !important;}
+    .mar24_icon2 {width: 29px !important; height: 29px !important;}
+    .mar24_see_all_budgets_button {width: 174px !important; height: 38px !i=
+mportant;}
+    .mar24_see_your_accounts_button {width: 204px !important; height: 38px =
+!important;}
+    .apr04_add_accounts_button {width: 156px !important; height: 38px !impo=
+rtant;}
+    .apr04_add_some_budgets_button {width: 197px !important; height: 38px !=
+important;}
+    .shopper {width: 305px !important; height: 260px !important;}
+    .line {width: 305px !important; height: 12px !important;}
+	.line1P {width: 305px !important; height: 1px !important;}
+    .social {width: 28px !important; height: 28px !important;}
+	.animated {width: 305px !important; height: 60px !important;}
+
+
+    table[class=3Demailwrapto100pct], img[class=3Demailwrapto100pct]
+  {
+    display:block !important;
+    width:100% !important;
+  }
+
+    table[class=3Demailwrapto100pct_weeklysummary], img[class=3Demailwrapto=
+100pct_weeklysummary]
+    {
+        display:block !important;
+        width:100% !important;
+    }
+
+  .mobile_again {
+    display : block !important;
+    width : auto !important;
+    visibility:inherit !important;
+  }
+}
+
+
+@media not screen and (max-width: 480px) {
+  img.emailMobileHide {width:1px; height:1px;}
+  span.emailMobileHide {color:#ffffff;}
+}
+
+..emailwrapto100pct {width:0; overflow:hidden;float:left; display: none;}
+..emailwrapto100pct_weeklysummary {width:0; overflow:hidden;float:none; disp=
+lay: none;}
+..ios-phone a {color: #333333 !important; text-decoration: none;}
+..ios-addr a {color: #999999 !important; text-decoration: none;}
+@media yahoo {
+    .desktopSection110 {display: inline !important;}
+}
+</style>
+<!-- start padding for iOS -->
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                  <!-- end padding for iOS =
+-->
+</head>
+<body style=3D"padding:0; margin:0;-webkit-text-size-adjust:none;-ms-text-s=
+ize-adjust:100%; background-color:#ffffff;" bgcolor=3D"#ffffff">
+<!-- START DESKTOP -->
+<!-- DEBUG DESKTOP_BODY_START -->
+<table class=3D"desktopSection110" width=3D"600" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" align=3D"center" bgcolor=3D"#ffffff">
+  <!-- Header --><tr>
+    <td style=3D"line-height:10px;"><!-- DEBUG SPACER_START --><img style=
+=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/spacer.gi=
+f" width=3D"1" height=3D"10" alt=3D"" border=3D"0" /><!-- DEBUG SPACER_END =
+--></td>
+  </tr>
+  <tr>
+    <td align=3D"center"><!-- DEBUG DESKTOP_CONTENT_START --><a name=3D"Log=
+o" href=3D"https://links.mint.com/wf/click?upn=3D5Utd7G-2B5xhsaQZ2v9X3zj4kG=
+92NxuJnZaw5WyOXRLTphzuNG1gCRYJY2RJzA0pdvngM0R2eWxcejuG51LwGfHxx3KSUGb4zxBl-=
+2B4i256ev4g-2FBIZUHzS4m46nW-2B9C154xn2VfA2zgWA5QJ7pUD9Cyj1JgjYG1xPqOyvDtg5-=
+2B5Su9DzoWcC8vTiSKUQDpQ3IoH-2FvKt4OgV-2FU9SfTJKmqeJrxUHFIXTwJ06pvLAKCVNzhsh=
+lVUFp-2FkW6nHxwfP0lWLtWElV9rLfC15-2FulPMI-2BeiQ-3D-3D_G0-2BAnoQl4dMAXyDaoYk=
+oUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2FbrYEbEbyF9XVPwX6En=
+VJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2BENYnBKIeDICFo2F=
+LzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJyNVwR-2B8PYCNIbPStEtfq0oXebQ5ui7zkeK8A9N=
+0M49rZGIyBzOjA3w0F67EcvTcrNl0JRnF4CfeXFcJ6DCQPgQjxWGpKUxU3Eahxlq6dvCcl1K1i0=
+GyvHjpZe-2Fkw5Z1pp0R1b-2FjvjsfCbzYNEDKFeKZ7c5TX-2FtRQaGSs1L2QJxL61duN20-2FZ=
+ZHMmgQG0cDgpMYkGTyqxJuptVzCmXKQlbiODDu62jc5v93wvGyppjny-2BZ3lnz0ka3tXAdcYor=
+ud-2B" target=3D"_blank"><img style=3D"display:block;" src=3D"https://www.m=
+int.com/ei/2014.evergreen/mint_logo.jpg" width=3D"305" height=3D"37" alt=3D=
+"Mint" border=3D"0" /></a></td>
+  </tr><!-- End Header -->
+			<tr>
+		<td valign=3D"top" align=3D"center">
+		<span style=3D"font-size:20px; line-height:22px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#000000;">&nbsp;</span>
+	<span style=3D"font-size:28px; line-height:32px; font-family:Avenir, Arial=
+, Helvetica, sans-serif; color:#000000;">
+		<br />&nbsp;		<br />
+		<b><!-- Headline -->See our favorite offers for you<!-- End Headline --><=
+/b>
+	</span>
+			<span style=3D"font-size:8px; line-height:10px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#999999;"><br />&nbsp;</span>
+		<span style=3D"font-size:8px; line-height:10px; font-family:Avenir, Arial=
+, Helvetica, sans-serif; color:#999999;"><br />&nbsp;</span>
+			</td>
+	</tr>
+=09=09
+		<tr>
+		<td valign=3D"top" align=3D"center">
+					<img src=3D"https://images.mint.com/i/advice/large/suggestedOffersFrie=
+nds_480x320.png" alt=3D"Graphical advice image"/>
+					</td>
+	</tr>
+
+		<tr>
+		<td valign=3D"top" align=3D"center">
+				<span style=3D"font-size:14px; line-height:20px; font-family:Avenir, Ar=
+ial, Helvetica, sans-serif; color:#999999;"><br/>
+		We keep an eye on the market, as well as your situation and goals, to mat=
+ch you with things you might otherwise miss. Check out the offers we=E2=80=
+=99ve found for you.</span>
+		<span style=3D"font-size:8px; line-height:10px; font-family:Avenir, Arial=
+, Helvetica, sans-serif; color:#999999;"><br />&nbsp;</span>
+
+			</td>
+	</tr>
+
+		<tr>
+		<td valign=3D"top" align=3D"center">
+					<a href=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2Z=
+CSSFyeQ6DkybDqx9o-2BH2Yt7xuhZlRc-2BH-2FsAlA9CFPqo0TADtOnVP-2BJSoRyvleuHAxIA=
+2VdnqMbrWUfn9muwXhAOhZ58RKEWltDYMe-2FUg3jpBLmZTqHE2ahulz-2FIS-2B1k6kFHthYVy=
+jBeMXPepD7Fc1CjnazPL6H2M-2FUc8AwnvwSvjuwxvthcr-2FxT8pUOXaR5uoPTsU34mkY0kIgn=
+PrV-2BXkf4aMbrQ2WZ3dON-2FcSe7rwhLe1OwOFtMa-2BUaxCNcGhQC-2B7GevocBPe6wY4CDbs=
+r25bsuw92VXyz5-2BfeDJ4eBsd1nyuiLWt8R9zzCNQOkN-2FPpaLYNNadjdO12Wo-2F4Slxhj4e=
+O8lxHFLPRWcE8TTtwY8dr6z0VuMBHNyu0z1px-2BO6LC8p0O-2B3NokBb9wevqkCwq5Wo-3D_G0=
+-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2=
+FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6=
+h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJSfu5mvuqerx-2F8UvmYkU=
+SYCnurcvM-2F5H40ZiELNIB4XMKtStVuP1Q1US1DCLc1yfs5KhaOze-2BBKAAIINlXiNAAWfXQx=
+J7LU0QOY-2BEQl4dWdboCgLTYIDRFgzfYS5XJuSzWMzzYU1GiTCtW4lUTqMNal4Xh76-2Fmj3Cd=
+iWlqkCQa-2FcmjH-2BLn8jZZ8EsnqqMkjycPr06wcxOCztJPTwg-2BDPJTX0F3sDLEdWbC5e-2F=
+kUesV2Dlbfc8dbVYZZ9WTmJYQcCN" style=3D"background: #FCAA44; color: white; t=
+ext-decoration: none; font-family: 'HelveticaNeue', Helvetica, Arial, sans-=
+serif; font-weight: bold; padding: 7px 23px; font-size: 14px; display: inli=
+ne-block;">
+		<span>Check Them Out ></span>
+	</a>
+
+			</td>
+	</tr>
+
+
+				<tr>
+		<td valign=3D"top" align=3D"center">
+			<br/>
+				<span style=3D"font-size:9px; line-height:12px; font-family:Avenir, Ari=
+al, Helvetica, sans-serif; color:#999999;">
+			<br />
+				</td>
+	</tr>
+=09
+
+
+
+		<tr>
+		<td valign=3D"top" align=3D"center"><span style=3D"font-size:36px; line-h=
+eight:38px; font-family:Avenir, Arial, Helvetica, sans-serif; color:#000000=
+;">&nbsp;</span></td>
+	</tr>
+	<tr>
+		<td align=3D"center" style=3D"line-height:1px;"><img style=3D"display:blo=
+ck;" src=3D"https://www.mint.com/ei/2014.evergreen/580_gray_line.gif" width=
+=3D"580" height=3D"1" alt=3D"" border=3D"0" /></td>
+	</tr>
+
+<tr>
+	<td valign=3D"top" align=3D"center">	<span style=3D"font-size:26px; line-h=
+eight:28px; font-family:Avenir, Arial, Helvetica, sans-serif; color:#000000=
+;">&nbsp;</span>
+</td>
+
+</tr>
+<tr>
+	<td valign=3D"top" align=3D"center"><table width=3D"142" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">
+		<tr>
+			<td valign=3D"top"><a name=3D"Facebook" href=3D"https://links.mint.com/w=
+f/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSd0GgwW-2FQVid9og9fLqeWVhRmQE67tV1auY-2=
+B8P4IzJ1s_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXX=
+NDupQ5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2Fuu=
+nLaw7qYV5Di6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJIkmA-2FlJ=
+DYtljpTaQy5vXEK4RJmfygU7ci2BKfN52w29K2zewRl3dlxTFIGmZYj7fMXJS2jGKsX-2FOxeUP=
+-2Bwf7VYvDrTjdlNYrKn6VmaXUxOjodGhGPYKIgvZwdWxiuIUb5geF7flLgDA8aZWavY47bKUhY=
+jQP2vnIx1dwJZymmQLktNrjVLhTYFQX3a4uV9qsQb37fdBuCGz3dsRqfR5Qq0-2BKVwFz3GAOuz=
+KHhRioR7OOFtWwhWp0kWApL2K6qOkK" target=3D"_blank"><img style=3D"display:blo=
+ck;" src=3D"https://www.mint.com/ei/2014.evergreen/facebook.gif" alt=3D"Fac=
+ebook" width=3D"44" height=3D"44" border=3D"0" /></a></td>
+			<td valign=3D"top"><a name=3D"Twitter" href=3D"https://links.mint.com/wf=
+/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSa9LRP2cRNBa0dCMMqmAvDY-3D_G0-2BAnoQl4dM=
+AXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2FbrYEbEbyF9=
+XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2BENYnBKI=
+eDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJUSoiKOt5GUO2IHASzgoag1XVAkeCBelF=
+3XWgcVAl4PLnr0sqZHMUW2hfYBn96e9w73e18NZscd9ylwVqu3cGqD0DdVMzYD1pIvVTtXkSqaV=
+tBdBznhdX4CefeVKv4pKiETTSJtrz5EjVsoMZhKPuofuCCSlB-2FG9IEROD5Jdh9AZ2XtoQGRQG=
+dFHrShTHZVegkl07YiYWax6IaJxu-2BOc4ksUkLxIRFmMDRU-2BvA-2FRWzyHKdhXC8QS6gBLbH=
+bqruYHk" target=3D"_blank"><img style=3D"display:block;" src=3D"https://www=
+..mint.com/ei/2014.evergreen/twitter.gif" alt=3D"Twitter" width=3D"52" heigh=
+t=3D"44" border=3D"0" /></a></td>
+            <td valign=3D"top"><a name=3D"Instagram" href=3D"https://links.=
+mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSSBOl7BseaKUkqZfge3RFmiziQKHl=
+FkDeV7sBZ1t4HYS_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJO=
+CpXaXXNDupQ5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPS=
+c-2FuunLaw7qYV5Di6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJxy4=
+Px6NpEDGbN2j9SWqOPWQTo680EhY3tUD4bh-2FKZUyUWTROBhv-2FXxp5H3j2SobhU00wbtqaZ6=
+-2BsreTQ0wM7QA2xsz6eeh05f4NlJCgK809sWB4b59nZ9MSA0Phcqd-2FS8pF9ybS8S7i3-2F4j=
+6Z-2BUoU-2FmzSv6fuNoL9HxTnDJ1RvAl7ILn3st8OsRuNfmG4S-2FIeDy0mDxswd0gBEUs4GjJ=
+ECiuAsy9-2BSukM-2FPx8XkypW1UJII5r-2Fl66O0XWtvyrhdd" target=3D"_blank"><img =
+style=3D"display:block;" src=3D"https://images.mint.com/i/email/common/soci=
+al_white_insta_2x.gif" alt=3D"Instagram" width=3D"52" height=3D"44" border=
+=3D"0" /></a></td>
+			<td valign=3D"top"><a name=3D"RSS" href=3D"https://links.mint.com/wf/cli=
+ck?upn=3D5Utd7G-2B5xhsaQZ2v9X3zj-2Bh2PKvS7D-2B5pyn8kSVJyQS9AneC9NqXgjGVWt4c=
+trLT_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ=
+5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7=
+qYV5Di6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJDi9aZf-2FBJ2P0=
+DWt745vDCHQJUqaGeLGBCQlLLCIrFNjCxXFfKOrhUS1xxgoC8I2nw7zPnw-2B2MhstQlPG3Kj4U=
+-2Bb9Uw4AbQyV7TLRb-2B-2B-2B5oVM-2FwDmovka4EngK1CHE892iDO1ndau1H75haDoZjmvNF=
+uFH9fHL3CLYkdhTJJsDOKBPeyPY0CsuuI-2FLJubVbg-2FCoGYc9ePYBRps8bGJ6NQNMXJpyeu7=
+cw4YcyrjZ6MyA8LY-2FIriUgzFKSIU080WkOs" target=3D"_blank"><img style=3D"disp=
+lay:block;" src=3D"https://www.mint.com/ei/2014.evergreen/rss.gif" alt=3D"R=
+SS" width=3D"44" height=3D"44" border=3D"0" /></a></td>
+					<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"ht=
+tps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"20" height=3D"1" =
+alt=3D"" border=3D"0" /></td>
+			<td valign=3D"middle"><a name=3D"Apple" href=3D"https://links.mint.com/w=
+f/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSQiRNKtlEXvwowsps10D0UoiQR7778UaTx-2FhL=
+XgXDqN-2BTY5BWE3JHVB-2B4RZXY10pzzzVCYbOy9uSUa7XOTMsNIhdE2sHXHbnihLEvpOKqeZt=
+xk2b8cUH2Tj3gDPRulauxzVDH6dmxN6g54sq0lbOVLaYMlslfOYMRq3zsTg6-2B4cm3mMbd6R-2=
+FCoAzzPImu3PiKggUz5d-2FiMyvNCqHBhy5MmWhJ3-2F68rAxef2rFnZVxLIl94eewaUN1mJjsv=
+tJpbNvHQ-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOC=
+pXaXXNDupQ5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc=
+-2FuunLaw7qYV5Di6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJdtNA=
+rke9wZRMH6NiUhV-2BpWSPQbBDVeoUQD-2Fg5wG68c3QEI-2BBf-2F6PJdvPukm0ohb6ztORsxu=
+EizN-2Bz39yqKvAHCFaWkS45cCWYqbqw-2Fyn3rmaUUS5jEHR037hS0TUiG-2BKNiGlYeI7Xhdp=
+fW5b6hXXJtJkkHQ-2BJoTq5lgkcpZsIGAyIDgKsM2z4C5rCveO0BNwdiMZ-2Fpf7fdz8sbtXKYm=
+HTgj13t2X77zsQYGkMd5SQCFVaCRbd85QaT-2BRo4ON2VDN" target=3D"_blank"><img sty=
+le=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/appstor=
+e.gif" alt=3D"Appstore" width=3D"" height=3D"" border=3D"0" /></a></td>
+					<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"ht=
+tps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"35" height=3D"1" =
+alt=3D"" border=3D"0" /></td>
+			<td valign=3D"middle"><a name=3D"Android" href=3D"https://links.mint.com=
+/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSb-2BAqMJ1OwWB6X3LsDkzm5sZ2jxzdAdSj4Y=
+GLEthhw3RN0AAW31LOCTawG9sLv-2FUHUNcmF0i9kO8-2FFTxz9ygyLQ3Nayseql7aMU96EY9oK=
+NU949MH3KsSs1-2FmPu18371QlK87-2BHriETnNjgAklwn1tM3DvUi1EI0ubk0yc4w-2BUvJstf=
+tGVRJoSh1hyOMjoHAvr7itbj6dtOyNWt1oUwlpv1VUtVUk4hkHk6y4zH-2FNkzI_G0-2BAnoQl4=
+dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2FbrYEbEby=
+F9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2BENYnB=
+KIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJ66vUjtrYb2GI-2BptE2lNdgaxV8-2B=
+G24vVMwHMJyTLLqmIeewUeHn88YEp2AfVOzd70lIV91L5z-2FAOfbLrfndC4u4LR4tLRSvpHlhB=
+bBtY9myBSyR2iigulF6YQ1aKFdWvccylGEMtwIOW0KV7hVOJ3Xo-2F9jbiebqBeoNkocDXRlZmA=
+BqvIxyQnV7-2BMsi5nDbTOAThKRMeapXGs9Z1T19zpu-2BoHuRU56jBT5iskExsfF00EgUDsl4e=
+jLhBm2EpSdZrh" target=3D"_blank"><img style=3D"display:block;" src=3D"https=
+://www.mint.com/ei/2014.evergreen/android.gif" alt=3D"Android" width=3D"" h=
+eight=3D"" border=3D"0" /></a></td>
+					<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"ht=
+tps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"35" height=3D"1" =
+alt=3D"" border=3D"0" /></td>
+		</tr>
+	</table></td>
+</tr>
+<tr>
+	<td><img style=3D"display:block;" src=3D"https://www.mint.com/ei/2014.ever=
+green/spacer.gif" width=3D"1" height=3D"20" alt=3D"" border=3D"0" /></td>
+</tr>
+<tr>
+	<td valign=3D"top" align=3D"center"><span style=3D"font-size:11px; line-he=
+ight:16px; font-family:Avenir, Arial, Helvetica, sans-serif; color:#999999;=
+">This message was sent to alan@itrva.com<br />
+If you would like to update your email address, please&nbsp;<a name=3D"Mana=
+geAccount" href=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPe=
+A2ZCSY5tTOzVn5ugVXsY6DX0I8h9ayYdFSPEKUxj2QS1oNCfVEHNTl2eWjZ1BT-2FMSapsQggUV=
+tMM0S9gmqIU0Gci9uvubNEjIOBYzH-2FxUUbADVvc5ZKfmftAonxYe6cGBXW3pRmlDnLo3OHGH1=
+FxijOWxF0B2I8TIFCSc6j45c226-2BFqhYZ8nolCNcrAgcwTOhLpcYaxEtIoCUInUJjWj4yHZMP=
+9e9vTmSoGf9jEULVLlM3pMgW-2FbxNfING4u3KVoD6wA0DOcInWlh0dl5BLhSR8tZKtCBDTQ6Os=
+QD4du0rAPdcXmhRlAZK-2BZBnK0syl8-2FZ-2F-2BaREJXT9u7hbI6ErngWRBOA-3D_G0-2BAno=
+Ql4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2FbrYEb=
+EbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2BEN=
+YnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJ5sTVEpSqxfQ5DdJnZkyUo6yF8up=
+tuf-2FQB7u6CabijfW3yfY86pbB3-2B7G-2FAPo4PIMMcwjqZm16PZ-2BV1CzKrS4S64e6mh6DJ=
+mGmu36eteazTFY1YzzGRxO0UcgkOMmjR6UzABGEnt7JNuTAuhIJIJVgNnKNwoDyQ6nfFPKB1qdu=
+KNwsR6-2BAYwZnGzPIUDiXTy7xIK-2BajquRLlJ-2FCxbc17sodJczarXklQgqI3FmYDuUSgL5B=
+pBDvarULr1uzQY3sch" target=3D"_blank" style=3D"color:#999999;">click&nbsp;h=
+ere</a>.<br /><br/>
+
+	To unsubscribe from emails, please <a name=3D"Alert_Preferences" href=3D"h=
+ttps://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSY5tTOzVn5ugVXsY=
+6DX0I8h9ayYdFSPEKUxj2QS1oNCfVEHNTl2eWjZ1BT-2FMSapsQggUVtMM0S9gmqIU0Gci9uvug=
+3zs5lwWFujMLJ6YaKP-2BuOqLutd019e-2Fobb9t-2BGCOHuOxFfqpd8I4rPcloq8bfj7MZO8AW=
+6hEdrJVTq09PKGE0s7B287UdgRU179fLPQFwJj-2B8VAXKoxPSaBOOSaTZha6OG3r-2FzmroeeE=
+X4NJ444DOqbMM1Fb2uUwoXMQZPGd2mW4rA07EXSSmcganScahhzRnDAhTVIrIfC7kO-2Fy-2B-2=
+BDfULlyjLFVeSGpWiy3FQxBCh-2BtFolZohXxMSj2eL7oM46ZgT531VtbIwb-2BRrfptE3_G0-2=
+BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2Fb=
+rYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-=
+2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJw0V9oZ3ONBMNkJqfOOIWToW=
+C17nn5hGUQUUgEW7K9rgTGTPsVFCH9CG1bB-2BCOMguNEqTCqKpXODXnF-2FtL4XHAfyLFzu9Ch=
+FfKjZ-2B-2FWXcgmzimh-2FMW-2F5frpWHr9Al5aNORKmjghafc2pSmFAAzbjFTIt3HnXETg8ZO=
+wz7StGiwo42NT3Tn4Ur-2FsXfHMm8n8j0Fu21QFat9B79MIPqQDknSB7GHvq8qEj-2Bd376oRs7=
+MUUIj4nmKSUvKoJuAHz-2BzbdB" target=3D"_blank" style=3D"color:#999999;">log =
+in</a> to your Mint account <br/> where you can manage your email and mobil=
+e alerts setting.
+
+
+<br />&nbsp;<br />
+&copy;2007&mdash;2017 Mint Software, Inc. | All Rights&nbsp;Reserved.<br />
+Mint.com 2632 Marine Way, Mountain View, CA&nbsp;94043<br />
+<a name=3D"Privacy" href=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7B=
+EaU-2FKPeA2ZCSYZ-2FHNK1NfVWFeRJuiNEeGu6U7gTr0Y5LEJwiFZcLBjX_G0-2BAnoQl4dMAX=
+yDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2FbrYEbEbyF9XV=
+PwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2BENYnBKIeD=
+ICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJHsZ4FPUeaXJQz0dg4n81DaW6LmLeVxlsLB=
+8YberwCD6eA8dd-2F7oK4aenwo6LMkO1FlNwFq8zctGDOJAEpPVUJ24OmvD94ELfsQ2apfwefko=
+aM4-2B2LgNvXn-2BbEYanhzmfAWQwmyJhM0rafPO46fDJMzksiuP9BbBqTDaPDwHhrIVZEVMNN6=
+vPDAxpN0Qz4unavTjdn8hM7jFrgEBM630ZEmXVL-2FPZTPD4jJ3YDbW-2Bc7yGJfijkRpDskGPf=
+mF9E-2FhO" target=3D"_blank" style=3D"color:#999999;">Privacy Policy</a> | =
+<a name=3D"Terms" href=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7BEa=
+U-2FKPeA2ZCSdkKA9EoKU51q8-2F3-2BjKHOiqH6ww2HJwXHES0x2bew1qC_G0-2BAnoQl4dMAX=
+yDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2FbrYEbEbyF9XV=
+PwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2BENYnBKIeD=
+ICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJaQM2QufHOrVtVzNCcHI4qWk-2FMODsrJS0=
+UVEhHFNqWdZ6Cd4MXnNFIBtKPoAGY-2B6hfq8AsqZEJBIpXm8Ip0ywI1jpZ7bdRIh5TPcm21nxc=
+sICg5b-2BkyqfrFpmyg2TGUrlXFJgmdRTth30GvG8Va0HgazoCDuSHeM-2BQ7C-2FNRVyN97sY5=
+1B3WnCRwzRMDD2-2FcZGEgvjgJOVk02GTUWxbWET-2BhwziHFmNjsvaYJthwXag-2FKuVXqLOyq=
+I3ubXoakc-2BK4o" target=3D"_blank" style=3D"color:#999999;">Terms and&nbsp;=
+Conditions</a></span></td>
+  </tr>
+</table>
+<!-- END DESKTOP -->
+<!-- START MOBILE -->
+<!--[if !gte mso 9]><!-->
+<div style=3D"mso-hide:all">
+<div class=3D"mobile_again" style=3D"width:0; overflow:hidden; display:none=
+; visibility:hidden;">
+<table width=3D"305" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" bgcolor=3D"#FFFFFF">
+	<tr>
+		<td valign=3D"top" style=3D"padding-top:10px;"><a name=3D"Logo_Mobile" hr=
+ef=3D"https://links.mint.com/wf/click?upn=3D5Utd7G-2B5xhsaQZ2v9X3zj4kG92Nxu=
+JnZaw5WyOXRLTphzuNG1gCRYJY2RJzA0pdvngM0R2eWxcejuG51LwGfHxx3KSUGb4zxBl-2B4i2=
+56ev4g-2FBIZUHzS4m46nW-2B9C154xn2VfA2zgWA5QJ7pUD9Cyj1JgjYG1xPqOyvDtg5-2B5Su=
+9DzoWcC8vTiSKUQDpQ3IoH-2FvKt4OgV-2FU9SfTJKmqeJrxUHFIXTwJ06pvLAKCVNzhshlVUFp=
+-2FkW6nHxwfP0lWLtWElV9rLfC15-2FulPMI-2BeiQ-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66=
+UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC=
+-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2BENYnBKIeDICFo2FLzXo2=
+AaswLGU2n3bXoCGjXPD1KKs1qrW4uJOgBqVB8EFuTyMYNJbSgYfHFolVNN5Vkbhsazv3ZWl0ZQW=
+pveea3i4TjG6WHADQI3DpdeHiGZYGDiQcOCD-2B6NSZDNhy9RugsepuJmgC-2FZMOVT86cbEt7E=
+C1VI3iRnhlNIYCKhrEZAxRDSqRgIKr8fRy-2FZoaFzw0MwO99gOd4ADfPRJ2BARMDkkUZ72EWjg=
+WWOn51jT8IWDf4R8ouhuqo5Y-2FI-2FC4OPUnPljmCMYYOUx1KK3fH3z28A47grEALto6Xm" ta=
+rget=3D"_blank"><img style=3D"display:block;" src=3D"https://www.mint.com/e=
+i/2014.evergreen/mint_logo.jpg" alt=3D"Mint" width=3D"305" height=3D"37" cl=
+ass=3D"emailwrapto100pct logo" border=3D"0" /></a></td>
+	</tr>
+
+			<tr>
+		<td valign=3D"top" align=3D"center" style=3D"padding-left:5px; padding-ri=
+ght:5px; padding-top:30px; padding-bottom:10px;">
+		<span style=3D"font-size:18px; line-height:24px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#000000;"><b><!-- Mobile headline -->See ou=
+r favorite offers for you<!-- End Mobile headline --></b></span>
+					</td>
+	</tr>
+				<tr>
+		<td valign=3D"top" align=3D"center" style=3D"padding-left:10px; padding-r=
+ight:10px; padding-top:0px; padding-bottom:10px;">
+					<img src=3D"https://images.mint.com/i/advice/large/suggestedOffersFrie=
+nds_480x320.png" alt=3D"Graphical advice image"/>
+					</td>
+	</tr>
+
+		<tr>
+		<td valign=3D"top" align=3D"center" style=3D"padding-left:10px; padding-r=
+ight:10px; padding-top:0px; padding-bottom:10px;">
+				<span style=3D"font-size:14px; line-height:20px; font-family:Avenir, Ar=
+ial, Helvetica, sans-serif; color:#999999;"><br/>
+		We keep an eye on the market, as well as your situation and goals, to mat=
+ch you with things you might otherwise miss. Check out the offers we=E2=80=
+=99ve found for you.</span>
+		<span style=3D"font-size:8px; line-height:10px; font-family:Avenir, Arial=
+, Helvetica, sans-serif; color:#999999;"><br />&nbsp;</span>
+
+			</td>
+	</tr>
+
+		<tr>
+		<td valign=3D"top" align=3D"center" style=3D"padding-left:10px; padding-r=
+ight:10px; padding-top:0px; padding-bottom:10px;">
+					<a href=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2Z=
+CSSFyeQ6DkybDqx9o-2BH2Yt7xuhZlRc-2BH-2FsAlA9CFPqo0TADtOnVP-2BJSoRyvleuHAxIA=
+2VdnqMbrWUfn9muwXhAOhZ58RKEWltDYMe-2FUg3jpBLmZTqHE2ahulz-2FIS-2B1k6kFHthYVy=
+jBeMXPepD7Fc1CjnazPL6H2M-2FUc8AwnvwSvjuwxvthcr-2FxT8pUOXaR5uoPTsU34mkY0kIgn=
+PrV-2BXkf4aMbrQ2WZ3dON-2FcSe7rwhLe1OwOFtMa-2BUaxCNcGhQC-2B7GevocBPe6wY4CDbs=
+r25bsuw92VXyz5-2BfeDJ4eBsd1nyuiLWt8R9zzCNQOkN-2FPpaLYNNadjdO12Wo-2F4Slxhj4e=
+O8lxHFLPRWcE8TTtwY8dr6z0VuMBHNyu0z1px-2BO6LC8p0O-2B3NokBb9wevqkCwq5Wo-3D_G0=
+-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2=
+FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6=
+h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJRyp2Ekf-2B-2FTDOZt20m=
+1Hx4s5ifTfDrfX7eW9OFR7JhBj8EHc5oQJvARcMum6PB48pYXKFUYHZxuUrw0zhnaDAKZXtnfxX=
+yhzLsI20iusjsGsZkVV90gXq5NtHpACulWtUWcOAmmNl0WaE2a0i-2FRh2G80VrqV5gVE7O0ZLn=
+L3SVcykWT-2FNNM3AkNowh43w97xdPkNp9rYsJrdhifTIAjABrz1WlQnkBgEJ1GO-2BoM5rXgma=
+7OrAMnIsjjnXgSaXrpBw" style=3D"background: #FCAA44; color: white; text-deco=
+ration: none; font-family: 'HelveticaNeue', Helvetica, Arial, sans-serif; f=
+ont-weight: bold; padding: 7px 23px; font-size: 14px; display: inline-block=
+;">
+		<span>Check Them Out ></span>
+	</a>
+
+			</td>
+	</tr>
+
+				<tr>
+		<td valign=3D"top" align=3D"center" style=3D"padding-left:10px; padding-r=
+ight:10px; padding-top:0px; padding-bottom:10px;">
+		<br/>
+			<span style=3D"font-size:9px; line-height:12px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#999999;">
+		<br />
+				</td>
+	</tr>
+=09
+
+
+
+	<tr>
+				<td valign=3D"top" align=3D"center" style=3D"line-height:1px; padding-l=
+eft:0px; padding-right:0px; padding-top:20px; padding-bottom:20px;"><img st=
+yle=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/305_gr=
+ay_line.gif" width=3D"305" height=3D"1" alt=3D"" class=3D"emailwrapto100pct=
+ grayline" border=3D"0" /></td>
+	</tr>
+
+
+	<tr>
+		<td align=3D"center">
+			<table width=3D"50%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+			<tr>
+				<td valign=3D"top"><a name=3D"Facebook_Mobile" href=3D"https://links.mi=
+nt.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSd0GgwW-2FQVid9og9fLqeWVhRmQE67=
+tV1auY-2B8P4IzJ1s_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcF=
+JOCpXaXXNDupQ5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2B=
+PSc-2FuunLaw7qYV5Di6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJa=
+hdq9aibicuFy6ijBvUA7B-2Bk5P18sx5KS2qsRzzSOvYbH-2BpgMjUfD28ZL36nbkhQSpVxK8w7=
+OgaOZ1ldOsdAPCTARVSwvG6x07Ea5eMQ-2BL8orxHeFP8D0QgRiedLfTKiraMpsEBo-2B-2Fs6Z=
+p2sQv32RC8EgEJne-2FbGIRC-2Fha2EqAt-2F90neHaFaGHi-2Bo4ScWmZeiC1Vw8k5bwAHAXGb=
+sc7fshAp-2BExqBjWg8wlU0S6w2zG5KDjv70nVeJIUZA-2BbU-2BZT" target=3D"_blank"><=
+img style=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/=
+facebook.gif" alt=3D"Facebook" width=3D"44" height=3D"44" class=3D"emailwra=
+pto100pct social1" border=3D"0" /></a></td>
+				<td valign=3D"top"><a name=3D"Twitter_Mobile" href=3D"https://links.min=
+t.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSa9LRP2cRNBa0dCMMqmAvDY-3D_G0-2B=
+AnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2Fbr=
+YEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2=
+BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJdpHuqz9H-2BCy6FUffQHmi2p=
+qjqscCxrdHfwLzHKxss-2FXofT6vX1W171FeGvX6l34-2FYKiljMGNTT-2BJO76xIjhfFbnduJ7=
+xe2rF5px4-2BnQpllwx7oDTFbia1cU0N4CBIZjFW0zQEKA7TwTKOGtWyYHnQ92y9JNzo-2F1aWU=
+aUGiOmM7soQuas77JfkwZJcmDGzAilLJtu5Beg2IYdTpaQ9CZmdOp0qi7bDsBk-2BC-2Ba0KCTo=
+8HuyDFi2564U0bvGTVXyoUs" target=3D"_blank"><img style=3D"display:block;" sr=
+c=3D"https://www.mint.com/ei/2014.evergreen/twitter.gif" alt=3D"Twitter" wi=
+dth=3D"52" height=3D"44" class=3D"emailwrapto100pct social3" border=3D"0" /=
+></a></td>
+                <td valign=3D"top"><a name=3D"Instagram" href=3D"https://li=
+nks.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSSBOl7BseaKUkqZfge3RFmizi=
+QKHlFkDeV7sBZ1t4HYS_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8A=
+cFJOCpXaXXNDupQ5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-=
+2BPSc-2FuunLaw7qYV5Di6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4u=
+J9wNHj-2FQqw2mcuKcK4VnxBapsaZINqTkrr6JTTFKhZYhtRHdm1reoBxLItYlHtZZWgWNbGoWF=
+2pTzptaUDBaJ0JJkGlzgi7VygeuUDtw9Nwi2k4oufuBwQyM8jKUkE-2BE0gtMc2jtP-2B23O22T=
+UP6s0A1GB9JiZaBbUV-2B9qqD2gIX7EuNjeVwgngPQVvr2eeWwEJdZGcLKk-2FJjee0lWcvUeHz=
+MbiXx4YQ-2B-2BD1me80cir1yUGkC75gUO7ZBrHdgc-2B6Df" target=3D"_blank"><img st=
+yle=3D"display:block;" src=3D"https://images.mint.com/i/email/common/social=
+_white_insta_2x.gif" alt=3D"Instagram" width=3D"52" height=3D"44" class=3D"=
+emailwrapto100pct social3" border=3D"0" /></a></td>
+				<td valign=3D"top"><a name=3D"RSS_Mobile" href=3D"https://links.mint.co=
+m/wf/click?upn=3D5Utd7G-2B5xhsaQZ2v9X3zj-2Bh2PKvS7D-2B5pyn8kSVJyQS9AneC9NqX=
+gjGVWt4ctrLT_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpX=
+aXXNDupQ5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2=
+FuunLaw7qYV5Di6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJthOorp=
+2bCChNBUXcj4cFEceq36MCLY5nAvyQoP9WNynBYOwbOq9W75dqGL8yOcevdhq-2BtPA8LrR4UVU=
+d3w7xjT3XkMrrsT87ftoWH3heI5-2BG9tGGFy6Mc-2FWdPgMRRi6N064kWtIKVuJ8DUEXlA2NMi=
+zE-2BIb0PeK-2FXbJXwnO0oTgeT8ixiv7dNtoR1BR0tlLXBk48mW6-2Fxmb-2BGiXV61xFeEwW-=
+2B14sS-2FetHJfAH7Iw1-2BoMaR-2Ftf6K4pUg2aE-2FbKatP" target=3D"_blank"><img s=
+tyle=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/rss.g=
+if" alt=3D"RSS" width=3D"44" height=3D"44" class=3D"emailwrapto100pct socia=
+l1" border=3D"0" /></a></td>
+						<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"h=
+ttps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"17" height=3D"1"=
+ alt=3D"" border=3D"0" /></td>
+				<td valign=3D"middle"><a name=3D"Apple_Mobile" href=3D"https://links.mi=
+nt.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSQiRNKtlEXvwowsps10D0UoiQR7778U=
+aTx-2FhLXgXDqN-2BTY5BWE3JHVB-2B4RZXY10pzzzVCYbOy9uSUa7XOTMsNIhdE2sHXHbnihLE=
+vpOKqeZtxk2b8cUH2Tj3gDPRulauxzVDH6dmxN6g54sq0lbOVLaYMlslfOYMRq3zsTg6-2B4cm3=
+mMbd6R-2FCoAzzPImu3PiKggUz5d-2FiMyvNCqHBhy5MmWhJ3-2F68rAxef2rFnZVxLIl94eewa=
+UN1mJjsvtJpbNvHQ-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2F=
+Z8AcFJOCpXaXXNDupQ5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FA=
+yU-2BPSc-2FuunLaw7qYV5Di6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qr=
+W4uJShsA7CkDBYRa0bkN-2FIdP7E7cJGaftuFgptL66ct64DNW4xJlTryZN5gGuyKTu-2F39y6E=
+h1B0BTphdGXdYdoXCWhEeIt5-2FNl6UmEBhaYBAR1H2ZB1i2Jbf-2FKPA2-2F8DXkVpe-2FDrx-=
+2FTmIrKeOoE2zfPcHT-2FoqhK2B4xZL-2BF0EdlScMg3MDEuGC8BtjR2aFUeiQFdAPi-2BO8VuF=
+Q9B5N-2Fygijq0t4e89WQhpLiQ-2FaR55XDMdzFIzOdwnQlYZFJEe2WBU1G" target=3D"_bla=
+nk"><img style=3D"display:block;" src=3D"https://www.mint.com/ei/2014.everg=
+reen/appstore.gif" alt=3D"Appstore" width=3D"" height=3D"" class=3D"emailwr=
+apto100pct social4" border=3D"0" /></a></td>
+						<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"h=
+ttps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"31" height=3D"1"=
+ alt=3D"" border=3D"0" /></td>
+				<td valign=3D"middle"><a name=3D"Android_Mobile" href=3D"https://links.=
+mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSb-2BAqMJ1OwWB6X3LsDkzm5sZ2jx=
+zdAdSj4YGLEthhw3RN0AAW31LOCTawG9sLv-2FUHUNcmF0i9kO8-2FFTxz9ygyLQ3Nayseql7aM=
+U96EY9oKNU949MH3KsSs1-2FmPu18371QlK87-2BHriETnNjgAklwn1tM3DvUi1EI0ubk0yc4w-=
+2BUvJstftGVRJoSh1hyOMjoHAvr7itbj6dtOyNWt1oUwlpv1VUtVUk4hkHk6y4zH-2FNkzI_G0-=
+2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2F=
+brYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h=
+-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJccTPV7eUc3WRJ9M3vBRX-2=
+BYI6uwhi5Ak3LuPZ6aV7T2IAIwXdmyEHKXQO98ODxJ1ZOyHrPOOTAabKz14x9CKUaGaBOjuhfgL=
+M4n-2BQ4krIj16IP89fOHwMQpSFugUr1-2B7-2Fkhnm6khK7OEu-2FfARdVM6I8neCtwVsyvOwW=
+pBYmHskC5Yet-2FkUelTQO4DcJk4CnnwzLwVuvjkRIzsMNY1mKLskUaRmFmYgvFLMmFIEYOCpOm=
+C4gLK58U9DWZaZf1Pt6dA" target=3D"_blank"><img style=3D"display:block;" src=
+=3D"https://www.mint.com/ei/2014.evergreen/android.gif" alt=3D"Android" wid=
+th=3D"" height=3D"" class=3D"emailwrapto100pct social4" border=3D"0" /></a>=
+</td>
+						<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"h=
+ttps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"31" height=3D"1"=
+ alt=3D"" border=3D"0" /></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign=3D"top" align=3D"center" style=3D"padding-left:14px; padding-r=
+ight:14px; padding-top:21px; padding-bottom:10px;"><span style=3D"font-size=
+:11px; line-height:16px; font-family:Avenir, Arial, Helvetica, sans-serif; =
+color:#999999;">This message was sent to alan@itrva.com<br />
+If you would like to update your email address, please&nbsp;<a name=3D"Mana=
+geAccount_Mobile" href=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7BEa=
+U-2FKPeA2ZCSY5tTOzVn5ugVXsY6DX0I8h9ayYdFSPEKUxj2QS1oNCfVEHNTl2eWjZ1BT-2FMSa=
+psQggUVtMM0S9gmqIU0Gci9uvubNEjIOBYzH-2FxUUbADVvc5ZKfmftAonxYe6cGBXW3pRmlDnL=
+o3OHGH1FxijOWxF0B2I8TIFCSc6j45c226-2BFqhYZ8nolCNcrAgcwTOhLpcYaxEtIoCUInUJjW=
+j4yHZMP9e9vTmSoGf9jEULVLlM3pMgW-2FbxNfING4u3KVoD6wA0DOcInWlh0dl5BLhSR8tZKtC=
+BDTQ6OsQD4du0rAPdcXmhRlAZK-2BZBnK0syl8-2FZ-2F-2BaREJXT9u7hbI6ErngWRBOA-3D_G=
+0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-=
+2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di=
+6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJXLUvxt1Qd0-2FN44-2F4=
+f534P6JQ-2BhU8MuFxR9WLWLVKeb57w5WpjQANXVQPo7KSNeUxZsDmdNuSGvYNCjfIoCnXIF7Vo=
+4uZMByFNtAm5e4LTtgxJSoV5oVzhil0VCeiFE5czFcwfbrQc1Pnb6vc5cng2G5QF5yVG1mfCQHt=
+j0Cwc4DELvoN75OhiCSG6UI9he8q9IRoS-2B-2FYIbckFGVoB-2FQ9WJPjcxlcwpXP24tLIz5M7=
+wUoNuMwcUt3bM3dTf4pBKAA" target=3D"_blank" style=3D"color:#999999;">click&n=
+bsp;here</a>.<br /><br/>
+
+	To unsubscribe from emails, please <a name=3D"Alert_Preferences_Mobile" hr=
+ef=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSY5tTOzVn=
+5ugVXsY6DX0I8h9ayYdFSPEKUxj2QS1oNCfVEHNTl2eWjZ1BT-2FMSapsQggUVtMM0S9gmqIU0G=
+ci9uvug3zs5lwWFujMLJ6YaKP-2BuOqLutd019e-2Fobb9t-2BGCOHuOxFfqpd8I4rPcloq8bfj=
+7MZO8AW6hEdrJVTq09PKGE0s7B287UdgRU179fLPQFwJj-2B8VAXKoxPSaBOOSaTZha6OG3r-2F=
+zmroeeEX4NJ444DOqbMM1Fb2uUwoXMQZPGd2mW4rA07EXSSmcganScahhzRnDAhTVIrIfC7kO-2=
+Fy-2B-2BDfULlyjLFVeSGpWiy3FQxBCh-2BtFolZohXxMSj2eL7oM46ZgT531VtbIwb-2BRrfpt=
+E3_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5a=
+A98-2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qY=
+V5Di6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJd2O2nwk-2F2oYCdm=
+vnA-2FBp068esjsnVcpXUON7BSBCq2ynYkj7XfW0BS4ILCr7DuBsI7EKq0DVUaKtxYKsxmQ626e=
+029vfWCFlmSvcvP7cyvw-2BPeYQgLsApZPYgHUcC0D9UmWEAT3Tl2f5STO2dbZxTzsXXryNBBC5=
+fsGxFmf9dGyLAdQLn3nA3yxRGqIBFEAJPbRQmszHgBkvOFu3rnbmn1eT2vM4ZzgCjauu2kHQd2X=
+CM4u9fnz-2BoKvu-2F2vVLpn8" target=3D"_blank" style=3D"color:#999999;">log i=
+n</a> to your Mint account where you can manage your email and mobile alert=
+s setting.
+
+
+<br />&nbsp;<br />
+&copy;2007&mdash;2017 Mint Software, Inc. | All Rights&nbsp;Reserved.<br />
+Mint.com 2632 Marine Way, Mountain View, CA&nbsp;94043<br />
+<a name=3D"Privacy_Mobile" href=3D"https://links.mint.com/wf/click?upn=3DFr=
+wdNJz7BEaU-2FKPeA2ZCSYZ-2FHNK1NfVWFeRJuiNEeGu6U7gTr0Y5LEJwiFZcLBjX_G0-2BAno=
+Ql4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2FbrYEb=
+EbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2BEN=
+YnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJU7hR8Upv5AD8BquKnK8RUbIWHRo=
+3tyy5qBJExrUBCwOr7PN46QdcnrmUcv-2FPjU-2F04Z39fJH8vbB6GXEIRVOaAktSwXbPJHdkF1=
+lqnkyZpRXv-2B45r7-2B-2F5fTLV0PHT-2FfPXCqO-2F9cvvub4V73xHrVU0hC4MkNAyuk4AZ9P=
+VRkzwyrSac16vvAOnYsChlJP2Lf68iq0ZnOOMWq97g-2F5PKmTqLB6W2o6-2FiHPk75sthuewrw=
+BNxJ2cB-2FdJ5qYvE1CtHJzS" target=3D"_blank" style=3D"color:#999999;">Privac=
+y Policy</a> | <a name=3D"Terms_Mobile" href=3D"https://links.mint.com/wf/c=
+lick?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSdkKA9EoKU51q8-2F3-2BjKHOiqH6ww2HJwXHES0x2=
+bew1qC_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDu=
+pQ5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLa=
+w7qYV5Di6h-2BENYnBKIeDICFo2FLzXo2AaswLGU2n3bXoCGjXPD1KKs1qrW4uJvhAXq632ZFCx=
+PEyMP84TttmHe9yhvTaqvXmlJnKtqcihVPfl4xZlNCvU62qicFuGUw-2BZ4qVShBDLabgtth05g=
+Hrf-2FMkLYAOtt4p-2B9tVEgMM4omMN5g-2BL5osW-2BDSMCjXZ0FtPDERcJgoZra1Y346i7P-2=
+BC3Qxs6RltvAuswWKG6HQB-2BPXQiw-2BUfAeBZpCHuxmF92dP3CBqrL5Kl6wfNNPyQ29qSO8eS=
+TkIryEDDWpXUC-2BGbbGp38IbqBgE5-2BvlKIz5" target=3D"_blank" style=3D"color:#=
+999999;">Terms and&nbsp;Conditions</a></span></td>
+	</tr>
+</table>
+</div>
+</div>
+<!--<![endif]-->
+<!-- END MOBILE -->
+
+
+<img src=3D"https://links.mint.com/wf/open?upn=3DG0-2BAnoQl4dMAXyDaoYkoUp66=
+UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDupQ5aA98-2FbrYEbEbyF9XVPwX6EnVJKqC=
+-2FyMWB4IpvBTgfNaC6mXXW7FAyU-2BPSc-2FuunLaw7qYV5Di6h-2BENYnBKIeDICFo2FLzXo2=
+AaswLGU2n3bXoCGjXPD1KKs1qrW4uJz88xaw3IYat45POMG2XJD2Jt7Xopd-2FBDWVXmgWm-2FO=
+uTDRtAiqBQxnhPDsxB6McrNU9DUvSKOsESlXq2zEW3lErgq71LR2O3O8k2VIyYKBkMHfhG0uKb-=
+2FrXR9dANC9SztzeGY6zjJCgggFLC5pBc7ErFQ6hhIvoyhgkqyXKemyOylM-2FmIHavA47BU4iQ=
+Eyy0Iy9x0cgK5ridTEd6KvIksQDSuCtJJmVq0kdnGXFvq0JUE9hFCoc4spsoT68zUDB98" alt=
+=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;=
+width:1px !important;border-width:0 !important;margin-top:0 !important;marg=
+in-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;p=
+adding-top:0 !important;padding-bottom:0 !important;padding-right:0 !import=
+ant;padding-left:0 !important;"/>
+</body>
+</html>
+
+
+
+
+
+
+--ced2248c2ebf68201e6bce72c704524d460f794684a340027896397e60a0--

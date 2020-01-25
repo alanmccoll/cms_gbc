@@ -1,0 +1,37 @@
+Jul 10 14:45:52  [info] $Fatal Error Details = Array
+(
+    [message] => You must be logged in with proper permissions to edit, add, or delete uploaded images.
+    [code] => 
+)
+
+
+Jul 10 14:45:52  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(385): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/integration/civicrm.php(74): CRM_Core_Error::fatal("You must be logged in with proper permissions to edit, add, or delete uploade...")
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/integration/civicrm.php(208): checkAuthentication()
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/core/bootstrap.php(39): require("/var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/p...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/upload.php(15): require("/var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/p...")
+#5 {main}
+
+
+Jul 25 11:55:43  [info] $Fatal Error Details = Array
+(
+    [message] => One of parameters  (value: ) is not of the type Integer
+    [code] => 
+)
+
+
+Jul 25 11:55:43  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(385): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Utils/Type.php(535): CRM_Core_Error::fatal("One of parameters  (value: ) is not of the type Integer")
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(1519): CRM_Utils_Type::validate("", "Integer")
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/DAO.php(1397): CRM_Core_DAO::composeQuery("\n        SELECT inst.id, inst.title, inst.report_id, inst.description,  inst...", (Array:2), TRUE)
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Report/Page/InstanceList.php(142): CRM_Core_DAO::executeQuery("\n        SELECT inst.id, inst.title, inst.report_id, inst.description,  inst...", (Array:2))
+#5 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Report/Page/InstanceList.php(208): CRM_Report_Page_InstanceList->info()
+#6 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(311): CRM_Report_Page_InstanceList->run((Array:3), NULL)
+#7 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(85): CRM_Core_Invoke::runItem((Array:14))
+#8 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#9 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/drupal/civicrm.module(444): CRM_Core_Invoke::invoke((Array:3))
+#10 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(527): civicrm_invoke("report", "list")
+#11 /var/www/html/cms.goodwillbaptist.org/public_html/index.php(21): menu_execute_active_handler()
+#12 {main}
+
+

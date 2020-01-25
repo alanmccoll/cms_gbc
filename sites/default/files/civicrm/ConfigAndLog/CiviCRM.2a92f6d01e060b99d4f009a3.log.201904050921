@@ -1,0 +1,848 @@
+Mar 03 06:01:04  [info] Running task: Cleanup old files
+
+Mar 03 06:01:04  [info] Running task: Begin Upgrade to 5.10.1
+
+Mar 03 06:01:04  [info] Running task: Upgrade DB to 5.10.1
+
+Mar 03 06:01:04  [info] Running task: Finish Upgrade DB to 5.10.1
+
+Mar 03 06:01:05  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => exceptionHandler
+        )
+
+    [code] => -2
+    [message] => DB Error: syntax error
+    [mode] => 16
+    [debug_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [type] => DB_Error
+    [user_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [to_string] => [db_error: message="DB Error: syntax error" code=-2 mode=callback callback=CRM_Core_Error::exceptionHandler prefix="" info="SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]"]
+)
+
+
+Mar 03 06:01:05  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(948): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(921): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: syntax error", -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(575): DB_Error->__construct(-2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(223): PEAR->_raiseError(Object(DB_mysqli), NULL, -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "DB_Error", TRUE)
+#5 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1907): PEAR->__call("raiseError", (Array:7))
+#6 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(933): DB_common->raiseError(-2, NULL, NULL, "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(403): DB_mysqli->mysqliRaiseError()
+#8 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1216): DB_mysqli->simpleQuery("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#9 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2415): DB_common->query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#10 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(413): DB_DataObject->_query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#11 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/PseudoConstant.php(571): DB_DataObject->find()
+#12 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Financial/BAO/FinancialType.php(190): CRM_Core_PseudoConstant::populate(NULL, "CRM_Financial_DAO_EntityFinancialAccount", TRUE, "entity_id", NULL, "account_relationship =  AND entity_table = 'civicrm_financial_type' ")
+#13 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Contribute/BAO/ContributionPage.php(843): CRM_Financial_BAO_FinancialType::getIncomeFinancialType()
+#14 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/v3/Generic.php(437): CRM_Contribute_BAO_ContributionPage::buildOptions("financial_type_id", NULL, (Array:2))
+#15 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Provider/MagicFunctionProvider.php(86): civicrm_api3_generic_getoptions((Array:9))
+#16 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(169): Civi\API\Provider\MagicFunctionProvider->invoke((Array:9))
+#17 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(100): Civi\API\Kernel->runRequest((Array:9))
+#18 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/api.php(23): Civi\API\Kernel->runSafe("contribution_page", "getoptions", (Array:3), NULL)
+#19 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2666): civicrm_api("contribution_page", "getoptions", (Array:3))
+#20 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2463): civicrm_entity_get_field_options("financial_type_id", "contribution_page")
+#21 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2341): civicrm_entity_get_field_widget((Array:14), "contribution_page")
+#22 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2152): _civicrm_entity_getproperties("contribution_page", "property_info")
+#23 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(1171): civicrm_entity_entity_property_info_alter((Array:52), NULL, NULL, NULL)
+#24 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/includes/entity.property.inc(39): drupal_alter("entity_property_info", (Array:52))
+#25 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity_default_views_controller.inc(47): entity_get_property_info("civicrm_activity")
+#26 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity_default_views_controller.inc(29): CiviCRMEntityDefaultViewsController->schema_fields()
+#27 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/views/entity.views.inc(33): CiviCRMEntityDefaultViewsController->views_data()
+#28 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(965): entity_views_data()
+#29 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(92): module_invoke_all("views_data")
+#30 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(77): _views_fetch_data_build()
+#31 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(1361): _views_fetch_data(NULL, TRUE, FALSE)
+#32 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/views/entity.views.inc(320): views_fetch_data()
+#33 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/plugins.inc(417): entity_views_plugins()
+#34 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(148): views_discover_plugins()
+#35 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(1369): _views_fetch_plugin_data("display", "default", FALSE)
+#36 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/view.inc(2382): views_fetch_plugin_data("display", "default")
+#37 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/view.inc(2479): views_db_object->add_display("default", "Defaults", "default")
+#38 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/modules/node.views_template.inc(28): views_db_object->new_display("default", "Defaults", "default")
+#39 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(1458): node_views_templates()
+#40 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views_ui.module(56): views_get_all_templates()
+#41 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(2816): views_ui_menu()
+#42 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(2779): menu_router_build()
+#43 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(7685): menu_rebuild()
+#44 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Utils/System/DrupalBase.php(307): drupal_flush_all_caches()
+#45 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Upgrade/Form.php(724): CRM_Utils_System_DrupalBase->flush()
+#46 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Queue/Task.php(88): CRM_Upgrade_Form::doIncrementalUpgradeFinish(Object(CRM_Queue_TaskContext), "5.10.1", "5.10.0", "5.10.4", "/tmp/civicrm-post-upgradeO6EUwv")
+#47 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Queue/Runner.php(214): CRM_Queue_Task->run(Object(CRM_Queue_TaskContext))
+#48 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Queue/Runner.php(168): CRM_Queue_Runner->runNext()
+#49 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Upgrade/Headless.php(67): CRM_Queue_Runner->runAll()
+#50 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/drupal/drush/civicrm.drush.inc(709): CRM_Upgrade_Headless->run()
+#51 /usr/local/src/drush/includes/command.inc(422): drush_civicrm_upgrade_db()
+#52 /usr/local/src/drush/includes/command.inc(231): _drush_invoke_hooks((Array:37), (Array:0))
+#53 /usr/local/src/drush/includes/command.inc(199): drush_command()
+#54 /usr/local/src/drush/lib/Drush/Boot/BaseBoot.php(67): drush_dispatch((Array:37))
+#55 /usr/local/src/drush/includes/preflight.inc(66): Drush\Boot\BaseBoot->bootstrap_and_dispatch()
+#56 /usr/local/src/drush/drush.php(12): drush_main()
+#57 {main}
+
+
+Mar 03 06:01:05  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => exceptionHandler
+        )
+
+    [code] => -2
+    [message] => DB Error: syntax error
+    [mode] => 16
+    [debug_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [type] => DB_Error
+    [user_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [to_string] => [db_error: message="DB Error: syntax error" code=-2 mode=callback callback=CRM_Core_Error::exceptionHandler prefix="" info="SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]"]
+)
+
+
+Mar 03 06:01:05  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(948): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(921): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: syntax error", -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(575): DB_Error->__construct(-2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(223): PEAR->_raiseError(Object(DB_mysqli), NULL, -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "DB_Error", TRUE)
+#5 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1907): PEAR->__call("raiseError", (Array:7))
+#6 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(933): DB_common->raiseError(-2, NULL, NULL, "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(403): DB_mysqli->mysqliRaiseError()
+#8 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1216): DB_mysqli->simpleQuery("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#9 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2415): DB_common->query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#10 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(413): DB_DataObject->_query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#11 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/PseudoConstant.php(571): DB_DataObject->find()
+#12 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Financial/BAO/FinancialType.php(190): CRM_Core_PseudoConstant::populate(NULL, "CRM_Financial_DAO_EntityFinancialAccount", TRUE, "entity_id", NULL, "account_relationship =  AND entity_table = 'civicrm_financial_type' ")
+#13 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Event/BAO/Event.php(2366): CRM_Financial_BAO_FinancialType::getIncomeFinancialType()
+#14 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/v3/Generic.php(437): CRM_Event_BAO_Event::buildOptions("financial_type_id", NULL, (Array:2))
+#15 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Provider/MagicFunctionProvider.php(86): civicrm_api3_generic_getoptions((Array:9))
+#16 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(169): Civi\API\Provider\MagicFunctionProvider->invoke((Array:9))
+#17 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(100): Civi\API\Kernel->runRequest((Array:9))
+#18 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/api.php(23): Civi\API\Kernel->runSafe("event", "getoptions", (Array:3), NULL)
+#19 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2666): civicrm_api("event", "getoptions", (Array:3))
+#20 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2463): civicrm_entity_get_field_options("financial_type_id", "event")
+#21 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2341): civicrm_entity_get_field_widget((Array:13), "event")
+#22 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2152): _civicrm_entity_getproperties("event", "property_info")
+#23 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(1171): civicrm_entity_entity_property_info_alter((Array:52), NULL, NULL, NULL)
+#24 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/includes/entity.property.inc(39): drupal_alter("entity_property_info", (Array:52))
+#25 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity_default_views_controller.inc(47): entity_get_property_info("civicrm_activity")
+#26 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity_default_views_controller.inc(29): CiviCRMEntityDefaultViewsController->schema_fields()
+#27 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/views/entity.views.inc(33): CiviCRMEntityDefaultViewsController->views_data()
+#28 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(965): entity_views_data()
+#29 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(92): module_invoke_all("views_data")
+#30 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(77): _views_fetch_data_build()
+#31 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(1361): _views_fetch_data(NULL, TRUE, FALSE)
+#32 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/views/entity.views.inc(320): views_fetch_data()
+#33 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/plugins.inc(417): entity_views_plugins()
+#34 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(148): views_discover_plugins()
+#35 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(1369): _views_fetch_plugin_data("display", "default", FALSE)
+#36 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/view.inc(2382): views_fetch_plugin_data("display", "default")
+#37 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/view.inc(2479): views_db_object->add_display("default", "Defaults", "default")
+#38 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/modules/node.views_template.inc(28): views_db_object->new_display("default", "Defaults", "default")
+#39 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(1458): node_views_templates()
+#40 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views_ui.module(56): views_get_all_templates()
+#41 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(2816): views_ui_menu()
+#42 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(2779): menu_router_build()
+#43 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(7685): menu_rebuild()
+#44 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Utils/System/DrupalBase.php(307): drupal_flush_all_caches()
+#45 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Upgrade/Form.php(724): CRM_Utils_System_DrupalBase->flush()
+#46 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Queue/Task.php(88): CRM_Upgrade_Form::doIncrementalUpgradeFinish(Object(CRM_Queue_TaskContext), "5.10.1", "5.10.0", "5.10.4", "/tmp/civicrm-post-upgradeO6EUwv")
+#47 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Queue/Runner.php(214): CRM_Queue_Task->run(Object(CRM_Queue_TaskContext))
+#48 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Queue/Runner.php(168): CRM_Queue_Runner->runNext()
+#49 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Upgrade/Headless.php(67): CRM_Queue_Runner->runAll()
+#50 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/drupal/drush/civicrm.drush.inc(709): CRM_Upgrade_Headless->run()
+#51 /usr/local/src/drush/includes/command.inc(422): drush_civicrm_upgrade_db()
+#52 /usr/local/src/drush/includes/command.inc(231): _drush_invoke_hooks((Array:37), (Array:0))
+#53 /usr/local/src/drush/includes/command.inc(199): drush_command()
+#54 /usr/local/src/drush/lib/Drush/Boot/BaseBoot.php(67): drush_dispatch((Array:37))
+#55 /usr/local/src/drush/includes/preflight.inc(66): Drush\Boot\BaseBoot->bootstrap_and_dispatch()
+#56 /usr/local/src/drush/drush.php(12): drush_main()
+#57 {main}
+
+
+Mar 03 06:01:07  [info] Running task: Begin Upgrade to 5.10.2
+
+Mar 03 06:01:07  [info] Running task: Upgrade DB to 5.10.2
+
+Mar 03 06:01:07  [info] Running task: Finish Upgrade DB to 5.10.2
+
+Mar 03 06:01:08  [info] Running task: Begin Upgrade to 5.10.3
+
+Mar 03 06:01:08  [info] Running task: Upgrade DB to 5.10.3
+
+Mar 03 06:01:08  [info] Running task: Finish Upgrade DB to 5.10.3
+
+Mar 03 06:01:10  [info] Running task: Begin Upgrade to 5.10.4
+
+Mar 03 06:01:10  [info] Running task: Upgrade DB to 5.10.4
+
+Mar 03 06:01:10  [info] Running task: Finish Upgrade DB to 5.10.4
+
+Mar 03 06:01:22  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => exceptionHandler
+        )
+
+    [code] => -2
+    [message] => DB Error: syntax error
+    [mode] => 16
+    [debug_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [type] => DB_Error
+    [user_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [to_string] => [db_error: message="DB Error: syntax error" code=-2 mode=callback callback=CRM_Core_Error::exceptionHandler prefix="" info="SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]"]
+)
+
+
+Mar 03 06:01:22  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(948): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(921): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: syntax error", -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(575): DB_Error->__construct(-2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(223): PEAR->_raiseError(Object(DB_mysqli), NULL, -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "DB_Error", TRUE)
+#5 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1907): PEAR->__call("raiseError", (Array:7))
+#6 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(933): DB_common->raiseError(-2, NULL, NULL, "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(403): DB_mysqli->mysqliRaiseError()
+#8 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1216): DB_mysqli->simpleQuery("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#9 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2415): DB_common->query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#10 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(413): DB_DataObject->_query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#11 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/PseudoConstant.php(571): DB_DataObject->find()
+#12 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Financial/BAO/FinancialType.php(190): CRM_Core_PseudoConstant::populate(NULL, "CRM_Financial_DAO_EntityFinancialAccount", TRUE, "entity_id", NULL, "account_relationship =  AND entity_table = 'civicrm_financial_type' ")
+#13 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Contribute/BAO/ContributionPage.php(843): CRM_Financial_BAO_FinancialType::getIncomeFinancialType()
+#14 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/v3/Generic.php(437): CRM_Contribute_BAO_ContributionPage::buildOptions("financial_type_id", NULL, (Array:2))
+#15 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Provider/MagicFunctionProvider.php(86): civicrm_api3_generic_getoptions((Array:9))
+#16 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(169): Civi\API\Provider\MagicFunctionProvider->invoke((Array:9))
+#17 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(100): Civi\API\Kernel->runRequest((Array:9))
+#18 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/api.php(23): Civi\API\Kernel->runSafe("contribution_page", "getoptions", (Array:3), NULL)
+#19 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2666): civicrm_api("contribution_page", "getoptions", (Array:3))
+#20 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2463): civicrm_entity_get_field_options("financial_type_id", "contribution_page")
+#21 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2341): civicrm_entity_get_field_widget((Array:14), "contribution_page")
+#22 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2152): _civicrm_entity_getproperties("contribution_page", "property_info")
+#23 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(1171): civicrm_entity_entity_property_info_alter((Array:52), NULL, NULL, NULL)
+#24 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/includes/entity.property.inc(39): drupal_alter("entity_property_info", (Array:52))
+#25 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity_default_views_controller.inc(47): entity_get_property_info("civicrm_activity")
+#26 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity_default_views_controller.inc(29): CiviCRMEntityDefaultViewsController->schema_fields()
+#27 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/views/entity.views.inc(33): CiviCRMEntityDefaultViewsController->views_data()
+#28 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(965): entity_views_data()
+#29 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(92): module_invoke_all("views_data")
+#30 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(77): _views_fetch_data_build()
+#31 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(1361): _views_fetch_data(NULL, TRUE, FALSE)
+#32 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/views/entity.views.inc(320): views_fetch_data()
+#33 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/plugins.inc(417): entity_views_plugins()
+#34 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(148): views_discover_plugins()
+#35 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(1369): _views_fetch_plugin_data(NULL, NULL, FALSE)
+#36 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(152): views_fetch_plugin_data()
+#37 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(536): views_theme((Array:316), "module", "views", "sites/all/modules/views")
+#38 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(689): _theme_process_registry((Array:316), "views", "module", "views", "sites/all/modules/views")
+#39 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(325): _theme_build_registry(Object(stdClass), (Array:0), "phptemplate")
+#40 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(277): _theme_load_registry(Object(stdClass), (Array:0), "phptemplate")
+#41 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(411): theme_get_registry()
+#42 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(395): ThemeRegistry->initializeRegistry()
+#43 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(335): ThemeRegistry->__construct("theme_registry:runtime:responsive_bartik", "cache")
+#44 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(277): _theme_load_registry(Object(stdClass), (Array:0), "phptemplate", FALSE)
+#45 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(2542): theme_get_registry(FALSE)
+#46 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(2617): l("Home", "<front>", (Array:2))
+#47 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(259): menu_get_active_breadcrumb()
+#48 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Utils/System/Drupal.php(186): drupal_get_breadcrumb()
+#49 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Utils/System.php(74): CRM_Utils_System_Drupal->appendBreadCrumb((Array:1))
+#50 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(243): CRM_Utils_System::__callStatic("appendBreadCrumb", (Array:1))
+#51 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#52 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:2))
+#53 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/drupal/civicrm.module(445): CRM_Core_Invoke::invoke((Array:2))
+#54 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(527): civicrm_invoke("a")
+#55 /var/www/html/cms.goodwillbaptist.org/public_html/index.php(21): menu_execute_active_handler()
+#56 {main}
+
+
+Mar 03 06:01:22  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => exceptionHandler
+        )
+
+    [code] => -2
+    [message] => DB Error: syntax error
+    [mode] => 16
+    [debug_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [type] => DB_Error
+    [user_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [to_string] => [db_error: message="DB Error: syntax error" code=-2 mode=callback callback=CRM_Core_Error::exceptionHandler prefix="" info="SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]"]
+)
+
+
+Mar 03 06:01:22  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(948): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(921): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: syntax error", -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(575): DB_Error->__construct(-2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(223): PEAR->_raiseError(Object(DB_mysqli), NULL, -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "DB_Error", TRUE)
+#5 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1907): PEAR->__call("raiseError", (Array:7))
+#6 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(933): DB_common->raiseError(-2, NULL, NULL, "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(403): DB_mysqli->mysqliRaiseError()
+#8 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1216): DB_mysqli->simpleQuery("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#9 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2415): DB_common->query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#10 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(413): DB_DataObject->_query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#11 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/PseudoConstant.php(571): DB_DataObject->find()
+#12 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Financial/BAO/FinancialType.php(190): CRM_Core_PseudoConstant::populate(NULL, "CRM_Financial_DAO_EntityFinancialAccount", TRUE, "entity_id", NULL, "account_relationship =  AND entity_table = 'civicrm_financial_type' ")
+#13 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Event/BAO/Event.php(2366): CRM_Financial_BAO_FinancialType::getIncomeFinancialType()
+#14 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/v3/Generic.php(437): CRM_Event_BAO_Event::buildOptions("financial_type_id", NULL, (Array:2))
+#15 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Provider/MagicFunctionProvider.php(86): civicrm_api3_generic_getoptions((Array:9))
+#16 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(169): Civi\API\Provider\MagicFunctionProvider->invoke((Array:9))
+#17 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(100): Civi\API\Kernel->runRequest((Array:9))
+#18 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/api.php(23): Civi\API\Kernel->runSafe("event", "getoptions", (Array:3), NULL)
+#19 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2666): civicrm_api("event", "getoptions", (Array:3))
+#20 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2463): civicrm_entity_get_field_options("financial_type_id", "event")
+#21 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2341): civicrm_entity_get_field_widget((Array:13), "event")
+#22 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2152): _civicrm_entity_getproperties("event", "property_info")
+#23 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(1171): civicrm_entity_entity_property_info_alter((Array:52), NULL, NULL, NULL)
+#24 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/includes/entity.property.inc(39): drupal_alter("entity_property_info", (Array:52))
+#25 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity_default_views_controller.inc(47): entity_get_property_info("civicrm_activity")
+#26 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity_default_views_controller.inc(29): CiviCRMEntityDefaultViewsController->schema_fields()
+#27 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/views/entity.views.inc(33): CiviCRMEntityDefaultViewsController->views_data()
+#28 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(965): entity_views_data()
+#29 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(92): module_invoke_all("views_data")
+#30 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(77): _views_fetch_data_build()
+#31 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(1361): _views_fetch_data(NULL, TRUE, FALSE)
+#32 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/views/entity.views.inc(320): views_fetch_data()
+#33 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/plugins.inc(417): entity_views_plugins()
+#34 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/includes/cache.inc(148): views_discover_plugins()
+#35 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(1369): _views_fetch_plugin_data(NULL, NULL, FALSE)
+#36 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/views/views.module(152): views_fetch_plugin_data()
+#37 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(536): views_theme((Array:316), "module", "views", "sites/all/modules/views")
+#38 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(689): _theme_process_registry((Array:316), "views", "module", "views", "sites/all/modules/views")
+#39 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(325): _theme_build_registry(Object(stdClass), (Array:0), "phptemplate")
+#40 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(277): _theme_load_registry(Object(stdClass), (Array:0), "phptemplate")
+#41 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(411): theme_get_registry()
+#42 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(395): ThemeRegistry->initializeRegistry()
+#43 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(335): ThemeRegistry->__construct("theme_registry:runtime:responsive_bartik", "cache")
+#44 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(277): _theme_load_registry(Object(stdClass), (Array:0), "phptemplate", FALSE)
+#45 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(2542): theme_get_registry(FALSE)
+#46 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(2617): l("Home", "<front>", (Array:2))
+#47 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(259): menu_get_active_breadcrumb()
+#48 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Utils/System/Drupal.php(186): drupal_get_breadcrumb()
+#49 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Utils/System.php(74): CRM_Utils_System_Drupal->appendBreadCrumb((Array:1))
+#50 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(243): CRM_Utils_System::__callStatic("appendBreadCrumb", (Array:1))
+#51 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#52 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:2))
+#53 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/drupal/civicrm.module(445): CRM_Core_Invoke::invoke((Array:2))
+#54 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(527): civicrm_invoke("a")
+#55 /var/www/html/cms.goodwillbaptist.org/public_html/index.php(21): menu_execute_active_handler()
+#56 {main}
+
+
+Mar 12 10:52:46  [info] $Fatal Error Details = Array
+(
+    [message] => You must be logged in with proper permissions to edit, add, or delete uploaded images.
+    [code] => 
+)
+
+
+Mar 12 10:52:46  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(381): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/integration/civicrm.php(71): CRM_Core_Error::fatal("You must be logged in with proper permissions to edit, add, or delete uploade...")
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/integration/civicrm.php(176): checkAuthentication()
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/core/bootstrap.php(39): require("/var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/p...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/upload.php(15): require("/var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/p...")
+#5 {main}
+
+
+Mar 19 19:57:20  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => exceptionHandler
+        )
+
+    [code] => -2
+    [message] => DB Error: syntax error
+    [mode] => 16
+    [debug_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [type] => DB_Error
+    [user_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [to_string] => [db_error: message="DB Error: syntax error" code=-2 mode=callback callback=CRM_Core_Error::exceptionHandler prefix="" info="SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]"]
+)
+
+
+Mar 19 19:57:20  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(948): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(921): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: syntax error", -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(575): DB_Error->__construct(-2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(223): PEAR->_raiseError(Object(DB_mysqli), NULL, -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "DB_Error", TRUE)
+#5 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1907): PEAR->__call("raiseError", (Array:7))
+#6 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(933): DB_common->raiseError(-2, NULL, NULL, "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(403): DB_mysqli->mysqliRaiseError()
+#8 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1216): DB_mysqli->simpleQuery("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#9 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2415): DB_common->query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#10 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(413): DB_DataObject->_query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#11 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/PseudoConstant.php(571): DB_DataObject->find()
+#12 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Financial/BAO/FinancialType.php(190): CRM_Core_PseudoConstant::populate(NULL, "CRM_Financial_DAO_EntityFinancialAccount", TRUE, "entity_id", NULL, "account_relationship =  AND entity_table = 'civicrm_financial_type' ")
+#13 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Contribute/BAO/ContributionPage.php(843): CRM_Financial_BAO_FinancialType::getIncomeFinancialType()
+#14 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/v3/Generic.php(437): CRM_Contribute_BAO_ContributionPage::buildOptions("financial_type_id", NULL, (Array:2))
+#15 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Provider/MagicFunctionProvider.php(86): civicrm_api3_generic_getoptions((Array:9))
+#16 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(169): Civi\API\Provider\MagicFunctionProvider->invoke((Array:9))
+#17 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(100): Civi\API\Kernel->runRequest((Array:9))
+#18 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/api.php(23): Civi\API\Kernel->runSafe("contribution_page", "getoptions", (Array:3), NULL)
+#19 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2666): civicrm_api("contribution_page", "getoptions", (Array:3))
+#20 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2463): civicrm_entity_get_field_options("financial_type_id", "contribution_page")
+#21 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2341): civicrm_entity_get_field_widget((Array:14), "contribution_page")
+#22 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2152): _civicrm_entity_getproperties("contribution_page", "property_info")
+#23 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(1171): civicrm_entity_entity_property_info_alter((Array:52), NULL, NULL, NULL)
+#24 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/includes/entity.property.inc(39): drupal_alter("entity_property_info", (Array:52))
+#25 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/entity.info.inc(224): entity_get_property_info("civicrm_activity")
+#26 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/entity.module(1371): EntityDefaultExtraFieldsController->__construct("civicrm_activity")
+#27 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/entity.module(1352): entity_get_extra_fields_controller("civicrm_activity")
+#28 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(965): entity_field_extra_fields()
+#29 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.info.class.inc(467): module_invoke_all("field_extra_fields")
+#30 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.info.inc(690): FieldInfo->getBundleExtraFields("user", "user")
+#31 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.module(719): field_info_extra_fields("user", "user", "form")
+#32 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6049): _field_extra_fields_pre_render((Array:36))
+#33 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6077): drupal_render((Array:36))
+#34 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6171): drupal_render((Array:6))
+#35 /var/www/html/cms.goodwillbaptist.org/public_html/themes/seven/page.tpl.php(28): render((Array:6))
+#36 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(1526): include("/var/www/html/cms.goodwillbaptist.org/public_html/themes/seven/page.tpl.php")
+#37 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(1208): theme_render_template("themes/seven/page.tpl.php", (Array:39))
+#38 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6070): theme("page", (Array:39))
+#39 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(5932): drupal_render((Array:9))
+#40 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(2766): drupal_render_page((Array:9))
+#41 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(2639): drupal_deliver_html_page((Array:34))
+#42 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(542): drupal_deliver_page((Array:34), "")
+#43 /var/www/html/cms.goodwillbaptist.org/public_html/index.php(21): menu_execute_active_handler()
+#44 {main}
+
+
+Mar 19 19:57:20  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => exceptionHandler
+        )
+
+    [code] => -2
+    [message] => DB Error: syntax error
+    [mode] => 16
+    [debug_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [type] => DB_Error
+    [user_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [to_string] => [db_error: message="DB Error: syntax error" code=-2 mode=callback callback=CRM_Core_Error::exceptionHandler prefix="" info="SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]"]
+)
+
+
+Mar 19 19:57:20  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(948): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(921): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: syntax error", -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(575): DB_Error->__construct(-2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(223): PEAR->_raiseError(Object(DB_mysqli), NULL, -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "DB_Error", TRUE)
+#5 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1907): PEAR->__call("raiseError", (Array:7))
+#6 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(933): DB_common->raiseError(-2, NULL, NULL, "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(403): DB_mysqli->mysqliRaiseError()
+#8 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1216): DB_mysqli->simpleQuery("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#9 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2415): DB_common->query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#10 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(413): DB_DataObject->_query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#11 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/PseudoConstant.php(571): DB_DataObject->find()
+#12 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Financial/BAO/FinancialType.php(190): CRM_Core_PseudoConstant::populate(NULL, "CRM_Financial_DAO_EntityFinancialAccount", TRUE, "entity_id", NULL, "account_relationship =  AND entity_table = 'civicrm_financial_type' ")
+#13 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Event/BAO/Event.php(2366): CRM_Financial_BAO_FinancialType::getIncomeFinancialType()
+#14 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/v3/Generic.php(437): CRM_Event_BAO_Event::buildOptions("financial_type_id", NULL, (Array:2))
+#15 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Provider/MagicFunctionProvider.php(86): civicrm_api3_generic_getoptions((Array:9))
+#16 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(169): Civi\API\Provider\MagicFunctionProvider->invoke((Array:9))
+#17 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(100): Civi\API\Kernel->runRequest((Array:9))
+#18 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/api.php(23): Civi\API\Kernel->runSafe("event", "getoptions", (Array:3), NULL)
+#19 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2666): civicrm_api("event", "getoptions", (Array:3))
+#20 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2463): civicrm_entity_get_field_options("financial_type_id", "event")
+#21 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2341): civicrm_entity_get_field_widget((Array:13), "event")
+#22 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2152): _civicrm_entity_getproperties("event", "property_info")
+#23 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(1171): civicrm_entity_entity_property_info_alter((Array:52), NULL, NULL, NULL)
+#24 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/includes/entity.property.inc(39): drupal_alter("entity_property_info", (Array:52))
+#25 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/entity.info.inc(224): entity_get_property_info("civicrm_activity")
+#26 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/entity.module(1371): EntityDefaultExtraFieldsController->__construct("civicrm_activity")
+#27 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/entity/entity.module(1352): entity_get_extra_fields_controller("civicrm_activity")
+#28 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(965): entity_field_extra_fields()
+#29 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.info.class.inc(467): module_invoke_all("field_extra_fields")
+#30 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.info.inc(690): FieldInfo->getBundleExtraFields("user", "user")
+#31 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.module(719): field_info_extra_fields("user", "user", "form")
+#32 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6049): _field_extra_fields_pre_render((Array:36))
+#33 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6077): drupal_render((Array:36))
+#34 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6171): drupal_render((Array:6))
+#35 /var/www/html/cms.goodwillbaptist.org/public_html/themes/seven/page.tpl.php(28): render((Array:6))
+#36 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(1526): include("/var/www/html/cms.goodwillbaptist.org/public_html/themes/seven/page.tpl.php")
+#37 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(1208): theme_render_template("themes/seven/page.tpl.php", (Array:39))
+#38 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6070): theme("page", (Array:39))
+#39 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(5932): drupal_render((Array:9))
+#40 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(2766): drupal_render_page((Array:9))
+#41 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(2639): drupal_deliver_html_page((Array:34))
+#42 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(542): drupal_deliver_page((Array:34), "")
+#43 /var/www/html/cms.goodwillbaptist.org/public_html/index.php(21): menu_execute_active_handler()
+#44 {main}
+
+
+Mar 19 19:57:20  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => exceptionHandler
+        )
+
+    [code] => -2
+    [message] => DB Error: syntax error
+    [mode] => 16
+    [debug_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [type] => DB_Error
+    [user_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [to_string] => [db_error: message="DB Error: syntax error" code=-2 mode=callback callback=CRM_Core_Error::exceptionHandler prefix="" info="SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]"]
+)
+
+
+Mar 19 19:57:20  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(948): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(921): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: syntax error", -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(575): DB_Error->__construct(-2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(223): PEAR->_raiseError(Object(DB_mysqli), NULL, -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "DB_Error", TRUE)
+#5 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1907): PEAR->__call("raiseError", (Array:7))
+#6 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(933): DB_common->raiseError(-2, NULL, NULL, "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(403): DB_mysqli->mysqliRaiseError()
+#8 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1216): DB_mysqli->simpleQuery("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#9 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2415): DB_common->query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#10 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(413): DB_DataObject->_query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#11 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/PseudoConstant.php(571): DB_DataObject->find()
+#12 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Financial/BAO/FinancialType.php(190): CRM_Core_PseudoConstant::populate(NULL, "CRM_Financial_DAO_EntityFinancialAccount", TRUE, "entity_id", NULL, "account_relationship =  AND entity_table = 'civicrm_financial_type' ")
+#13 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Contribute/BAO/ContributionPage.php(843): CRM_Financial_BAO_FinancialType::getIncomeFinancialType()
+#14 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/v3/Generic.php(437): CRM_Contribute_BAO_ContributionPage::buildOptions("financial_type_id", NULL, (Array:2))
+#15 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Provider/MagicFunctionProvider.php(86): civicrm_api3_generic_getoptions((Array:9))
+#16 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(169): Civi\API\Provider\MagicFunctionProvider->invoke((Array:9))
+#17 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(100): Civi\API\Kernel->runRequest((Array:9))
+#18 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/api.php(23): Civi\API\Kernel->runSafe("contribution_page", "getoptions", (Array:3), NULL)
+#19 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2666): civicrm_api("contribution_page", "getoptions", (Array:3))
+#20 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2463): civicrm_entity_get_field_options("financial_type_id", "contribution_page")
+#21 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2341): civicrm_entity_get_field_widget((Array:14), "contribution_page")
+#22 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2191): _civicrm_entity_getproperties("contribution_page", "property_info")
+#23 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(1171): civicrm_entity_field_extra_fields_alter((Array:49), NULL, NULL, NULL)
+#24 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.info.class.inc(468): drupal_alter("field_extra_fields", (Array:49))
+#25 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.info.inc(690): FieldInfo->getBundleExtraFields("user", "user")
+#26 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.module(719): field_info_extra_fields("user", "user", "form")
+#27 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6049): _field_extra_fields_pre_render((Array:36))
+#28 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6077): drupal_render((Array:36))
+#29 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6171): drupal_render((Array:6))
+#30 /var/www/html/cms.goodwillbaptist.org/public_html/themes/seven/page.tpl.php(28): render((Array:6))
+#31 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(1526): include("/var/www/html/cms.goodwillbaptist.org/public_html/themes/seven/page.tpl.php")
+#32 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(1208): theme_render_template("themes/seven/page.tpl.php", (Array:39))
+#33 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6070): theme("page", (Array:39))
+#34 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(5932): drupal_render((Array:9))
+#35 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(2766): drupal_render_page((Array:9))
+#36 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(2639): drupal_deliver_html_page((Array:34))
+#37 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(542): drupal_deliver_page((Array:34), "")
+#38 /var/www/html/cms.goodwillbaptist.org/public_html/index.php(21): menu_execute_active_handler()
+#39 {main}
+
+
+Mar 19 19:57:21  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => exceptionHandler
+        )
+
+    [code] => -2
+    [message] => DB Error: syntax error
+    [mode] => 16
+    [debug_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [type] => DB_Error
+    [user_info] => SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]
+    [to_string] => [db_error: message="DB Error: syntax error" code=-2 mode=callback callback=CRM_Core_Error::exceptionHandler prefix="" info="SELECT  id, entity_id  
+ FROM civicrm_entity_financial_account 
+ 
+ WHERE ( account_relationship =  AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id  
+ [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND entity_table = 'civicrm_financial_type'  )  
+ 
+ 
+ ORDER BY entity_id' at line 4]"]
+)
+
+
+Mar 19 19:57:21  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(948): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(921): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB.php(985): PEAR_Error->__construct("DB Error: syntax error", -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(575): DB_Error->__construct(-2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/PEAR.php(223): PEAR->_raiseError(Object(DB_mysqli), NULL, -2, 16, (Array:2), "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "DB_Error", TRUE)
+#5 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1907): PEAR->__call("raiseError", (Array:7))
+#6 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(933): DB_common->raiseError(-2, NULL, NULL, "SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...", "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/mysqli.php(403): DB_mysqli->mysqliRaiseError()
+#8 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/common.php(1216): DB_mysqli->simpleQuery("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#9 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(2415): DB_common->query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#10 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/DB/DataObject.php(413): DB_DataObject->_query("SELECT  id, entity_id  \n FROM civicrm_entity_financial_account \n \n WHERE (...")
+#11 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/PseudoConstant.php(571): DB_DataObject->find()
+#12 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Financial/BAO/FinancialType.php(190): CRM_Core_PseudoConstant::populate(NULL, "CRM_Financial_DAO_EntityFinancialAccount", TRUE, "entity_id", NULL, "account_relationship =  AND entity_table = 'civicrm_financial_type' ")
+#13 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Event/BAO/Event.php(2366): CRM_Financial_BAO_FinancialType::getIncomeFinancialType()
+#14 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/v3/Generic.php(437): CRM_Event_BAO_Event::buildOptions("financial_type_id", NULL, (Array:2))
+#15 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Provider/MagicFunctionProvider.php(86): civicrm_api3_generic_getoptions((Array:9))
+#16 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(169): Civi\API\Provider\MagicFunctionProvider->invoke((Array:9))
+#17 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/Civi/API/Kernel.php(100): Civi\API\Kernel->runRequest((Array:9))
+#18 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/api/api.php(23): Civi\API\Kernel->runSafe("event", "getoptions", (Array:3), NULL)
+#19 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2666): civicrm_api("event", "getoptions", (Array:3))
+#20 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2463): civicrm_entity_get_field_options("financial_type_id", "event")
+#21 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2341): civicrm_entity_get_field_widget((Array:13), "event")
+#22 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm_entity/civicrm_entity.module(2191): _civicrm_entity_getproperties("event", "property_info")
+#23 /var/www/html/cms.goodwillbaptist.org/public_html/includes/module.inc(1171): civicrm_entity_field_extra_fields_alter((Array:49), NULL, NULL, NULL)
+#24 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.info.class.inc(468): drupal_alter("field_extra_fields", (Array:49))
+#25 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.info.inc(690): FieldInfo->getBundleExtraFields("user", "user")
+#26 /var/www/html/cms.goodwillbaptist.org/public_html/modules/field/field.module(719): field_info_extra_fields("user", "user", "form")
+#27 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6049): _field_extra_fields_pre_render((Array:36))
+#28 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6077): drupal_render((Array:36))
+#29 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6171): drupal_render((Array:6))
+#30 /var/www/html/cms.goodwillbaptist.org/public_html/themes/seven/page.tpl.php(28): render((Array:6))
+#31 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(1526): include("/var/www/html/cms.goodwillbaptist.org/public_html/themes/seven/page.tpl.php")
+#32 /var/www/html/cms.goodwillbaptist.org/public_html/includes/theme.inc(1208): theme_render_template("themes/seven/page.tpl.php", (Array:39))
+#33 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(6070): theme("page", (Array:39))
+#34 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(5932): drupal_render((Array:9))
+#35 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(2766): drupal_render_page((Array:9))
+#36 /var/www/html/cms.goodwillbaptist.org/public_html/includes/common.inc(2639): drupal_deliver_html_page((Array:34))
+#37 /var/www/html/cms.goodwillbaptist.org/public_html/includes/menu.inc(542): drupal_deliver_page((Array:34), "")
+#38 /var/www/html/cms.goodwillbaptist.org/public_html/index.php(21): menu_execute_active_handler()
+#39 {main}
+
+
+Mar 28 08:36:27  [warning] Deprecated function CRM_Core_OptionGroup::getLabel, use CRM_Core_PseudoConstant::getLabel.
+Array
+(
+    [civi.tag] => deprecated
+)
+
+

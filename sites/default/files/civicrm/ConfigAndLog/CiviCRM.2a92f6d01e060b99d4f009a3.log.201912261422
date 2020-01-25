@@ -1,0 +1,30 @@
+Nov 27 15:57:26  [info] $Fatal Error Details = Array
+(
+    [message] => You must be logged in with proper permissions to edit, add, or delete uploaded images.
+    [code] => 
+)
+
+
+Nov 27 15:57:26  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(385): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/integration/civicrm.php(74): CRM_Core_Error::fatal("You must be logged in with proper permissions to edit, add, or delete uploade...")
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/integration/civicrm.php(208): checkAuthentication()
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/core/bootstrap.php(39): require("/var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/p...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/upload.php(15): require("/var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/p...")
+#5 {main}
+
+
+Nov 27 15:57:44  [info] $Fatal Error Details = Array
+(
+    [message] => You must be logged in with proper permissions to edit, add, or delete uploaded images.
+    [code] => 
+)
+
+
+Nov 27 15:57:44  [info] $backTrace = #0 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/CRM/Core/Error.php(385): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/integration/civicrm.php(74): CRM_Core_Error::fatal("You must be logged in with proper permissions to edit, add, or delete uploade...")
+#2 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/integration/civicrm.php(208): checkAuthentication()
+#3 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/core/bootstrap.php(39): require("/var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/p...")
+#4 /var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/packages/kcfinder/upload.php(15): require("/var/www/html/cms.goodwillbaptist.org/public_html/sites/all/modules/civicrm/p...")
+#5 {main}
+
+

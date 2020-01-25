@@ -1,0 +1,380 @@
+Return-Path: <415-ERC-447.0.95868.0.0.46041.9.8958098@em-sj-77.mktomail.com>
+Delivered-To: alan@itrva.com
+Received: from server22.websitehostserver.net
+	by server22.websitehostserver.net (Dovecot) with LMTP id sdrcODkNn1kFjQAAbtRU6Q
+	for <alan@itrva.com>; Thu, 24 Aug 2017 12:30:33 -0500
+Return-path: <415-ERC-447.0.95868.0.0.46041.9.8958098@em-sj-77.mktomail.com>
+Envelope-to: alan@itrva.com
+Delivery-date: Thu, 24 Aug 2017 12:30:33 -0500
+Received: from em-sjsm01-14.mktroute.com ([199.15.215.14]:35028)
+	by server22.websitehostserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <415-ERC-447.0.95868.0.0.46041.9.8958098@em-sj-77.mktomail.com>)
+	id 1dkvxh-000BVX-QX
+	for alan@itrva.com; Thu, 24 Aug 2017 12:30:33 -0500
+X-MSFBL: YWxhbkBpdHJ2YS5jb21AZHZwLTE5OS0xNS0yMTUtOTBAaXBiLXNqLTAxQDQxNS1F
+	UkMtNDQ3OjM1MjY4OjMyNDgyOjE0MTgxNjowOjQ2MDQxOjk6OTU4Njg6ODk1ODA5
+	OA==
+Received: from [10.0.87.249] ([10.0.87.249:49126] helo=sjmas01.marketo.org)
+	by sjmta17.marketo.org (envelope-from <marketing@theacquiateam.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 3C/F5-32513-21D0F995; Thu, 24 Aug 2017 12:29:54 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1503595794;
+	s=m1; d=theacquiateam.com; i=@theacquiateam.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=wBqCckpLELjF458nmOAOvIqUCZ3lfu7tEkePKsOcPxw=;
+	b=ekM+g21hddj+uHps/pZCTHoWye3qd9hRQLK4ahNQlozYOUU7xrIiwuyOdPez0UT/
+	Mh9swgTwzURFSudZGBdxV3tiMRRsG6exCJu5HX7JgyUaZgMJSugtgq2ZxI10KHMeoUQ
+	KoyQr+W9ZvU44tzRm3kYWM9TXQqA5erfTytNu4BQ=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1503595794;
+	s=m1; d=mktroute.com; i=@mktroute.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=wBqCckpLELjF458nmOAOvIqUCZ3lfu7tEkePKsOcPxw=;
+	b=QHYKXpMFJG3mapoDfguyBM7dKAj/0uV/+jXgFjYUXGRb1ji5PsnDhFvaHgFGWDPx
+	VQeVrPIRTPCFTFWW3QVNTQm8jw1XYfk7GywlnJwjMDF0DCVkIxH/YnK6v0yK8cyeBjD
+	FX7pMjacEfeeHx+ahtu+Pc7tsHWkTSuIeyB2eYVk=
+Date: Thu, 24 Aug 2017 12:29:54 -0500 (CDT)
+From: Acquia <marketing@theacquiateam.com>
+Reply-To: marketing@theacquiateam.com
+To: alan@itrva.com
+Message-ID: <410222631.1030388729.1503595794192.JavaMail.root@sjmas01.marketo.org>
+Subject: Pre-Conference Workshops at Engage 2017
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1030388728_667255895.1503595794192"
+X-PVIQ: mkto-415ERC447-000001-000000-095868
+X-Binding: ipb-sj-01
+X-MarketoID: 415-ERC-447:35268:32482:141816:0:46041:9:95868:8958098
+X-MktArchive: false
+List-Unsubscribe: <mailto:OVWW6VZSKVSXIRTHLIYGC4SEPFKWGUSXIJTT2PI.95868.46041.9@unsub-sj.mktomail.com>
+X-Mailfrom: 415-ERC-447.0.95868.0.0.46041.9.8958098@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+
+------=_Part_1030388728_667255895.1503595794192
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Pre-Conference Workshops at Engage=20
+
+October 16 - 18 | Intercontinental Hotel | Boston, MA=20
+
+Learn More <https://engage.acquia.com/pre-conference-workshops?cid=3D7010c0=
+00002RujcAAC&ct=3Demail&ls=3Din-house&lls=3Dem_us_acquiaengage_08242017&id=
+=3D8958098>
+
+-----------------------------------------
+Hello Alan,
+
+Engage 2017 <http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-4-_MphOnfSDq__xZNH=
+oIU7EeIdG7g0tPCeKBTb1paYhvhLtAFcD4PqAry-JjSqkicBpVALMEJXA9FooBuadJ-KxrzXK2y=
+qwLAUmo0WfOD2MqPdY8tpx4w9G2YGmcJZ38DA=3D=3D/DE0B00Q0CRp00k0NL41s0KA> will b=
+e packed with awesome sessions, networking opportunities, and incredible ke=
+ynotes, but if you=E2=80=99re looking to get even more out of the event tha=
+n the two days of amazing content, we=E2=80=99ve got a little something ext=
+ra for you!
+
+Check out the Pre-Conference Workshops <http://em.acquia.com/dc/8PTGAzihOyd=
+dNRoyQ_K-43iyttafxtgg0IqRuIvcZTCP_kYXSQACKM2pxNv1J07shWI1xEqNDQdzT02z7xRNZ5=
+gDihCFD_H8A2CBN8f7YCWllrqF_5ggQFkvzu604VFR8OgbscL0VsY09kUoLsC5Kwl6X2HsdWBH2=
+QQHJG-G6z9XWVhukkMJ6O1jOTKCIMXshV2KRpPTIy0ivA9h1wZ4Zg=3D=3D/DE0B00Q0CRp00k0=
+NL41s0KA> at Engage this year, which feature half- or full-day options at t=
+he Acquia office in the heart of downtown Boston. For the morning sessions,=
+ you can choose from Digital Portfolio (all about digital strategy and buil=
+ding a roadmap) and Implementing Continuous Delivery. Afternoon sessions wi=
+ll cover two topics: personalization with Acquia Lift and multisite managem=
+ent with Acquia Cloud Site Factory.
+
+These workshops are designed to provide an intimate learning environment, w=
+here you can collaborate with peers and develop practical strategies and to=
+ols to bring back to your team. Learn more about, and register for, the pre=
+-conference workshops <http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-43iyttaf=
+xtgg0IqRuIvcZTCP_kYXSQACKM2pxNv1J07shWI1xEqNDQdzT02z7xRNZ5gDihCFD_H8A2CBN8f=
+7YCWllrqF_5ggQFkvzu604VFR8OgbscL0VsY09kUoLsC5Kwl6X2HsdWBH2QQHJG-G6z9XWVhukk=
+MJ6O1jOTKCIMXshV2KRpPTIy0ivA9h1wZ4Zg=3D=3D/DE0B00Q0CRp00k0NL41s0KA> here.
+
+We=E2=80=99re offering $300 off registrations through September 7th! You wo=
+n=E2=80=99t see ticket prices this low again, so we highly suggest you regi=
+ster today <http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-42g6ck26NRykZZv509_=
+khtSVsQEMzKu-Y9dP1S8scUfNPvFrL-_9uUCrx-IQJRaNZUm80hEyf03Xp8itGWXp1wHMMX5gAF=
+ek1T6y0IsVDCPXI69xGX0GGjN7a7bvqQVSfB2mNwWQEXU6GmYKIE6Os_Q=3D/DE0B00Q0CRp00k=
+0NL41s0KA>! And once you=E2=80=99ve done that, make sure to book your room =
+at the InterContinental Boston <http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K=
+-45kCYFDwQEwF99BI_Qpw_Pi5UIxwjMjQ_XJOJyyacpZMfFJMHVkOAKDKdaozzHrPj-8ntPQrYu=
+tcoXBsuQy6ofq2EUaE1giuHw3SQKeAo1uDEZMukWdrtIOqaKz2ynbX6wiGVP1X0nURcjL06E411=
+ls=3D/DE0B00Q0CRp00k0NL41s0KA>.
+
+Hope we=E2=80=99ll be seeing you in October!
+
+-----------------------------------------
+LEARN MORE <https://engage.acquia.com/pre-conference-workshops?cid=3D7010c0=
+00002RujcAAC&ct=3Demail&ls=3Din-house&lls=3Dem_us_acquiaengage_08242017&id=
+=3D8958098>
+
+
+-------------------------------
+Acquia
+53 State Street, 10th Floor
+Boston, MA 02109
+617.588.9600
+sales@acquia.com <mailto:sales@acquia.com>
+
+If you no longer wish to receive these emails, go to the following link to =
+unsubscribe: http://go.acquia.com/UnsubscribePage.html?mkt_unsubscribe=3D1&=
+mkt_tok=3DeyJpIjoiWVRGalpXTTVOVGMyWXpVeCIsInQiOiI3MHUxYWRMSW84czVmNFVYcGdQM=
+DFSNDVCejhsMnk2V0I1QmVyTmJwNlRqZ3Babnl3TGpsM2ROUGtMT20xSTZOVXpoY2xkSEcxczJY=
+ME9UYVJNQ2ZXQjBZak50UU5nMVN2ZU1RTFVUaVhXQk1UQ0hCZlNaMnloV1F0dStGSHIrQSJ9.
+
+------=_Part_1030388728_667255895.1503595794192
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title></title>
+
+<style type="text/css">
+body{-webkit-text-size-adjust:none;}
+..ReadMsgBody{width:100%;}
+..ExternalClass{width:100%;}
+..ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+a { text-decoration:none;}
+@media only screen and (max-width: 580px) {
+        *[class].yahoo_fix{display:block;}
+        *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+        *[class].fl{float:left !important;}
+        *[class].wr{display:block !important;}
+        *[class].h{display:none !important;}
+        *[class].autoh{height:auto !important;}
+                                *[class].w100pc{width:100% !important;}
+                *[class].w9{width:9px !important;}
+                *[class].w97{width:97px !important;}
+                *[class].w18{width:18px !important;}
+                *[class].w150{width:150px !important;}
+                                *[class].w268{width:268px !important;}
+                *[class].w278{width:278px !important;}
+                *[class].w298{width:298px !important;}
+                                *[class].w297{width:297px !important;}
+                                *[class].w300{width:300px !important;}
+                *[class].w320{width:320px !important;}
+                *[class].w316{width:316px !important;}
+                *[class].w318{width:318px !important;}
+                *[class].h40{height:40px !important;}
+                                *[class].h300{height:300px !important;}
+                *[class].h181{height:181px !important;}
+                                *[class].padleft0{padding-left:0px !important;}
+                *[class].padleft10{padding-left:10px !important;}
+                *[class].padleft30{padding-left:30px !important;}
+                *[class].padleft45{padding-left:45px !important;}
+                *[class].padleft60{padding-left:60px !important;}
+                *[class].padbottom0{padding-bottom:0px !important;}
+                *[class].padtop2{padding-top:2px !important;}
+                *[class].padtop20{padding-top:20px !important;}
+                *[class].padtop35{padding-top:35px !important;}
+                *[class].padtop90{padding-top:90px !important;}
+                                *[class].padright2{padding-right:2px !important;}
+                                *[class].padright10{padding-right:10px !important;}
+                *[class].padright0{padding-right:0px !important;}
+                *[class].padright20{padding-right:20px !important;}
+                                *[class].padright70{padding-right:70px !important;}
+                *[class].alignleft{text-align:left !important;}
+                *[class].center{text-align:center !important;}
+                *[class].no_border{border-left:1px solid #ffffff !important;}
+                *[class].font16{font-size:16px !important;}
+                *[class].lheight19{line-height:19px !important;}
+}
+        
+</style>
+</head>
+<body style="padding:0px; margin:0px; " ><table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" bgcolor="#FFFFFF" ><tr ><td align="center" bgcolor="#FFFFFF" ><table class="w300" cellpadding="0" cellspacing="0" border="0" align="center" width="100%" bgcolor="#FFFFFF" ><tr ><td align="center" bgcolor="#FFFFFF" ><!-- FULL WIDTH CONTENT STARTS HERE -->
+<!--  PRE HEADER START -->
+<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="h" ><tr ><td valign="top" style="padding-top:4px; padding-bottom:4px; " ><table width="600" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; " class="w320 h" ><tr ><td width="350" class="h mktEditable" id="pre header messaging" align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:15px; color:#333333; text-decoration:none; text-align:left; " ><a style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; color: #29aae1; text-decoration: underline;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-42g6ck26NRykZZv509_khtSVsQEMzKu-Y9dP1S8scUfNW0UmBg4PuAgf-vUswZzmpIjFWkhOAPCqu5SqVTIs-CO-2nuImUho8FYVH5sD2STzXFj_NCPOevI1pzDpypVU_s08jSmURXPPsMaJwlUCaAZH7q-zQvhkM1222iQlGelN/DE0B00Q0CRp00k0NL41s0KA" target="_blank"
+>Register Now for Acquia Engage 2017!</a></td>
+<td width="250" class="h mktEditable" id="pre header navs" align="right" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:15px; color:#333333; " ><a style="color: #29aae1;" text-decoration:="" underline="" text-align:="" right="" target="_blank" href="http://go.acquia.com/index.php/email/emailWebview?mkt_tok=eyJpIjoiWVRGalpXTTVOVGMyWXpVeCIsInQiOiI3MHUxYWRMSW84czVmNFVYcGdQMDFSNDVCejhsMnk2V0I1QmVyTmJwNlRqZ3Babnl3TGpsM2ROUGtMT20xSTZOVXpoY2xkSEcxczJYME9UYVJNQ2ZXQjBZak50UU5nMVN2ZU1RTFVUaVhXQk1UQ0hCZlNaMnloV1F0dStGSHIrQSJ9">View Online</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--  PRE HEADER ENDS -->
+<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="table-layout:fixed; background-color:#ffffff; border-left:1px solid #b6b6b6; border-right:1px solid #b6b6b6; border-bottom:1px solid #b6b6b6; border-top:1px solid #b6b6b6; " class="w298" ><!-- HEADER STARTS -->
+<tr>
+<td width="600" valign="top" align="left" style="background-color:#ffffff;" class="w298">
+<table width="600" border="0" cellspacing="0" cellpadding="0" align="left" class="w298">
+<tr>
+<td valign="top" style="padding-top:10px; padding-bottom:10px; padding-left:20px; padding-right:20px">
+<table width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
+<tr>
+<td valign="top" align="left"><a href=
+"http://em.acquia.com/R00LBpNRAK0010s0E1CkR40" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/acquia-logo-new.png" style="display:block; font-size: 23px; font-weight: bold; color: #29aae1; line-height: 23px; text-align: left; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;" width="150" height="57" border="0" alt="Acquia THINK AHEAD"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- HEADER ENDS -->
+<!-- HEADLINE START -->
+<tr ><td width="600" valign="top" align="left" class="w298" ><table width="600" border="0" cellspacing="0" cellpadding="0" align="left" class="w298" ><tr ><td class="mktEditable autoh" id="bannerimage" height="250" ><a href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-43iyttafxtgg0IqRuIvcZTCP_kYXSQACKM2pxNv1J07ssUGRoGoLqxMUxtz7nYiWWJvncZFFX8QY9lPKHT9UcPPYe_zvxCHrD8t3HXGdy6wG-h2BqEhbyJVfuZEsWioZu8k3yFQxmmHSerYiYxWPfwrdmxwdH1ZmvYgxNT-THn3tJzAhvOlLnyyZxAnCQvwgqA==/DE0B00Q0CRp00k0NL41s0KA" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/ENGAGE_EMAIL_preconference_workshop_600X250.jpg" alt=" " height="250" width="600" constrain="true" imagepreview="false" class="w298 autoh" /></a></td>
+</tr>
+<!-- BODY COPY START -->
+<tr ><td valign="top" style="padding-top:20px; padding-bottom:30px; " ><table width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; " class="w297" ><tr ><td valign="top" style="padding-left:20px; padding-right:20px; " class="padright2" ><table align="right" width="100%" border="0" cellspacing="0" cellpadding="0" ><tr ><td valign="top" align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:17px color:#333333; " class="padright20 mktEditable" id="content1" ><p>Hello Alan,</p>
+<p><a style="color: #29aae1;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-4-_MphOnfSDq__xZNHoIU7EeIdG7g0tPCeKBTb1paYhvmR7PxNR7CdZfUA5z8bOfyiKr8s0AT_O3xbLxPaYeZyEDS0jeUxiQpPTbGPRDJUVn9ck166iUBgqKyfryT3gOrQya2rBToZ5koNjujK-HXmM=/DE0B00Q0CRp00k0NL41s0KA" target="_blank"
+>Engage 2017</a> will be packed with awesome sessions, networking opportunities, and incredible keynotes, but if you&rsquo;re looking to get even more out of the event than the two days of amazing content, we&rsquo;ve got a little something extra for you!</p>
+<p>Check out the <a style="color: #29aae1;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-43iyttafxtgg0IqRuIvcZTCP_kYXSQACKM2pxNv1J07ssUGRoGoLqxMUxtz7nYiWWJvncZFFX8QY9lPKHT9UcPPYe_zvxCHrD8t3HXGdy6wG-h2BqEhbyJVfuZEsWioZu8k3yFQxmmHSerYiYxWPfwrdmxwdH1ZmvYgxNT-THn3tJzAhvOlLnyyZxAnCQvwgqA==/DE0B00Q0CRp00k0NL41s0KA" target="_blank"
+>Pre-Conference Workshops</a> at Engage this year, which feature half- or full-day options at the Acquia office in the heart of downtown Boston. For the morning sessions, you can choose from <strong>Digital Portfolio</strong> (all about digital strategy and building a roadmap) and <strong>Implementing Continuous Delivery</strong>. Afternoon sessions will cover two topics: <strong>personalization with Acquia Lift</strong> and <strong>multisite management with Acquia Cloud Site Factory</strong>.</p>
+<p>These workshops are designed to provide an intimate learning environment, where you can collaborate with peers and develop practical strategies and tools to bring back to your team. Learn more about, and register for, the <a style="color: #29aae1;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-43iyttafxtgg0IqRuIvcZTCP_kYXSQACKM2pxNv1J07ssUGRoGoLqxMUxtz7nYiWWJvncZFFX8QY9lPKHT9UcPPYe_zvxCHrD8t3HXGdy6wG-h2BqEhbyJVfuZEsWioZu8k3yFQxmmHSerYiYxWPfwrdmxwdH1ZmvYgxNT-THn3tJzAhvOlLnyyZxAnCQvwgqA==/DE0B00Q0CRp00k0NL41s0KA" target="_blank"
+>pre-conference workshops</a> here.</p>
+<p><strong>We&rsquo;re offering $300 off registrations through September 7th!</strong> You won&rsquo;t see ticket prices this low again, so we highly suggest you <a style="color: #29aae1;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-42g6ck26NRykZZv509_khtSVsQEMzKu-Y9dP1S8scUfNW0UmBg4PuAgf-vUswZzmpIjFWkhOAPCqu5SqVTIs-CO-2nuImUho8FYVH5sD2STzXFj_NCPOevI1pzDpypVU_s08jSmURXPPsMaJwlUCaAZH7q-zQvhkM1222iQlGelN/DE0B00Q0CRp00k0NL41s0KA" target="_blank"
+>register today</a>! And once you&rsquo;ve done that, make sure to book your room at the <a style="color: #29aae1;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-45kCYFDwQEwF99BI_Qpw_Pi5UIxwjMjQ_XJOJyyacpZMd3oVDTgNpvqKDlbN9CyCken0q8z079sBQ3Cvrh27XNlfQpvwA4ZsTj46fWbm3lbhyAKAdIaRMaugvnc6GGZKTuUcgJfoNMaqDNraBtPlHCGkBvLckQZ2Un06n2YQc_VN/DE0B00Q0CRp00k0NL41s0KA" target="_blank"
+>InterContinental Boston</a>.</p>
+<p>Hope we&rsquo;ll be seeing you in October!</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- BODY COPY END -->
+<!-- BLUE CTA MODULE START -->
+<tr ><td valign="top" style="padding-top:10px; padding-bottom:10px; " bgcolor="#29AAE1" ><!--[if mso ]>
+<table border="0" cellspacing="0" cellpadding="0" bgcolor="#29aae1">
+<tr>
+<td>
+                                                            <![endif]-->
+<table width="349" align="left" border="0" cellspacing="0" cellpadding="0" class="w278" ><tr ><td class="mktEditable lheight19 font16" id="blue bar headline" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px; color:#ffffff; text-align:left; padding-left:20px; text-decoration:none; " ></td>
+</tr>
+<tr ><td class="mktEditable padtop20 lheight19 font16" id="blue bar sub header" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px; color:#ffffff; text-align:left; padding-left:20px; text-decoration:none; " ></td>
+</tr>
+</table>
+<!--[if mso ]>
+                                                    </td>
+<td valign="top">
+                                                    <![endif]-->
+<!-- CTA2 START -->
+<table width="249" class="w278" cellpadding="0" cellspacing="0" align="center" border="0" ><tr ><td align="center" valign="top" class="padtop20" style="padding-top:5px; " ><table cellpadding="0" cellspacing="0" align="center" border="0" ><tr ><td bgcolor="#212221" height="39" ><table cellpadding="0" cellspacing="0" bgcolor="#212221" border="0" ><tr ><td style="font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#FFFFFE; font-weight:bold; text-align:center; padding-left:18px; padding-right:18px; white-space:nowrap; " class="mktEditable" id="CTA2 text" align="center" bgcolor="#212221" ><a style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #ffffff; font-weight: normal; text-decoration: none; white-space: nowrap; display: inline-block;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-43iyttafxtgg0IqRuIvcZTCP_kYXSQACKM2pxNv1J07ssUGRoGoLqxMUxtz7nYiWWJvncZFFX8QY9lPKHT9UcPPYe_zvxCHrD8t3HXGdy6wG-h2BqEhbyJVfuZEsWioZu8k3yFQxmmHSerYiYxWPfwrdmxwdH1ZmvYgxNT-THn3tJzAhvOlLnyyZxAnCQvwgqA==/DE0B00Q0CRp00k0NL41s0KA" target="_blank"
+>LEARN MORE</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- CTA2 END -->
+<!--[if mso ]>
+                                                         </td>
+</tr>
+</table>
+<![endif]--></td>
+</tr>
+<!-- BLUE CTA MODULE END -->
+<!-- ADDRESS START -->
+<tr><!-- SOCIAL ICONS / LOGO -->
+<td>
+<table width="600" border="0" cellspacing="0" cellpadding="0" class="w297">
+<tr>
+<td bgcolor="#F0F0F0" width="600" valign="top" class="w297"><!--[if mso ]>
+<table border="0" cellspacing="0" cellpadding="0" width="600" bgcolor="#f0f0f0">
+<tr>
+<td>
+                    <![endif]-->
+<table width="430" align="left" border="0" cellspacing="0" cellpadding="0" style="background-color:#f0f0f0;" class="w297">
+<tr>
+<td bgcolor="#F0F0F0" style="padding-bottom:30px; padding-top:20px; padding-left:20px">
+<table width="1" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td style="padding-right:5px"><a href=
+"http://em.acquia.com/x0E0000k12N0L4R0SKBspCA" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/twitter_grey.png" width="35" height="35" style="display:block" border="0" alt="Twitter"></a></td>
+<td style="padding-left:5px; padding-right:5px"><a href=
+"http://em.acquia.com/g30pB4L0A10NRC0KE000Tks" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/facebook_grey.png" width="35" height="35" style="display:block" border="0" alt="Facebook"></a></td>
+<td style="padding-left:5px; padding-right:5px"><a href=
+"http://em.acquia.com/Q0kC0pR0E41LA04NK00UBs0" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/linkedin_grey.png" width="35" height="35" style="display:block" border="0" alt="LinkedIn"></a></td>
+<td style="padding-left:5px; padding-right:5px"><a href=
+"http://em.acquia.com/HE0010A04sVpkCB0LNR005K" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/googleplus_grey.png" width="35" height="35" style="display:block" border="0" alt="Google+"></a></td>
+<td style="padding-left:5px; padding-right:5px"><a href=
+"http://em.acquia.com/I0N06Ep0LBsW4K1A0k0RC00" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/youtube_grey.png" width="35" height="35" style="display:block" border="0" alt="Acquia TV"></a></td>
+<td style="padding-left:5px;"><a href=
+"http://em.acquia.com/O0k0sBAC01004EL70X0KNpR" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/contactus_grey.png" width="35" height="35" style="display:block" border="0" alt="Contact Us"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if mso ]>
+            </td>
+<td valign="top">
+            <![endif]-->
+<table align="right" cellpadding="0" cellspacing="0" border="0" width="170" class="w150">
+<tr>
+<td align="right" valign="top" class="autoh" style="padding-bottom:30px; padding-top:20px" bgcolor="#F0F0F0">
+<table width="150" align="right" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="right" style="padding-right:20px" class="padright70"><a href=
+"http://em.acquia.com/CRs00Y08L0kE04Kp1A0NC0B" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/acquia_logo_grey.png" style="display:block; font-size: 23px; font-weight: bold; color: #29aae1; line-height: 23px; text-align: left; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;" width="150" height="57" alt="Acquia THINK AHEAD"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if mso ]>
+                 </td>
+</tr>
+</table>
+<![endif]--></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td valign="top" style="padding-top:5px; padding-bottom:5px; " ><table width="100%" class="w278 alignleft" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; " ><tr ><td class="mktEditable" id="address bar" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:13px; color:#C0C0C0; text-decoration:none; " >Acquia, 53 State St., 10th Floor, Boston, MA 02109&nbsp;&nbsp;|&nbsp;&nbsp;<a href=
+"http://em.acquia.com/dc/EcTfRE0WDaAEB1CFD7cuk8sEsWEVeuaK8LDHLRDBzLShI3sV-MlGgU7y5Y2N2ITg43w7UApb_DV2vj40xwP-YNWNpZZ9uAoAHo1nPIwJ2Pf3_pHE7Iu5vcMUoV19yfpQqKmOOPqtTylNvrE_SEl2MeiU5jKu83onSCkrLzzYcQZxml39njdZqPHKvCrjUfQl/DE0B00Q0CRp00k0NL41s0KA" style="font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 13px; color: #c0c0c0; text-decoration: none; ; text-decoration: underline;" target="_blank"
+><span style="text-decoration: underline; font-weight: bold;">Contact Us</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ADDRESS END --></table>
+</td>
+<!-- FULL WIDTH CONTENT ENDS HERE --></tr>
+</table>
+</td>
+</tr>
+</table>
+<a href=
+"http://em.acquia.com/FNpRL009Z0E0s1kA000CK4B"
+></a>
+<img src="http://em.acquia.com/trk?t=1&mid=NDE1LUVSQy00NDc6MzUyNjg6MzI0ODI6MTQxODE2OjA6NDYwNDE6OTo5NTg2ODo4OTU4MDk4OmFsYW5AaXRydmEuY29t" width="1" height="1" style="display:none !important;" alt="" />
+
+<p align="center" ><font face="Verdana" size="1" color="silver">If you no longer wish to receive these emails, click on the following link: <a href=
+"http://em.acquia.com/u/Ak000BER104KNsA00L0a0pC" style="color:#C0C0C0; text-decoration:none;"
+>Unsubscribe</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_1030388728_667255895.1503595794192--

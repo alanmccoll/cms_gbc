@@ -1,0 +1,394 @@
+Return-Path: <noreply@email.apple.com>
+Delivered-To: alan@itrva.com
+Received: from server22.websitehostserver.net
+	by server22.websitehostserver.net (Dovecot) with LMTP id AcZUK9HBclmmjwQAbtRU6Q
+	for <alan@itrva.com>; Fri, 21 Jul 2017 22:09:05 -0500
+Return-path: <noreply@email.apple.com>
+Envelope-to: alan@itrva.com
+Delivery-date: Fri, 21 Jul 2017 22:09:05 -0500
+Received: from mdn-txn-msbadger0705.apple.com ([17.171.37.80]:34822)
+	by server22.websitehostserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <noreply@email.apple.com>)
+	id 1dYkmv-001FjR-K2
+	for alan@itrva.com; Fri, 21 Jul 2017 22:09:05 -0500
+DKIM-Signature: v=1; a=rsa-sha1; d=email.apple.com; s=emailapple2048; c=relaxed/relaxed;
+	q=dns/txt; i=@email.apple.com; t=1500692905;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=C7CYhFDlpBHdEDrs5mQIfLJHvMw=;
+	b=pxghXi4YRmjG9wbYo5YfKxqc7kVvqoAyBcTD3imSsxIkua5TAfzgn+TBix8zgbW7
+	ygsvfhcAIPCqAa63Cthg2pSJX9qDxb6DjDkQOavOQLrp7ZGC/8ulztR/yLURAnAU
+	d2DwXpU7z7g77w+D9VsIapM1Te9nGYCJ8YMPaIAtUtKWF1BhUDY4HrvceAgRsA0X
+	WqzkpHy5C1zm6OjCA58186sXuKTeN3kl3HvL/i2rDfgWB9RuXmfhAZ5BdTT4tl5g
+	xsjvRWsJXBd0bZ7sjZHpa2H5TLfJQ4YlibYJrW8pYjFaoG/Eq1xO+GKXqI+SAO63
+	8PcqvSxKG3rLVkPpH/y3Zg==;
+Date: Sat, 22 Jul 2017 03:08:25 +0000 (GMT)
+From: Apple <noreply@email.apple.com>
+To: alan@itrva.com
+Message-ID: <936450357.729224.1500692905259.JavaMail.email@email.apple.com>
+Subject: =?UTF-8?Q?Your_Apple_ID_was_used_to_sign_in_to_?=
+ =?UTF-8?Q?FaceTime=C2=A0and=C2=A0iMessage_on_an_iPhone_6.?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_729222_936449150.1500692905259"
+X-EmailType-Id: 946777
+X-Sent-To: alan@itrva.com,2,LFEsDCVgVBxTI7RbEYqLQx0VikkiDsUaylUzzp%2BOJHjQiV2Vo%2B53WTME8%2FHbU0WuadQWQg5n7srxayHkjo%2FRA%2Bkt1%2BPai6VqicoqWArMxzZJehtlgZbJoLQg1U%2FAp8rOPyV3J39G9TCtXMKVJ7qNlxBy%2FUHZUDJ%2BFHVDZ%2FgGsatf9JCpDZQKaugMzFBi9%2FG9dxoddX9rEKnN7hF6VOUwUVcMfK0bgUVc7Ldj3IJK5r5WQrmRW72Rjn5OrvOxhiMpJp4hLkKVaKZ42H%2FQEMU6fCsJDSVlMiX6ryLt1jQuBDltIkv2mnR3fUtBFuF6HglfJoXdheRY4BS6X2Hmho0qNe03hrmqESjQOO62Getvm3cYWdkd3zMGMSwRXY0lwfyv
+X-Attach-Flag: N
+X-Reference: iCloudwebSessionID/
+X-TXN_ID: A09B6E8D-C42D-4D54-8F52-42BAAF65E463
+X-Business-Group: iCloud
+X-Request-UUID: 1d81d769-8783-4af9-9fd5-cc7ddd420b9c
+X-DKIM_SIGN_REQUIRED: YES
+
+------=_Part_729222_936449150.1500692905259
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+Dear Alan McColl,
+
+Your Apple ID (alan@itrva.com) was used to sign in to FaceTime=C2=A0and=C2=
+=A0iMessage on an iPhone 6 named =E2=80=9CAlan=E2=80=99s iPhone=E2=80=9D.
+
+Date and Time: July 21, 2017, 8:08 PM PDT
+Operating System: iOS 10.3.2
+
+
+If the information above looks familiar, you can disregard this email.
+
+If you have not recently signed in to an iPhone 6 with your Apple ID and be=
+lieve someone may have accessed your account, go to Apple ID (https://apple=
+id.apple.com) and change your password as soon as possible.
+
+Apple Support
+
+
+---
+
+Apple ID:  https://appleid.apple.com/choose-your-country/
+Support:  https://www.apple.com/support/country/
+Privacy Policy:  https://www.apple.com/legal/internet-services/privacy/
+Copyright 2017 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014, United Stat=
+es.
+All rights reserved.
+
+------=_Part_729222_936449150.1500692905259
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<html>
+   =20
+    <head>
+     =20
+      <meta http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf=
+-8">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+      <meta name=3D"format-detection" content=3D"address=3Dno" />
+      <meta name=3D"format-detection" content=3D"telephone=3Dno" />
+      <meta name=3D"format-detection" content=3D"email=3Dno" />
+       =20
+       =20
+       =20
+        <style type=3D"text/css">
+         =20
+          body { margin: 0 !important; padding: 0 !important; }
+          a:visited { color: #08c !important; text-decoration: none !import=
+ant; }
+          a:hover { text-decoration: underline !important; }
+          a:active { text-decoration: underline !important; }
+          a:hover.linkbutton { color: #2b2b2b !important; text-decoration: =
+none !important; font-weight: 500 !important; }
+          a:active.linkbutton { color: #2b2b2b !important; text-decoration:=
+ none !important; font-weight: 500 !important; }
+          a:visited.linkbutton { color: #2b2b2b !important; text-decoration=
+: none !important; font-weight: 500 !important; }
+          .nobr {  white-space: nowrap; }
+
+          @media only screen and (min-device-width : 320px) and (max-device=
+-width : 568px) {
+            body[yahoo] {
+            overflow: hidden;
+            width: auto !important;
+            text-align: center !important;
+            margin: 0;
+            -webkit-text-size-adjust:100% !important;
+            }
+            body[yahoo] .mainTable {
+              margin: 0 10px !important;
+            }
+
+            body[yahoo] .heading_logo img {
+              width: 17px !important;
+              height: 21px !important;
+            }
+
+         =20
+           =20
+            body[yahoo] .content_margin {
+            width: 15px !important;
+            }
+            body[yahoo] .footer {
+              background-size: 100%;
+            }
+            body[yahoo] .footer .bottomContent {
+            padding-top: 15px !important;
+            display: block !important;
+            }
+
+            body[yahoo] .footer.content {
+            padding: 0px 10px !important;
+            }
+
+            body[yahoo] .footer .service {
+            display: block !important;
+            }
+
+            body[yahoo] .iPhone_font {
+              font-family: 'Helvetica Neue' !important;
+            }
+
+          }
+
+          @media only screen and (max-device-width: 768px) {
+            body[yahoo] .iPhone_font {
+              font-family: 'Helvetica Neue' !important;
+            }
+          }
+
+          @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+            body[yahoo] .iPhone_font {
+              font-family: 'Helvetica Neue' !important;
+            }
+          }
+
+        </style>
+    </head>
+   =20
+    =20
+          <body yahoo=3D"fix" style=3D"margin: 0; padding: 0; -webkit-text-=
+size-adjust: 100%;">
+            <div class=3D"mailwrapper" style=3D"font-size: 14px; color: #33=
+3; font-smooth: always; -webkit-font-smoothing: antialiased; "  >
+
+              <table style=3D"table-layout: fixed;width: 100%;"><tr><td>
+
+              <table class=3D"mainTable" align=3D"center" style=3D"margin: =
+0 auto;font-size: inherit; line-height: inherit; text-align: center; border=
+-spacing: 0; border-collapse: collapse; -premailer-cellpadding: 0; -premail=
+er-cellspacing: 0; padding: 0; border: 0;" cellpadding=3D"0" cellspacing=3D=
+"0" >
+                <tr><td class=3D"topPadding" style=3D"font-family: 'Lucida =
+Grande', Helvetica, Arial, sans-serif; height: 16px; -premailer-height: 16;=
+" height=3D"16"></td></tr>
+                <tr>
+                  <td class=3D"centerColumn" style=3D"width: 685px; -premai=
+ler-width: 685;">
+                    <table class=3D"iPhone_font" style=3D"font-family: 'Luc=
+ida Grande', Helvetica, Arial, sans-serif; font-size: inherit; line-height:=
+ 18px; padding: 0px; border: 0px;" >
+                      <tr>
+                        <td class=3D"content_margin" style=3D"width: 40px;"=
+></td>
+                        <td class=3D"heading_logo" style=3D"               =
+                  text-align: right;
+                           width: 600px;"><img width=3D"22" height=3D"26" a=
+lt=3D"Apple" src=3D"https://statici.icloud.com/emailimages/v4/common/apple_=
+logo_web@2x.png" style=3D"width: 22px; height: 26px;" /></td>
+                        <td class=3D"content_margin" style=3D"width: 40px;"=
+></td>
+                      </tr>
+                      <tr>
+                        <td class=3D"content_margin" style=3D"width: 40px;"=
+></td>
+                       =20
+                       =20
+                           =20
+                            <td class=3D"iPhone_font" style=3D"font-family:=
+ 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 18px; padding-=
+top: 44px;                                 text-align: left;
+                               font-size: 14px; color: #333; font-smooth: a=
+lways; -webkit-font-smoothing: antialiased;">
+                              Dear Alan McColl,
+                              </td>
+                           =20
+                         =20
+                        <td class=3D"content_margin" style=3D"width: 40px;"=
+></td>
+                        </tr>
+                        <tr>
+                          <td class=3D"content_margin" style=3D"width: 40px=
+;"></td>
+                          <td class=3D"iPhone_font" style=3D"font-family: '=
+Lucida Grande', Helvetica, Arial, sans-serif; line-height: 18px;           =
+                       text-align: left;
+                             font-size: 14px; color: #333; padding: 17px 0 =
+0 0; font-smooth: always; -webkit-font-smoothing: antialiased;">
+                           =20
+                              Your Apple ID (<span><a href=3D"mailto:alan@i=
+trva.com" style=3D"color: #2b2b2b; text-decoration: none;"><nobr><b>alan@it=
+rva.com</b></nobr></a></span>) was used to sign in to FaceTime=C2=A0and=C2=
+=A0iMessage on an iPhone 6 named =E2=80=9CAlan&rsquo;s iPhone=E2=80=9D.
+                              </td>
+                          <td class=3D"content_margin" style=3D"width: 40px=
+;"></td>
+                          </tr>
+                          <tr>
+                            <td class=3D"content_margin" style=3D"width: 40=
+px;"></td>
+                            <td class=3D"iPhone_font" style=3D"font-family:=
+ 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 18px;         =
+                         text-align: left;
+                               font-size: 14px; color: #333; padding: 18px =
+0 0 0; font-smooth: always; -webkit-font-smoothing: antialiased;"><div><spa=
+n  >
+                             =20
+                                Date and Time:=20
+                                </span><span >
+                                 =20
+                                    July 21, 2017, 8:08 PM PDT
+                                    </span></div>
+                                   =20
+
+                                   =20
+                                       =20
+                                        <div>
+                                          <span >
+                                           =20
+                                              Operating System:=20
+                                              </span><span >
+                                               =20
+                                                  iOS 10.3.2
+                                                  </span>
+                                          </div>
+                                         =20
+                                       =20
+                                     =20
+                                    </td>
+                            <td class=3D"content_margin" style=3D"width: 40=
+px;"></td>
+                            </tr>
+                              <tr>
+                                <td class=3D"content_margin" style=3D"width=
+: 40px;"></td>
+                                <td class=3D"iPhone_font" style=3D"font-fam=
+ily: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 18px; font=
+-smooth: always; -webkit-font-smoothing: antialiased;                      =
+            text-align: left;
+                                   font-size: 14px; color: #333; padding: 1=
+8px 0 0 0;">
+                                 =20
+                                    If the information above looks familiar=
+, you can disregard this email.
+                                    </td>
+                                <td class=3D"content_margin" style=3D"width=
+: 40px;"></td>
+                                </tr>
+                          <tr>
+                            <td class=3D"content_margin" style=3D"width: 40=
+px;"></td>
+                           =20
+                            <td class=3D"letter_content iPhone_font" style=
+=3D"font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height=
+: 18px; font-smooth: always; -webkit-font-smoothing: antialiased;          =
+                        text-align: left;
+                               font-size: 14px; color: #333; padding: 18px =
+0 15px 0;">
+                              If you have not recently signed in to an iPho=
+ne 6 with your Apple ID and believe someone may have accessed your account,=
+ go to Apple=C2=A0ID (<a href=3D"https://appleid.apple.com/" style=3D"color=
+: #333; text-decoration: none;"><nobr>https://appleid.apple.com</nobr></a>)=
+ and change your password as soon as possible.</td>
+                            <td class=3D"content_margin" style=3D"width: 40=
+px;"></td>
+                            </tr>
+                           =20
+                           =20
+                           =20
+                            <tr>
+                              <td class=3D"content_margin" style=3D"width: =
+40px;"></td>
+                              <td class=3D"iPhone_font" style=3D"          =
+                       text-align: left;
+                                 font-family: 'Lucida Grande', Helvetica, A=
+rial, sans-serif; line-height: 18px; font-size: 14px; font-smooth: always; =
+-webkit-font-smoothing: antialiased; color: #333; padding: 17px 0 13px 0;">
+                               =20
+                                  Apple Support
+                                  </td>
+                              <td class=3D"content_margin" style=3D"width: =
+40px;"></td>
+                              </tr>
+                              </table>
+                            </td>
+                          </tr>
+                         =20
+                          <tr class=3D"footerTopPadding iPhone_font" style=
+=3D"height: 17px; -premailer-height: 17;" height=3D"17"><td style=3D"font-f=
+amily: 'Geneva', Helvetica, Arial, sans-serif;"></td></tr>
+                          <tr>
+                            <td class=3D"footer background iPhone_font" col=
+span=3D"3" background=3D"https://statici.icloud.com/emailimages/v4/common/f=
+ooter_gradient_web.png" style=3D"font-family: 'Geneva', Helvetica, Arial, s=
+ans-serif; font-smooth: always; -webkit-font-smoothing: antialiased; width:=
+ 685px; font-size: 11px; line-height: 14px; color: #888; text-align: center=
+; background-repeat: no-repeat; background-position: center top; padding: 1=
+5px 0 12px; -webkit-text-size-adjust:100%;" align=3D"center">
+                              <span class=3D"footer1" style=3D"white-space:=
+ nowrap;" >
+                                <a href=3D"https://appleid.apple.com/choose=
+-your-country/" style=3D"color: #08c; text-decoration: none;">
+                                Apple ID
+                              </a>
+                            </span>&#32;&#124;&#32;=20
+                            <span class=3D"footer1" style=3D"white-space: n=
+owrap;">
+                              <a href=3D"https://www.apple.com/support/coun=
+try/" style=3D"color: #08c; text-decoration: none;">
+                              Support
+                            </a>
+                          </span>&#32;&#124;&#32;
+                        <span class=3D"footer1" style=3D"white-space: nowra=
+p;">
+                          <a href=3D"https://www.apple.com/legal/internet-s=
+ervices/privacy/" style=3D"color: #08c; text-decoration: none;">
+                          Privacy Policy
+                        </a>
+                      </span>
+                      <br/>
+                      <span class=3D"bottomContent" colspan=3D"3">
+                        <span class=3D"footer1" style=3D"white-space: nowra=
+p;">
+                          Copyright =C2=A9 2017
+                        </span>
+                        <span>=20
+                          Apple Inc. <span class=3D "nobr"><a href=3D"#addr=
+ess" id=3D"address" style=3D"color: #888888; text-decoration: none;cursor:t=
+ext;">1 Infinite Loop, Cupertino, CA 95014, United States.</a></span>
+                        </span>
+                        <span class=3D"footer1" style=3D"white-space: nowra=
+p;">
+                          All rights reserved.
+                        </span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr class=3D"footerBottomPadding iPhone_font" style=3D"he=
+ight: 50px; -premailer-height: 50;" height=3D"50"><td style=3D"font-family:=
+ 'Geneva', Helvetica, Arial, sans-serif;">
+                  </td>
+                </tr>
+              </table>
+
+              </td></tr></table>
+            </div>
+          </body>
+        <img src=3D'http://outsideapple.apple.com/img/APPLE_EMAIL_LINK/spac=
+er4.gif?v=3D2&a=3DLFEsDCVgVBxTI7RbEYqLQx0VikkiDsUaylUzzp%2BOJHjQiV2Vo%2B53W=
+TME8%2FHbU0WuadQWQg5n7srxayHkjo%2FRA%2Bkt1%2BPai6VqicoqWArMxzZJehtlgZbJoLQg=
+1U%2FAp8rOPyV3J39G9TCtXMKVJ7qNlxBy%2FUHZUDJ%2BFHVDZ%2FgGsatf9JCpDZQKaugMzFB=
+i9%2FG9dxoddX9rEKnN7hF6VOUwUVcMfK0bgUVc7Ldj3IJK5r5WQrmRW72Rjn5OrvOxhiMpJp4h=
+LkKVaKZ42H%2FQEMU6fCsJDSVlMiX6ryLt1jQuBDltIkv2mnR3fUtBFuF6HglfJoXdheRY4BS6X=
+2Hmho0qNe03hrmqESjQOO62Getvm3cYWdkd3zMGMSwRXY0lwfyv'/>
+</html>
+------=_Part_729222_936449150.1500692905259--

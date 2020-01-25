@@ -1,0 +1,396 @@
+Return-Path: <415-ERC-447.0.93583.0.0.45297.9.8958098@em-sj-77.mktomail.com>
+Delivered-To: alan@itrva.com
+Received: from server22.websitehostserver.net
+	by server22.websitehostserver.net (Dovecot) with LMTP id wVuIGrL1cFnXywsAbtRU6Q
+	for <alan@itrva.com>; Thu, 20 Jul 2017 13:25:54 -0500
+Return-path: <415-ERC-447.0.93583.0.0.45297.9.8958098@em-sj-77.mktomail.com>
+Envelope-to: alan@itrva.com
+Delivery-date: Thu, 20 Jul 2017 13:25:54 -0500
+Received: from em-sj-87.mktroute.com ([199.15.215.87]:52078)
+	by server22.websitehostserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <415-ERC-447.0.93583.0.0.45297.9.8958098@em-sj-77.mktomail.com>)
+	id 1dYG94-003FNV-9w
+	for alan@itrva.com; Thu, 20 Jul 2017 13:25:54 -0500
+X-MSFBL: YWxhbkBpdHJ2YS5jb21AZHZwLTE5OS0xNS0yMTUtODdAaXBiLXNqLTAxQDQxNS1F
+	UkMtNDQ3OjM0NTM3OjMyMTEyOjE0MDY2OTowOjQ1Mjk3Ojk6OTM1ODM6ODk1ODA5
+	OA==
+Received: from [10.0.87.249] ([10.0.87.249:54835] helo=sjmas02.marketo.org)
+	by sjmta01.marketo.org (envelope-from <marketing@acquia.com>)
+	(ecelerity 3.6.8.47404 r(Core:3.6.8.0)) with ESMTP
+	id 9C/D8-15869-A85F0795; Thu, 20 Jul 2017 13:25:14 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1500575114;
+	s=m1; d=mktroute.com; i=@mktroute.com;
+	h=Date:From:To:Subject:MIME-Version:Content-Type;
+	bh=wz5vwXXQBQoRqDQJ8Xb+yTc4mGXTaZx6TEZmZOfYijQ=;
+	b=J7wdJ3lSK0HnhiBZAon7Zq7mwius7vowK3VZAJu7YhkJ+rOaLZ9tagDwcvq0j8X6
+	tHYBLB1M2ZPOWBTI8o4kglxfmDlk5BukWghSl/4OPwY3TeRNnltX98mFqDAF4H8Jy6w
+	BhgIt+frReZhYrDaYkV6GKD6q1tulPFiCUVKlXNM=
+Date: Thu, 20 Jul 2017 13:25:14 -0500 (CDT)
+From: Acquia <marketing@acquia.com>
+Reply-To: marketing@theacquiateam.com
+To: alan@itrva.com
+Message-ID: <1162527035.136600924.1500575114311.JavaMail.root@sjmas02.marketo.org>
+Subject: Scott Galloway is coming to Engage!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_136600923_1908105898.1500575114311"
+X-PVIQ: mkto-415ERC447-000001-000000-093583
+X-Binding: ipb-sj-01
+X-MarketoID: 415-ERC-447:34537:32112:140669:0:45297:9:93583:8958098
+X-MktArchive: false
+List-Unsubscribe: <mailto:OVWW6VZSKVSXIRTHLIYGC4SEPFKWGUSXIJTT2PI.93583.45297.9@unsub-sj.mktomail.com>
+X-Mailfrom: 415-ERC-447.0.93583.0.0.45297.9.8958098@em-sj-77.mktomail.com
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+
+------=_Part_136600923_1908105898.1500575114311
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Engage 2017
+
+Taking the Main Stage: Scott Galloway=20
+
+October 16-18 | InterContinental Hotel | Boston=20
+
+Learn More <https://engage.acquia.com/?cid=3D701a0000002ZExPAAW&ct=3Demail&=
+ls=3Din-house&lls=3Dem_us_acquiaengage_07102017&id=3D8958098>
+
+-------------------------------
+Hello Alan,
+
+We=E2=80=99re in the thick of summer here in New England, and Engage 2017 <=
+http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-4wZ8tSpwTVHyuUJUpq1P5KzRg5xGE7K=
+_OB7sIm2MqYGGFj5TrpZNwi7N31wH_x6tcCPt3qzNwbjZ6gdwyRFsO1wiBghpfYKlzKxcNd_jlO=
+S8t4q34DAIwV_pwp9-mhnl3XJ7Vn03pyl1-ofBuD4gkB0=3D/XKL0s0R04000CnBpA01LE90> i=
+s fast approaching! We=E2=80=99re super excited to announce one of our main=
+stage keynote speakers, a man knows a thing or two about digital in this da=
+y and age. Scott Galloway of L2 and NYU Stern fame will be joining us this =
+year, and we are thrilled!
+
+Scott is a Clinical Professor at the NYU Stern School of Business where he =
+teaches brand strategy and digital marketing. In 2012, Professor Galloway w=
+as named =E2=80=9COne of the World=E2=80=99s 50 Best Business School Profes=
+sors=E2=80=9D by Poets & Quants. He is also the founder of Red Envelope and=
+ Prophet Brand Strategy. Scott was elected to the World Economic Forum=E2=
+=80=99s Global Leaders of Tomorrow and has served on the Boards of Director=
+s of Eddie Bauer (Nasdaq: EBHI), The New York Times Company (NYSE: NYT), Ga=
+teway Computer, and UC Berkeley=E2=80=99s Haas School of Business. He recei=
+ved a B.A. from UCLA and an M.B.A. from UC Berkeley.
+
+Scott hosts a weekly video series called =E2=80=9CWinners & Losers=E2=80=9D=
+ which you can see here <http://em.acquia.com/XKL0s2R04000CnBpA01LEb0>, to =
+get a taste of his speaking style and what you can expect come October.
+
+Our 2017 agenda <http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-4-4-NShYwvseN-=
+yts2KxvlXY8vyGkzEB4uWMUmzVUxmQZM5tAah8arqWCd3MRpZKDKA5zLIeBd2RvouJmMXCX2cpU=
+7izja_Tikk_sKesVtzfaAAVSD98S1Rg2wuCbGyiRDp5XVGV_fQZ59IwJsTlGs8=3D/XKL0s0R04=
+000CnBpA01LE90> is now online, and we=E2=80=99ll have more exciting speaker=
+ announcements coming soon, so stay tuned!
+
+Ready to register for Engage?! We=E2=80=99re currently running a promotion =
+for 20% off with code ENGAGE20, so register now <http://em.acquia.com/dc/8P=
+TGAzihOyddNRoyQ_K-4wZ8tSpwTVHyuUJUpq1P5KzRg5xGE7K_OB7sIm2MqYGGFj5TrpZNwi7N3=
+1wH_x6tcCPt3qzNwbjZ6gdwyRFsO1wiBghpfYKlzKxcNd_jlOS8t4q34DAIwV_pwp9-mhnl3XJ7=
+Vn03pyl1-ofBuD4gkB0=3D/XKL0s0R04000CnBpA01LE90>! Ticket prices will increas=
+e to $1,250 on August 1, so you really don=E2=80=99t want to miss this.
+
+If you need overnight accommodations, take advantage of our room block at t=
+he InterContinental <http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-45kCYFDwQE=
+wF99BI_Qpw_Pj_okslYaZHZC3FMWsN7BWWNl4VOeUHhgJQy7eqAL6CCFxCppbqH6EwPmmrtAWzF=
+8w4G0dotWeyyix8S5bj53PaDKox4ymMxqdzPNrZZOl7T78ajADzT5LwyyJUM-4yFBU=3D/XKL0s=
+0R04000CnBpA01LE90>.
+
+-------------------------------
+REGISTER NOW <https://engage.acquia.com/?cid=3D701a0000002ZExPAAW&ct=3Demai=
+l&ls=3Din-house&lls=3Dem_us_acquiaengage_07102017&id=3D8958098>
+
+
+-------------------------------
+Acquia
+53 State Street, 10th Floor
+Boston, MA 02109
+617.588.9600
+sales@acquia.com <mailto:sales@acquia.com>
+
+If you no longer wish to receive these emails, go to the following link to =
+unsubscribe: http://go.acquia.com/UnsubscribePage.html?mkt_unsubscribe=3D1&=
+mkt_tok=3DeyJpIjoiWkRnMFpXWTJZVEUzWXpNMCIsInQiOiIyazcycVRuUC9KUDhFQ0hqbE9vY=
+TRKaStNbFZ0MFNXWVdBWGx6WlNNTU55Rm8yeUljdVJaVUxRS3VhOG5qNDhMb0U5WDN5dURBTW5a=
+NE5PRjloeFE1Z0FFQzZBYjZrdDg4NWhRTEdrNW9iS2o4SWVsRU8vQ01RSVNMNUJ3ZjhKSSJ9.
+
+------=_Part_136600923_1908105898.1500575114311
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
+<title></title>
+
+<style type="text/css">
+/* Put desktop styles here */
+body { width: 100%; background-color: #ffffff; margin:10px 0; padding:0; -webkit-font-smoothing: antialiased; }
+body a {text-decoration: none !important;}
+table { border-collapse: collapse; }
+* {-webkit-text-size-adjust: none}
+@media only screen and (max-width: 640px)  {
+        body[yahoo] .deviceWidth { width:440px!important; padding:0 18px; }     
+        body[yahoo] #content-2 .deviceWidth {
+          width: 200px !important;
+        }
+}
+@media only screen and (max-width: 479px) {
+        }
+        body[yahoo] #header {width:200px !important; }
+        body[yahoo] #footer {width:200px !important; }
+        @media only screen and (max-width: 580px) {
+        *[class].yahoo_fix{display:block;}
+        *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+        *[class].fl{float:left !important;}
+        *[class].wr{display:block !important;}
+        *[class].h{display:none !important;}
+        *[class].autoh{height:auto !important;}
+                                *[class].w100pc{width:100% !important;}
+                *[class].w9{width:9px !important;}
+                *[class].w97{width:97px !important;}
+                *[class].w18{width:18px !important;}
+                *[class].w150{width:150px !important;}
+                                *[class].w268{width:268px !important;}
+                *[class].w278{width:278px !important;}
+                *[class].w298{width:298px !important;}
+                                *[class].w297{width:297px !important;}
+                                *[class].w300{width:300px !important;}
+                *[class].w320{width:320px !important;}
+                *[class].w316{width:316px !important;}
+                *[class].w318{width:318px !important;}
+                *[class].h40{height:40px !important;}
+                                *[class].h300{height:300px !important;}
+                *[class].h181{height:181px !important;}
+                                *[class].padleft0{padding-left:0px !important;}
+                *[class].padleft10{padding-left:10px !important;}
+                *[class].padleft30{padding-left:30px !important;}
+                *[class].padleft45{padding-left:45px !important;}
+                *[class].padleft60{padding-left:60px !important;}
+                *[class].padbottom0{padding-bottom:0px !important;}
+                *[class].padtop2{padding-top:2px !important;}
+                *[class].padtop20{padding-top:20px !important;}
+                *[class].padtop35{padding-top:35px !important;}
+                *[class].padtop90{padding-top:90px !important;}
+                                *[class].padright2{padding-right:2px !important;}
+                                *[class].padright10{padding-right:10px !important;}
+                *[class].padright0{padding-right:0px !important;}
+                *[class].padright20{padding-right:20px !important;}
+                                *[class].padright70{padding-right:70px !important;}
+                *[class].alignleft{text-align:left !important;}
+                *[class].center{text-align:center !important;}
+                *[class].no_border{border-left:1px solid #ffffff !important;}
+                *[class].font16{font-size:16px !important;}
+                *[class].lheight19{line-height:19px !important;}
+}
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" ><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="table-layout:fixed; background-color:#ffffff; " ><tr ><td align="center" ><!--  PRE HEADER START -->
+<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="h" ><tr ><td valign="top" style="padding-top:4px; padding-bottom:4px; " ><table width="600" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; " class="w320 h" ><tr ><td width="350" class="h mktEditable" id="pre header messaging" align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:15px; color:#333333; text-decoration:none; text-align:left; " ><em><a style="color: #29aae1;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-4wZ8tSpwTVHyuUJUpq1P5KzRg5xGE7K_OB7sIm2MqYGGCoDVHSfqlcB7NaNXzfW_7uI4kn4qkPZsk7_XO-muOmkjlkgUsorrQ8tKjFnabw7fJiddiyHxQtSgKAc4GhweI8JWNlOiWTJcI0icxPC-FM6oW22TJIEMgIKdHcrO7nU3/XKL0s0R04000CnBpA01LE90" target="_blank"
+>Register now for Acquia Engage 2017! &raquo;</a></em></td>
+<td width="250" class="h mktEditable" id="pre header navs" align="right" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:15px; color:#333333; " ><span style="text-decoration: underline; color: #29aae1;"><a style="color: #29aae1;" text-decoration:="" underline="" text-align:="" right="" target="_blank" href="http://go.acquia.com/index.php/email/emailWebview?mkt_tok=eyJpIjoiWkRnMFpXWTJZVEUzWXpNMCIsInQiOiIyazcycVRuUC9KUDhFQ0hqbE9vYTRKaStNbFZ0MFNXWVdBWGx6WlNNTU55Rm8yeUljdVJaVUxRS3VhOG5qNDhMb0U5WDN5dURBTW5aNE5PRjloeFE1Z0FFQzZBYjZrdDg4NWhRTEdrNW9iS2o4SWVsRU8vQ01RSVNMNUJ3ZjhKSSJ9">View Online</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--  PRE HEADER ENDS -->
+<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="table-layout:fixed; background-color:#ffffff; border-left:1px solid #b6b6b6; border-right:1px solid #b6b6b6; border-bottom:1px solid #b6b6b6; border-top:1px solid #b6b6b6; " class="w298" ><!-- HEADER STARTS -->
+<tr>
+<td width="600" valign="top" align="left" style="background-color:#ffffff;" class="w298">
+<table width="600" border="0" cellspacing="0" cellpadding="0" align="left" class="w298">
+<tr>
+<td valign="top" style="padding-top:10px; padding-bottom:10px; padding-left:20px; padding-right:20px">
+<table width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff;">
+<tr>
+<td valign="top" align="left"><a href=
+"http://em.acquia.com/DEaB0010CRp00n0LL41s0KA" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/acquia-logo-new.png" style="display:block; font-size: 23px; font-weight: bold; color: #29aae1; line-height: 23px; text-align: left; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;" width="150" height="57" border="0" alt="Acquia THINK AHEAD"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- HEADER ENDS -->
+<!-- HEADLINE START -->
+<tr ><td width="600" valign="top" align="left" class="w298" ><table width="600" border="0" cellspacing="0" cellpadding="0" align="left" class="w298" ><tr ><!-- OUTLOOK BACKGROUND IMAGE FIX -->
+<td class="mktEditable autoh" id="bannerimage" height="231" ><a href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-4wZ8tSpwTVHyuUJUpq1P5KzRg5xGE7K_OB7sIm2MqYGGCoDVHSfqlcB7NaNXzfW_7uI4kn4qkPZsk7_XO-muOmkjlkgUsorrQ8tKjFnabw7fJiddiyHxQtSgKAc4GhweI8JWNlOiWTJcI0icxPC-FM6oW22TJIEMgIKdHcrO7nU3/XKL0s0R04000CnBpA01LE90" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/ENGAGE_EMAIL_600X250_scottgalloway_v1.jpg" alt=" " height="250" width="600" constrain="true" imagepreview="false" class="w298 autoh" /></a></td>
+<!--[if gte mso 9]>
+                                </v:textbox>
+                              </v:rect>
+                              <![endif]--><!-- OUTLOOK BACKGROUND IMAGE FIX --></tr>
+<!-- BODY COPY START -->
+<tr ><td valign="top" style="padding-top:20px; padding-bottom:30px; " ><table width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; " class="w297" ><tr ><td valign="top" style="padding-top:10px; padding-bottom:10px; padding-left:20px; padding-right:20px; " class="padright2" ><table align="right" width="100%" border="0" cellspacing="0" cellpadding="0" ><tr ><td valign="top" align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:17px color:#333333; " class="padright20 mktEditable" id="content1" ><p>Hello Alan<first name="">,</first></p>
+<p>We&rsquo;re in the thick of summer here in New England, and <a style="color: #29aae1;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-4wZ8tSpwTVHyuUJUpq1P5KzRg5xGE7K_OB7sIm2MqYGGCoDVHSfqlcB7NaNXzfW_7uI4kn4qkPZsk7_XO-muOmkjlkgUsorrQ8tKjFnabw7fJiddiyHxQtSgKAc4GhweI8JWNlOiWTJcI0icxPC-FM6oW22TJIEMgIKdHcrO7nU3/XKL0s0R04000CnBpA01LE90" target="_blank"
+>Engage 2017</a> is fast approaching! We&rsquo;re super excited to announce one of our mainstage keynote speakers, a man knows a thing or two about digital in this day and age. <strong>Scott Galloway</strong> of L2 and NYU Stern fame will be joining us this year, and we are thrilled!</p>
+<p><img src="http://go.acquia.com/rs/415-ERC-447/images/sgallowa.jpg" alt="sgallowa.jpg" height="167" width="120" constrain="true" imagepreview="false" align="left" hspace="20" />Scott is a Clinical Professor at the NYU Stern School of Business where he teaches brand strategy and digital marketing. In 2012, Professor Galloway was named &ldquo;One of the World&rsquo;s 50 Best Business School Professors&rdquo; by Poets &amp; Quants. He is also the founder of Red Envelope and Prophet Brand Strategy. Scott was elected to the World Economic Forum&rsquo;s Global Leaders of Tomorrow and has served on the Boards of Directors of Eddie Bauer (Nasdaq: EBHI), The New York Times Company (NYSE: NYT), Gateway Computer, and UC Berkeley&rsquo;s Haas School of Business. He received a B.A. from UCLA and an M.B.A. from UC Berkeley.</p>
+<p>Scott hosts a weekly video series called &ldquo;Winners &amp; Losers&rdquo; <a style="color: #29aae1;" href=
+"http://em.acquia.com/XKL0s2R04000CnBpA01LEb0" target="_blank" id=""
+>which you can see here</a>, to get a taste of his speaking style and what you can expect come October.</p>
+<p>Our <a style="color: #29aae1;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-4-4-NShYwvseN-yts2KxvlXY8vyGkzEB4uWMUmzVUxmQ68gRVTbL9Qgub4qxT6bk7L6kGoOvVkmlVEqsDNdSp71IlrpAAVef0dlju1jOy0WtOLn2HF3Q18M15mFPSBrEYlwcIHkN7QQExKrlur2iZ1uoRBRDmFLSopytw2dGGE-W/XKL0s0R04000CnBpA01LE90" target="_blank"
+>2017 agenda</a> is now online, and we&rsquo;ll have more exciting speaker announcements coming soon, so stay tuned!</p>
+<p>Ready to register for Engage?! <strong>We&rsquo;re currently running a promotion for 20% off with code <em>ENGAGE20</em>, so <a style="color: #29aae1;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-4wZ8tSpwTVHyuUJUpq1P5KzRg5xGE7K_OB7sIm2MqYGGCoDVHSfqlcB7NaNXzfW_7uI4kn4qkPZsk7_XO-muOmkjlkgUsorrQ8tKjFnabw7fJiddiyHxQtSgKAc4GhweI8JWNlOiWTJcI0icxPC-FM6oW22TJIEMgIKdHcrO7nU3/XKL0s0R04000CnBpA01LE90" target="_blank" id=""
+>register now</a></strong>! Ticket prices will increase to $1,250 on August 1, so you really don&rsquo;t want to miss this.</p>
+<p>If you need overnight accommodations, take advantage of our room block at the <a style="color: #29aae1;" href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-45kCYFDwQEwF99BI_Qpw_Pj_okslYaZHZC3FMWsN7BWWSc2tHoCOzE1tQ7sTN4UFVDrpAIZk9I-EEOj-fupM1JcJ7oIutGWaeqF6BWBgk-_bPU0fSRupexOpUla6_B0LpOtARVfULVPuvipC5YqwbtjHjiMuHTKPS_Zy72VJSnLV/XKL0s0R04000CnBpA01LE90" target="_blank"
+>InterContinental</a>.</p></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding-top:10px; padding-bottom:10px; padding-left:20px; padding-right:20px;" class="padright2">
+<table align="right" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- BODY COPY END -->
+<!-- BLUE CTA MODULE START -->
+<tr ><td valign="top" style="padding-top:10px; padding-bottom:10px; " bgcolor="#29AAE1" ><!--[if mso ]>
+<table border="0" cellspacing="0" cellpadding="0" bgcolor="#29aae1">
+<tr>
+<td>
+                                                            <![endif]-->
+<table width="349" align="left" border="0" cellspacing="0" cellpadding="0" class="w278" ><tr ><td class="mktEditable lheight19 font16" id="blue bar headline" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px; color:#ffffff; text-align:left; padding-left:20px; text-decoration:none; " ></td>
+</tr>
+<tr ><td class="mktEditable padtop20 lheight19 font16" id="blue bar sub header" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px; color:#ffffff; text-align:left; padding-left:20px; text-decoration:none; " ></td>
+</tr>
+</table>
+<!--[if mso ]>
+                                                    </td>
+<td valign="top">
+                                                    <![endif]-->
+<!-- CTA2 START -->
+<table width="249" class="w278" cellpadding="0" cellspacing="0" align="center" border="0" ><tr ><td align="center" valign="top" class="padtop20" style="padding-top:5px; " ><table cellpadding="0" cellspacing="0" align="center" border="0" ><tr ><td bgcolor="#212221" height="39" ><table cellpadding="0" cellspacing="0" bgcolor="#212221" border="0" ><tr ><td style="font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#FFFFFE; font-weight:bold; text-align:center; padding-left:18px; padding-right:18px; white-space:nowrap; " class="mktEditable" id="CTA2 text" align="center" bgcolor="#212221" ><span style="color: #ffffff;"><a href=
+"http://em.acquia.com/dc/8PTGAzihOyddNRoyQ_K-4wZ8tSpwTVHyuUJUpq1P5KzRg5xGE7K_OB7sIm2MqYGGCoDVHSfqlcB7NaNXzfW_7uI4kn4qkPZsk7_XO-muOmkjlkgUsorrQ8tKjFnabw7fJiddiyHxQtSgKAc4GhweI8JWNlOiWTJcI0icxPC-FM6oW22TJIEMgIKdHcrO7nU3/XKL0s0R04000CnBpA01LE90" target="_blank" style="color: #ffffff; text-decoration: none;"
+>REGISTER NOW</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- CTA2 END -->
+<!--[if mso ]>
+                                                         </td>
+</tr>
+</table>
+<![endif]--></td>
+</tr>
+<!-- BLUE CTA MODULE END -->
+<!-- ADDRESS START -->
+<tr><!-- SOCIAL ICONS / LOGO -->
+<td>
+<table width="600" border="0" cellspacing="0" cellpadding="0" class="w297">
+<tr>
+<td bgcolor="#F0F0F0" width="600" valign="top" class="w297"><!--[if mso ]>
+<table border="0" cellspacing="0" cellpadding="0" width="600" bgcolor="#f0f0f0">
+<tr>
+<td>
+                    <![endif]-->
+<table width="430" align="left" border="0" cellspacing="0" cellpadding="0" style="background-color:#f0f0f0;" class="w297">
+<tr>
+<td bgcolor="#F0F0F0" style="padding-bottom:30px; padding-top:20px; padding-left:20px">
+<table width="1" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td style="padding-right:5px"><a href=
+"http://em.acquia.com/qLCE0K0pL304Bn01R0sc00A" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/twitter_grey.png" width="35" height="35" style="display:block" border="0" alt="Twitter"></a></td>
+<td style="padding-left:5px; padding-right:5px"><a href=
+"http://em.acquia.com/jA4R0L1LE00Bp0s4CKd0n00" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/facebook_grey.png" width="35" height="35" style="display:block" border="0" alt="Facebook"></a></td>
+<td style="padding-left:5px; padding-right:5px"><a href=
+"http://em.acquia.com/p0B00E0L5C0A0e4RKL0spn1" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/linkedin_grey.png" width="35" height="35" style="display:block" border="0" alt="LinkedIn"></a></td>
+<td style="padding-left:5px; padding-right:5px"><a href=
+"http://em.acquia.com/kE06L0400ns01RKApL0fB0C" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/googleplus_grey.png" width="35" height="35" style="display:block" border="0" alt="Google+"></a></td>
+<td style="padding-left:5px; padding-right:5px"><a href=
+"http://em.acquia.com/yLnEpAs40K0LCRg0B700010" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/youtube_grey.png" width="35" height="35" style="display:block" border="0" alt="Acquia TV"></a></td>
+<td style="padding-left:5px;"><a href=
+"http://em.acquia.com/m0004810B0AKLLspRnh0EC0" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/contactus_grey.png" width="35" height="35" style="display:block" border="0" alt="Contact Us"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if mso ]>
+            </td>
+<td valign="top">
+            <![endif]-->
+<table align="right" cellpadding="0" cellspacing="0" border="0" width="170" class="w150">
+<tr>
+<td align="right" valign="top" class="autoh" style="padding-bottom:30px; padding-top:20px" bgcolor="#F0F0F0">
+<table width="150" align="right" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="right" style="padding-right:20px" class="padright70"><a href=
+"http://em.acquia.com/An090BER104KLsA00L0i0pC" target="_blank"
+><img src="http://go.acquia.com/rs/415-ERC-447/images/acquia_logo_grey.png" style="display:block; font-size: 23px; font-weight: bold; color: #29aae1; line-height: 23px; text-align: left; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;" width="150" height="57" alt="Acquia THINK AHEAD"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--[if mso ]>
+                 </td>
+</tr>
+</table>
+<![endif]--></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td valign="top" style="padding-top:5px; padding-bottom:5px; " ><table width="100%" class="w278 alignleft" align="center" border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff; " ><tr ><td class="mktEditable" id="address bar" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:13px; color:#C0C0C0; text-decoration:none; " >Acquia, 53 State St., 10th Floor, Boston, MA 02109&nbsp;&nbsp;|&nbsp;&nbsp;<a href=
+"http://em.acquia.com/dc/EcTfRE0WDaAEB1CFD7cuk8sEsWEVeuaK8LDHLRDBzLRYGd6qIUJhy79yPwe-O7AzwcNS8XVUIIID3RLKXuPzSyPMF7ZpaalKB69SX-vovSa5nWID-uchwVvfFO-o-oBBALJtTQkkKQibeYdSfwm6GwXme4H-F_66rywhoz4tRYlyo-kSfJGbaET_eVwc31cV/XKL0s0R04000CnBpA01LE90" style="font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 13px; color: #c0c0c0; text-decoration: none; ; text-decoration: underline;" target="_blank"
+><span style="text-decoration: underline; font-weight: bold;">Contact Us</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- ADDRESS END --></table>
+</td>
+</tr>
+</table>
+<a href=
+"http://em.acquia.com/Q0nC0pR0Ej1LA04LK00aBs0"
+></a>
+<img src="http://em.acquia.com/trk?t=1&mid=NDE1LUVSQy00NDc6MzQ1Mzc6MzIxMTI6MTQwNjY5OjA6NDUyOTc6OTo5MzU4Mzo4OTU4MDk4OmFsYW5AaXRydmEuY29t" width="1" height="1" style="display:none !important;" alt="" />
+
+<p align="center" ><font face="Verdana" size="1" color="silver">If you no longer wish to receive these emails, click on the following link: <a href=
+"http://em.acquia.com/u/c0B01AsE0L4R0LKCb0pkn00" style="color:#C0C0C0; text-decoration:none;"
+>Unsubscribe</a><br/> </font> </p>
+</body>
+</html>
+------=_Part_136600923_1908105898.1500575114311--

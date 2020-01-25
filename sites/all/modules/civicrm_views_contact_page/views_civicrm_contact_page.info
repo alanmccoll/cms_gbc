@@ -1,0 +1,22 @@
+name = Views on CiviCRM Contact Pages
+description = This module allows users to create a Additional Tab or Region in Summaray Tab with an embedded Drupal View Display.
+package = CiviCRM
+core = 7.x
+
+dependencies[] = civicrm
+dependencies[] = views
+
+files[] = views_civicrm_contact_page_plugin_display_page.inc
+
+; Version Information
+version = "7.x-1.0"
+core = "7.x"
+project = "views_civicrm_contact_page"
+
+
+; Information added by Drupal.org packaging script on 2018-02-24
+version = "7.x-1.0-beta1"
+core = "7.x"
+project = "civicrm_views_contact_page"
+datestamp = "1519503489"
+

@@ -1,0 +1,206 @@
+Return-Path: <prvs=0373e573b6=USPS_Shipping_Services@usps.com>
+Delivered-To: alan@itrva.com
+Received: from server22.websitehostserver.net
+	by server22.websitehostserver.net (Dovecot) with LMTP id WRMNBVXdblnzVAgAbtRU6Q
+	for <alan@itrva.com>; Tue, 18 Jul 2017 23:17:25 -0500
+Return-path: <prvs=0373e573b6=USPS_Shipping_Services@usps.com>
+Envelope-to: alan@itrva.com
+Delivery-date: Tue, 18 Jul 2017 23:17:25 -0500
+Received: from gk-c46-email.usps.gov ([56.0.143.46]:62415)
+	by server22.websitehostserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.89)
+	(envelope-from <prvs=0373e573b6=USPS_Shipping_Services@usps.com>)
+	id 1dXgQO-002HjJ-Vu
+	for alan@itrva.com; Tue, 18 Jul 2017 23:17:25 -0500
+DKIM-Signature: v=1; a=rsa-sha256; d=usps.com; s=uspscom0413; c=relaxed/simple;
+	q=dns/txt; i=@usps.com; t=1500437804;
+	h=From:Sender:Reply-To:Subject:Date:Message-ID:To:Cc:MIME-Version:Content-Type:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:Resent-From:
+	Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=dUu6vAler8/H+V3SVgAQ/b0HhpdEKGGBfljDGBGuCI0=;
+	b=sO1kKANO/dJ2gUKbkEM5L9S2+8zZdfBoucPTzposJAakWbzJQlFFq95zYnhxkXul
+	tlsYClq3pseQsIsUxBgDk3URGySPhFtA8/JM/en0AB4OGYQS4/pOdPV7scZwRCnI
+	bkvXTTRD0qXYpLtxHXEvo/wGPdWH9nggneP5olXLlVhPBvBxe7zEh/+FuMTswpiH
+	NZUYCIyZTDFc9k+pC27xVvqunyrdZRbJjDhjcyJOS0F38xl2bzCn7073pHruc9Yd
+	3n0ysCXT2mcID2EnspJLyylhyM1l0PUtOEtP8pjNdKNuImpCQeFicobTmg01wtZT
+	Y/cU3m64+haYnyGrx5kmNA==;
+Received: from mailrelay-ch9i.usps.gov (eagnmn-dlp04.usps.gov [56.207.40.120])
+	by gk-c46-email.usps.gov (Sendmail 8.14.3) with SMTP id 46.3D.09117.C2DDE695; Tue, 18 Jul 2017 23:16:44 -0500 (CDT)
+X-AuditID: 38008f24-016009c00000239d-85-596edd2c0ccf
+Received: from eagnmnmepc99.usps.gov (eagnmnmepc99.usps.gov [56.42.13.219])
+	by mailrelay-ch9i.usps.gov (Symantec Messaging Gateway) with SMTP id 26.D3.18378.C2DDE695; Tue, 18 Jul 2017 23:16:44 -0500 (CDT)
+Date: Tue, 18 Jul 2017 23:16:44 -0500 (CDT)
+From: USPS_Shipping_Services@usps.com
+To: alan@itrva.com
+Message-ID: <1990341638.408938.1500437804738.JavaMail.wsadmin@eagnmnmepc99.usps.gov>
+Subject: =?UTF-8?Q?USPS_-_Click-N-Ship=EF=BF=BD_Upcomin?=
+ =?UTF-8?Q?g_Postage_Adjustment_Updates?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFlrPLMWRmVeSWpSXmKPExsVicV6jQlfnbl6kwd7rRhY9Db1sDoweyy98
+	Yw1gjOK2SUosKQvOTM/Tt0vgzti+wqjgiXfFl+M72BoY9zh0MXJySAiYSPw7fJm5i5GLQ0jg
+	CKPExiNHGWESbY+aoBLnGCUePp7IBJJgEdCW6Fu+lx3EZhNQlTi/G6SIk0NEQEhi9qdHYHFe
+	gRCJ+UeXgtnCAikSJ39vY4KIC0qcnPmEBcRmFtCUOPd/HTOELS+x/e0csGUSAqtYJc6s+gB1
+	hZjEntN3mSYw8s1C0j8LSf8sJP0LGJlXMYqmZ+smG5vppuYmZubolRYXFOul55dtYgSFFUO/
+	yg7GvY/sDjEKcDAq8fDuupkXKcSaWFZcmXuIUYKDWUmEd/opoBBvSmJlVWpRfnxRaU5q8SFG
+	aQ4WJXHeNY+SI4UE0hNLUrNTUwtSi2CyTBycIN1cUiLFqXkpqUWJpSUZ8aCQjy8GBr1UA+O1
+	q3Nuvm4/e4Lfjm/xlXW/uFh5UxNOH7t42WKFQPiDErmueSoO85zLSqPMEtY+cg42kPR2vHDV
+	ht/2t6+I6L3V/jWcltllU2zfKNT/KpYuy9/H3hz8x2KSvhULi+9r2ZN8sbx/tl/sN1wjucJv
+	semX2VV3TfJ4733gPjF1neIep1XPz5tIr1NiKc5INNRiLipOBABgn2TtQgIAAA==
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFnrMJMWRmVeSWpSXmKPExsViocV7W1fnbl6kwYktehY9Db1sDoweyy98
+	Yw1gjOKySUnNySxLLdK3S+DK2L7CqOCJd8WX4zvYGhj3OHQxcnJICJhItD1qYu5i5OIQEjjH
+	KPHw8UQmkASLgLZE3/K97CA2m4CqxPndIEWcHCICQhKzPz0Ci/MKhEjMP7oUzBYWSJE4+Xsb
+	E0RcUOLkzCcsIDazgKbEuf/rmCFseYntb+cwT2DkmoWkbBaSsllIyhYwMq9iFM9NzMwpSs1J
+	rNRNzrDM1CstLijWS88v28QI8vp5DdMdjM/+Oh5iFOBgVOLhldiWFynEmlhWXJl7iFGCg1lJ
+	hHf6KaAQb0piZVVqUX58UWlOavEhRmkOFiVxXnvWumAhgfTEktTs1NSC1CKYLBMHp1QDoxHL
+	xROHWA49LDV8r+Qey/XnFqvKQ3NOOYYluS82BPj8NDg0vftF4lS+njPcd4N2RQmdlfJo6HXK
+	PtLRt3d5y+t3e72UVJr+Vk06xtuWPX3vo11CvNFeq2bpbFUO+lwetSlNes2t+5dc1Kr/l7jM
+	mWBxyXhabtt2tb8RXv/Lgq/edBMr1FYqUWIpzkg01GIuKk4EAAoEy4j2AQAA
+X-CFilter-Eagan: DLP04
+
+
+
+
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<title>USPS - Click-N-Ship&reg; Upcoming Postage Adjustment Updates</title>
+
+
+</HEAD>
+<BODY>
+
+<!-- brgin main container -->
+<center>
+
+
+<div style="max-width:604px; text-align:left;">
+
+
+
+<!--
+	begin logo and links
+ -->
+<table cellpadding="0" border="0" cellspacing="0" style="border-collapse:collapse; width:604px; border-bottom:solid 1px #d2d2d2;">
+	<tr>
+		<td valign="bottom" style="padding-right:0px; padding-bottom:5px;"><a href="https://www.usps.com/?utm_source=upcoming-postage-adjustment-updates&utm_medium=email&utm_content=usps-com-header&utm_campaign=cns-postage-inconsistency" style="border:0;"><img style="border:0;" src="https://www.usps.com/email/cns/usps_logo.gif"></a></td>
+		<td valign="bottom" style="padding-bottom:10px; padding-left: 5px;"><a href="https://cns.usps.com/labelInformation.shtml?utm_source=upcoming-postage-adjustment-updates&utm_medium=email&utm_content=sign-in-header&utm_campaign=cns-postage-inconsistency" style="color:#698dba; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;">Sign in</a></td>
+		<td valign="bottom" style=" padding:0px 6px 10px; color:#698dba; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;">|</td>
+		<td valign="bottom" style="padding-bottom:10px;"><a href="https://cns.usps.com/shippingHistory.shtml?utm_source=upcoming-postage-adjustment-updates&utm_medium=email&utm_content=shipping-history-header&utm_campaign=cns-postage-inconsistency" style="color:#698dba; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;">Shipping History</a></td>
+		<td valign="bottom" style=" padding:0px 6px 10px; color:#698dba; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;">|</td>
+		<td valign="bottom" style="padding-bottom:10px;"><a href="https://www.usps.com/manage/?utm_source=upcoming-postage-adjustment-updates&utm_medium=email&utm_content=manage-your-mail-header&utm_campaign=cns-postage-inconsistency" style="color:#698dba; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;">Manage Your Mail</a></td>
+		<td valign="bottom" style=" padding:0px 6px 10px; color:#698dba; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;">|</td>
+		<td valign="bottom" style="padding-bottom:10px;"><a href="https://www.usps.com/help/welcome.htm?utm_source=upcoming-postage-adjustment-updates&utm_medium=email&utm_content=customer-service-header&utm_campaign=cns-postage-inconsistency" style="color:#698dba; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;">Customer Service</a></td>
+	</tr>
+</table>
+<!--
+	end logo and links
+ -->
+ 
+ 
+<!--
+	begin main header
+ -->
+ <h1 style="font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold;">Your Click-N-Ship&reg; Upcoming Postage Adjustment Updates</h1>
+ <!--
+	begin main header
+ -->
+ 
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:11px;">
+	The US Postal Service started a new postage adjustment process for identifying label discrepancies on Click-N-Ship? accounts. If the information
+	entered during label creation did not match the information captured by USPS during the shipping process, customers have been notified via email
+	for each identified label.<br/><br/>
+	
+	USPS will continue to monitor these inconsistencies, and in addition to notifications, will require additional payment
+	if the item is found to have insufficient postage. If you receive this notification, you can log in to your Click-N-Ship? account to review and pay
+	the postage due. Customers can prevent these discrepancies by avoiding common shipping mistakes and entering package characteristics as accurately as
+	possible. Some common shipping mistakes may include:
+	
+</p>	
+
+ <h1 style="font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;margin-bottom:0px;">Labels and Packaging</h1>
+
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:11px;margin-top:0px;">
+	It is important to use the correct box associated with the package and service type selected. For example, if a Click-N-Ship&reg; label for a Priority
+	Mail&reg; Medium Flat Rate Box is printed, but a Priority Mail&reg; Large Flat Rate Box is used instead, this will be identified as discrepancy. 
+</p>
+
+ <h1 style="font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;margin-bottom:0px;">Package Weight and Dimensions</h1>
+
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:11px;margin-top:0px;">
+	When shipping using your own packaging, accurately entering weight and dimensions is essential to ensure the correct postage cost is paid.
+</p>
+
+ <h1 style="font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;margin-bottom:0px;">Ship From Zip Code</h1>
+
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:11px;margin-top:0px;">
+	
+	In order to be sure that postage for Priority Mail&reg; and Priority Mail Express&reg; is correctly calculated, it is important to accurately enter the
+	correct Zip Code&trade; from which the package will be shipped to avoid the possibility of additional postage being required. Please note that the
+	Zip Code&trade; from which the package will be shipped may differ from the return address Zip Code&trade;; in this case, please be sure to enter both a
+	Return Address and a Ship From Zip Code&trade; when creating labels.
+</p>
+
+<p style="font-family:Arial, Helvetica, sans-serif; font-size:11px;margin-top:0px;">
+	
+	You can find more information on proper shipping techniques here: <a href="https://www.usps.com/business/verify-postage.htm?utm_source=upcoming-postage-adjustment-updates&utm_medium=email&utm_content=verify-postage-body&utm_campaign=cns-postage-inconsistency">https://www.usps.com/ship/preparing-domestic-shipments.htm</a>.<br/><br/> 
+
+	Thank you for being a valued Click-N-Ship&reg; customer.
+	
+</p>
+
+		<!-- Begin ad space -->
+		 <table cellpadding="0" border="0" cellspacing="0" style="border-collapse:collapse;">
+		 	<tr>
+		        <td style="padding-right:10px; padding-top:10px;"><a href="https://usps.com/get-mailing-shipping-supplies.htm?utm_source=upcoming-postage-adjustment-updates&utm_medium=email&utm_content=shipping-supplies-footer-image&utm_campaign=cns-postage-inconsistency" style="border:0;"><img style="border:0;" id="promoImg" src="https://www.usps.com/email/cns/Priority-Mail-Flat-Rate-packaging_promo.png"></a></td>
+		        <td style="padding-top:10px;">
+		        	<div style="width:118px;">
+		            	<div><img src="https://www.usps.com/email/cns/sm-top-cap.png" hspace="0" vspace="0" border="0"></div>
+		                <div style="border-right: solid 1px #d2d2d2; border-left: solid 1px #d2d2d2;">
+ 			                <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+ 							<tr>
+ 						    	<td style="padding:6px 10px;font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:15px; ">
+ 								    <div id="promoLinks" style="height:111px;">
+ 			                    		<strong>Need help?</strong><br>
+ 			                    		<a href="http://faq.usps.com/?utm_source=upcoming-postage-adjustment-updates&utm_medium=email&utm_content=search-faqs-footer&utm_campaign=cns-postage-inconsistency&searchString=click%20n%20ship" style="color:#698dba;">Search FAQs</a><br>
+ 			                    		1-800-ASK-USPS<br><br>
+ 			                    		<a href="http://about.usps.com/who-we-are/privacy-policy/privacy-policy-highlights.htm?utm_source=upcoming-postage-adjustment-updates&utm_medium=email&utm_content=privacy-policy-footer&utm_campaign=cns-postage-inconsistency" style="color:#698dba;">Privacy Policy</a><br>
+                    	    		</div>
+ 							    </td>
+ 							</tr>
+ 							<tr>
+ 							    <td style="padding:6px 10px;font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:15px; ">
+	 							    <div style="height:29px;">
+	 				                	<a href="https://twitter.com/#!/USPS" ><img src="https://www.usps.com/email/cns/twitter.png" hspace="0" vspace="0" border="0"></a><a href="https://www.facebook.com/#!/USPS"><img src="https://www.usps.com/email/cns/facebook.png" hspace="0" vspace="0" border="0"></a>
+	 								<br>
+	 				                </div>
+ 							    </td>
+ 							</tr>
+ 							</table>
+ 			        	</div>
+		            	<div>
+		            		<img src="https://www.usps.com/email/cns/sm-bot-cap.png" hspace="0" vspace="0" border="0">
+ 	            		</div>
+		            </div>
+		        </td>
+		    </tr>
+		 </table>
+		 
+		<!-- End ad space -->
+
+		<!-- Begin footer -->
+<div style="background-color:#f2f2f2; max-width:100%; margin-top:20px;">
+			<table cellpadding="0" border="0" cellspacing="0" style="border-collapse:collapse;"><tr><td style="padding:10px; font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:15px;">
+		    	<a href="https://www.usps.com/?utm_source=upcoming-postage-adjustment-updates&utm_medium=email&utm_content=usps-com-footer&utm_campaign=cns-postage-inconsistency" style="color:#698dba;">usps.com</a><br>
+		    	<p>This message is for the designated recipient only and may contain privileged, proprietary, or otherwise private information.  If you have received it in error, please notify the sender immediately and delete the original.  Any other use of the email by you is prohibited.</p>
+			</td></tr></table>
+		</div>
+		<!-- End footer -->
+<!-- end main container -->
+</div>
+</center>
+
+</BODY></HTML>

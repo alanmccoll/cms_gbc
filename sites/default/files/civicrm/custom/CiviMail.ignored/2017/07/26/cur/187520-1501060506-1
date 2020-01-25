@@ -1,0 +1,755 @@
+Return-Path: <bounces+2090234-1ba7-alan=itrva.com@tx.mint.com>
+Delivered-To: alan@itrva.com
+Received: from server22.websitehostserver.net
+	by server22.websitehostserver.net (Dovecot) with LMTP id rQDQIpZceFlwlwIAbtRU6Q
+	for <alan@itrva.com>; Wed, 26 Jul 2017 04:10:46 -0500
+Return-path: <bounces+2090234-1ba7-alan=itrva.com@tx.mint.com>
+Envelope-to: alan@itrva.com
+Delivery-date: Wed, 26 Jul 2017 04:10:46 -0500
+Received: from o4.tx.mint.com ([167.89.39.170]:56297)
+	by server22.websitehostserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.89)
+	(envelope-from <bounces+2090234-1ba7-alan=itrva.com@tx.mint.com>)
+	id 1daIL8-000kCX-Ji
+	for alan@itrva.com; Wed, 26 Jul 2017 04:10:46 -0500
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=mint.com; 
+	h=content-type:from:mime-version:reply-to:subject:to; s=s1; 
+	bh=Dw3nSDMLN0COMfTHzjFFRCdIIhc=; b=Les3tVMM8BnVUMFG6JzFYY42fsMZC
+	KF9WbwL6J4XjuuBSkz1GK8kA8dazsPZf/5RcZvjJfCZHmhlr5d6/0IlL19qWyIdu
+	4fTQOc5qoxkfv0/EcD1qmpyPjGo6ai67b/Q46Y313g/Bva8PoCkF6kYbgz8eF6Qz
+	0tRNXfvr3KIZnE=
+Received: by filter0545p1las1.sendgrid.net with SMTP id filter0545p1las1-16239-59785C6E-7
+        2017-07-26 09:10:06.262808442 +0000 UTC
+Received: from MjA5MDIzNA (ec2-54-149-41-90.us-west-2.compute.amazonaws.com [54.149.41.90])
+	by ismtpd0015p1las1.sendgrid.net (SG) with HTTP id ubuAekIBTkm3hjRY68r_iA
+	for <alan@itrva.com>; Wed, 26 Jul 2017 09:10:06.293 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=fb2e9c204c601f34bb4059acfadc05adc2232d3d1bf0fc543104f3331e5e
+Date: Wed, 26 Jul 2017 09:10:06 +0000 (UTC)
+From: "Mint" <team@mint.com>
+Mime-Version: 1.0
+Reply-To: no-reply@mint.com
+Subject: Exceeded budget for Tithe
+To: alan@itrva.com
+Message-ID: <ubuAekIBTkm3hjRY68r_iA@ismtpd0015p1las1.sendgrid.net>
+X-SG-EID: j8wdlB4+s5XBAkiJHgaFxbjl/KlLhdkr6jqAzuj9HiZ43k3N11GbPJqgkG8P31zHw2X2wx25ekjztS
+ 3UhDBU2Zy+6F2//Cwo3vDX1VThCPdqjOuZYzGcLnUTORpMzkUPKs3mVvcnqaO0vYkBDxOdx/YrSXTh
+ tQ6fip8nMJFw+l0mM5KzUWJ1bonmgCzEzUne2ThxAD69kQ8+zq947Nkz0g==
+X-SG-ID: p+ZBrOV5QccaCZ9QS1/Vc0Q3Z0gqdyV3vNQNTHkzO1nDyLgeYKczdO1EdThIvI8sQdSPxhS7egn4Rb
+ lUJIcEM/T8aX09YMzLh05RbyVySAhZdSyBpwdV4942Omy4bIV1XyJagL8h1uXfmvIrDM7EoIAEYPkB
+ 3kg0cThQYj0GxRm5Jq4V1BHGiWimrltKLrFU
+
+--fb2e9c204c601f34bb4059acfadc05adc2232d3d1bf0fc543104f3331e5e
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+Mime-Version: 1.0
+
+Hi there,
+
+This month, you spent $1,004 on Tithe. This exceeds your budget of $1,000 b=
+y $4.
+To view details go here:
+
+    https://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSY5tTOzVn5u=
+gVXsY6DX0I8hNHYNWkFkMsWPUlb9FTZOmyF9KpEMf-2BIxQlCfWAXaY9KLKuvqHOvDkuL4uP2w8=
+DZW5imT7U-2F5WIfya5xNU5RG9uds-2BlEm3twjw5o2by00qdxwtu6nfTgUpk24GmpuRfBzQPNU=
+JG0NJnNXdesHBQu-2Fxa-2FJbW0a-2FmNIl4izU7FWX6A-3D-3D_G0-2BAnoQl4dMAXyDaoYkoU=
+p66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj=
+59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkan=
+o3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7NX-2FQti2jQu5Phex-2FudE5WtOkiVgbRsjTJERx=
+osACsRe73LMKXHwD-2BovLPzPOQ3hSqy3GLK5aX3Lkpcgd0Em6RjeOVbWJ1sa123O-2Bn1-2Fd1=
+QYt7tLfwxGMDa0sIRcw29Dk8OqGQSyXUayZIhZDkSytqlt-2BIb6bBhLPsQFSobXRmaxhY4Dvfn=
+uzcoN0AJuvCibs192noeDHZWQAMMwc8z-2FL0A-3D-3D
+
+Reminder: it's easy to reset budget levels from your Mint Overview page.
+
+
+Cheers,
+The Mint Team
+
+P.S. Manage your preferences for which alerts you want to receive. Log in a=
+t www.mint.com to set your email and text alert preferences.
+----
+
+Visit https://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSY5tTOzVn=
+5ugVXsY6DX0I8h9ayYdFSPEKUxj2QS1oNCfVEHNTl2eWjZ1BT-2FMSapsQggUVtMM0S9gmqIU0G=
+ci9uvug3zs5lwWFujMLJ6YaKP-2BOO9ntPtcIMV-2FpXRDMVfeQ2GAauWcQ1a1LHiVbT446sS-2=
+FiMz5og8uHlKo6EF6beG3njlLiDUNGeAxJ3cXbtC-2BYOC4dbTPa-2F1LjUQAjmHl7xpJs52zr8=
+NvScj121XKZk85gqvW4GbFxAJ-2B25e6-2BD-2FNCB3Dn9Gl62U5qhAg6l3Bx9A-3D_G0-2BAno=
+Ql4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147=
+F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7=
+TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7EiZXhQeki6wtzZ4QaOlfW2y-2=
+BUAaj3f9-2FoQKLjAB7N872p-2B4GaCyfg77VG7BT9WbR0uEyEsSvWeswtkUft1La3fwP-2BkoO=
+BYK5QvlNEhIJ0NIBNgE478JPrBzzVm85duOnKkPeazCpvUyUM1FOwSTm3OyYLDotExyj7cf-2F-=
+2Brsz15jcKlDGK1P4xW8-2Fnt2mVCKj5ooOEqvOu1KdLTgIM9Zhcw-3D-3D to manage your =
+email and mobile alerts.
+
+Note: Never share your online banking or mint.com passwords with anyone via=
+ email, including us!=
+
+--fb2e9c204c601f34bb4059acfadc05adc2232d3d1bf0fc543104f3331e5e
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+Mime-Version: 1.0
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0" />
+<style type=3D"text/css">
+
+..ExternalClass * {line-height: 100%;}
+
+@media screen and (max-width: 480px) {
+  .desktopSection110 {display: none !important;}
+  .logo {width: 305px !important; height: 37px !important;}
+  .hero {width: 305px !important; height: 163px !important;}
+  .pod {width: 305px !important; height: 143px !important;}
+  .social1 {width: 44px !important; height: 44px !important;}
+  .social2 {width: 1px !important; height: 44px !important;}
+  .social3 {width: 52px !important; height: 44px !important;}
+  .social4 {width: 17px !important; height: 17px !important;}
+  .grayline {width: 305px !important; height: 1px !important;}
+  .colorbar {width: 305px !important; height: 5px !important;}
+  .loginbutton {width: 305px !important; height: 38px !important;}
+  .seemoreadvicebutton {width: 305px !important; height: 45px !important;}
+  .budgetchart {width: 305px !important; height: 15px !important;}
+  .check {width: 305px !important; height: 86px !important;}
+  .engagement {width: 305px !important; height: 76px !important;}
+  .icon {width: 305px !important; height: 45px !important;}
+  .mobilescreens {width: 305px !important; height: 165px !important;}
+  .mobilescreens2 {width: 305px !important; height: 91px !important;}
+  .summaryblock {width: 15px !important; height: 14px !important;}
+  .summarywheel {width: 185px !important; height: 240px !important;}
+  .summarywheel_nullcase {width: 186px !important; height: 187px !important=
+;}
+	.acorns {width: 305px !important; height: 27px !important;}
+	.cta {width: 305px !important; height: 60px !important;}
+	.sponsored {width: 305px !important; height: 25px !important;}
+	.icons {width: 305px !important; height: 40px !important;}
+	.icond7 {width: 305px !important; height: 399px !important;}
+	.icond3 {width: 305px !important; height: 30px !important;}
+	.stash {width: 305px !important; height: 32px !important;}
+
+    .goal {width: 84px !important; height: 84px !important;}
+
+    .mar24_compare_button {width: 280px !important; height: 38px !important=
+;}
+    .mar24_categorize_button {width: 174px !important; height: 38px !import=
+ant;}
+    .mar24_fix_button {width: 149px !important; height: 38px !important;}
+    .mar24_icon1 {width: 27px !important; height: 27px !important;}
+    .mar24_icon2 {width: 29px !important; height: 29px !important;}
+    .mar24_see_all_budgets_button {width: 174px !important; height: 38px !i=
+mportant;}
+    .mar24_see_your_accounts_button {width: 204px !important; height: 38px =
+!important;}
+    .apr04_add_accounts_button {width: 156px !important; height: 38px !impo=
+rtant;}
+    .apr04_add_some_budgets_button {width: 197px !important; height: 38px !=
+important;}
+    .shopper {width: 305px !important; height: 260px !important;}
+    .line {width: 305px !important; height: 12px !important;}
+	.line1P {width: 305px !important; height: 1px !important;}
+    .social {width: 28px !important; height: 28px !important;}
+	.animated {width: 305px !important; height: 60px !important;}
+
+
+    table[class=3Demailwrapto100pct], img[class=3Demailwrapto100pct]
+  {
+    display:block !important;
+    width:100% !important;
+  }
+
+    table[class=3Demailwrapto100pct_weeklysummary], img[class=3Demailwrapto=
+100pct_weeklysummary]
+    {
+        display:block !important;
+        width:100% !important;
+    }
+
+  .mobile_again {
+    display : block !important;
+    width : auto !important;
+    visibility:inherit !important;
+  }
+}
+
+
+@media not screen and (max-width: 480px) {
+  img.emailMobileHide {width:1px; height:1px;}
+  span.emailMobileHide {color:#ffffff;}
+}
+
+..emailwrapto100pct {width:0; overflow:hidden;float:left; display: none;}
+..emailwrapto100pct_weeklysummary {width:0; overflow:hidden;float:none; disp=
+lay: none;}
+..ios-phone a {color: #333333 !important; text-decoration: none;}
+..ios-addr a {color: #999999 !important; text-decoration: none;}
+@media yahoo {
+    .desktopSection110 {display: inline !important;}
+}
+</style>
+<!-- start padding for iOS -->
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                                           =
+                                                  <!-- end padding for iOS =
+-->
+</head>
+<body style=3D"padding:0; margin:0;-webkit-text-size-adjust:none;-ms-text-s=
+ize-adjust:100%; background-color:#ffffff;" bgcolor=3D"#ffffff">
+<!-- START DESKTOP -->
+<!-- DEBUG DESKTOP_BODY_START -->
+<table class=3D"desktopSection110" width=3D"600" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" align=3D"center" bgcolor=3D"#ffffff">
+  <!-- Header --><tr>
+    <td style=3D"line-height:10px;"><!-- DEBUG SPACER_START --><img style=
+=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/spacer.gi=
+f" width=3D"1" height=3D"10" alt=3D"" border=3D"0" /><!-- DEBUG SPACER_END =
+--></td>
+  </tr>
+  <tr>
+    <td align=3D"center"><!-- DEBUG DESKTOP_CONTENT_START --><a name=3D"Log=
+o" href=3D"https://links.mint.com/wf/click?upn=3D5Utd7G-2B5xhsaQZ2v9X3zj4kG=
+92NxuJnZaw5WyOXRLTrgDsVgmNsgi1o8L5fDrE9nqMvECzyLdlbGrtolJoFvNK9Uaz15z1V1rwN=
+gs-2BHC2E0P2SpONznWm7C1YYVDUJAnXpfr8vm6GJs3AbgRdFOQQ8VrduKFOpXDVaX3Xt8-2Frh=
+OxkFYptarnVzDpTTuXzwW-2B5WXR-2FHTJw58jaZsT9gtsnw-3D-3D_G0-2BAnoQl4dMAXyDaoY=
+koUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmz=
+ZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZ=
+kano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7aXeFTuQ3UXB44mgGC4Se1PoquQXzxuO77zoU1=
+J-2F0eqw-2BsrEmHl3vekY016tWW5q-2BDssTb8c83O-2Fnr1fEFetWO06GoXDxsJ1A5djLFQQn=
+bFQaKjVDPUVdyGwZShWwuWhGUuLcM63u5OvSpHmZnlALt1x-2FX2BCgax-2BncCNbVzV-2FOFsi=
+I-2F8JZy7JFM2zXuh-2B-2BGR12tgsuuqIqoaT-2BhurUrkBQ-3D-3D" target=3D"_blank">=
+<img style=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen=
+/mint_logo.jpg" width=3D"305" height=3D"37" alt=3D"Mint" border=3D"0" /></a=
+></td>
+  </tr><!-- End Header -->
+			<tr>
+		<td valign=3D"top" align=3D"center">
+		<span style=3D"font-size:20px; line-height:22px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#000000;">&nbsp;</span>
+	<span style=3D"font-size:28px; line-height:32px; font-family:Avenir, Arial=
+, Helvetica, sans-serif; color:#000000;">
+		<br />&nbsp;		<br />
+		<b><!-- Headline -->You&rsquo;re $4 over budget for Tithe<!-- End Headlin=
+e --></b>
+	</span>
+			<span style=3D"font-size:8px; line-height:10px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#999999;"><br />&nbsp;</span>
+		<span style=3D"font-size:8px; line-height:10px; font-family:Avenir, Arial=
+, Helvetica, sans-serif; color:#999999;"><br />&nbsp;</span>
+			</td>
+	</tr>
+				<tr>
+		<td align=3D"center" style=3D"line-height:1px;"><img style=3D"display:blo=
+ck;" src=3D"https://www.mint.com/ei/2014.evergreen/580_gray_line.gif" width=
+=3D"580" height=3D"1" alt=3D"" border=3D"0" /></td>
+	</tr>
+=09
+		<tr>
+		<td valign=3D"top" align=3D"center">
+				<span style=3D"font-size:26px; line-height:28px; font-family:Avenir, Ar=
+ial, Helvetica, sans-serif; color:#000000;">&nbsp;</span>
+		<span style=3D"font-size:36px; line-height:38px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#000000;"><br/>
+		$1,004</span>
+		<span style=3D"font-size:14px; line-height:20px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#999999;"><br/>
+		SPENT</span>
+		<span style=3D"font-size:10px; line-height:14px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#999999;"><br />&nbsp;<br /></span>
+		<span style=3D"font-size:20px; line-height:22px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#000000;"><br/>
+		$1,000</span>
+		<span style=3D"font-size:14px; line-height:20px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#999999;"><br/>
+		BUDGETED</span>
+		<span style=3D"font-size:8px; line-height:10px; font-family:Avenir, Arial=
+, Helvetica, sans-serif; color:#999999;"><br />&nbsp;</span>
+	<span style=3D"font-size:14px; line-height:22px; font-family:Avenir, Arial=
+, Helvetica, sans-serif; color:#999999;"><br />
+					You&#39;ve gone over the <strong>$1,000</strong> monthly budget you se=
+t for Tithe by <strong>$4</strong> in July.
+				Get back on track by updating your budgets or creating new ones.
+		<br />&nbsp;	</span>
+
+			</td>
+	</tr>
+
+			<tr>
+		<td valign=3D"top" align=3D"center">
+			<a name=3D"Login_Now" href=3D"https://links.mint.com/wf/click?upn=3DFrwd=
+NJz7BEaU-2FKPeA2ZCSSndwnO-2BnYqXHv4uh6-2FmpDXmWPiJQEzw8rABEKutLf255MxT2defZ=
+P6oQ18L4lYd1A-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8A=
+cFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2B=
+OD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6Oedw=
+tC7-2BQYNmkcONI7LS7t67rJczhUVcYL6PuUA0c01IoKjGiiD9tmJGteYrSi3PA8Nx5k8mpwmvG=
+z2pmOCTasWcHEfGD8PjhxcPDFxhQLgTo7G-2FKcrh70EQQjEIelqFXxBSQ8AHUA0-2BmuxuOlEb=
+ydryhg-2BeYL6svG9Nfh7o26r6KvTZy4zTfzHEXjXT0kLV7eeqaP9QflbRZls28xzWJioLMDLUQ=
+-3D-3D" style=3D"color:#4dc5e2;" target=3D"_blank"><img style=3D"display:bl=
+ock;" src=3D"https://www.mint.com/ei/2014.evergreen/button_login_now.gif" w=
+idth=3D"156" height=3D"38" alt=3D"Login Now" border=3D"0" /></a>
+		</td>
+	</tr>
+
+
+
+		<tr>
+		<td valign=3D"top" align=3D"center"><span style=3D"font-size:36px; line-h=
+eight:38px; font-family:Avenir, Arial, Helvetica, sans-serif; color:#000000=
+;">&nbsp;</span></td>
+	</tr>
+	<tr>
+		<td align=3D"center" style=3D"line-height:1px;"><img style=3D"display:blo=
+ck;" src=3D"https://www.mint.com/ei/2014.evergreen/580_gray_line.gif" width=
+=3D"580" height=3D"1" alt=3D"" border=3D"0" /></td>
+	</tr>
+
+<tr>
+	<td valign=3D"top" align=3D"center">	<span style=3D"font-size:26px; line-h=
+eight:28px; font-family:Avenir, Arial, Helvetica, sans-serif; color:#000000=
+;">&nbsp;</span>
+</td>
+
+</tr>
+<tr>
+	<td valign=3D"top" align=3D"center"><table width=3D"142" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">
+		<tr>
+			<td valign=3D"top"><a name=3D"Facebook" href=3D"https://links.mint.com/w=
+f/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSd0GgwW-2FQVid9og9fLqeWVhRmQE67tV1auY-2=
+B8P4IzJ1s_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXX=
+NDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIv=
+CJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC70bUxz5C=
+OP7p4O9CByginoKcjW33j0c0fyxSMmMUcMu-2Bevcz2YHl1yBTNqwnK8vz4EY6RGhaQZK3EZCNv=
+Mzp-2B5mRxuaFrHvkfPL-2BpTjASd1YcTax-2F607xRZ1PZ9pie6wbXH1DlsJj-2Bis3iXnsoc9=
+OZ6MLLrCUjmV5H20ZdDsryJwIJNwBg1YMn6MLtQECEADl6J4smDt2WgbIMnSf-2BZtIrA-3D-3D=
+" target=3D"_blank"><img style=3D"display:block;" src=3D"https://www.mint.c=
+om/ei/2014.evergreen/facebook.gif" alt=3D"Facebook" width=3D"44" height=3D"=
+44" border=3D"0" /></a></td>
+			<td valign=3D"top"><a name=3D"Twitter" href=3D"https://links.mint.com/wf=
+/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSa9LRP2cRNBa0dCMMqmAvDY-3D_G0-2BAnoQl4dM=
+AXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC=
+5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFO=
+VjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7xDMrFEixsDLXuqu9MFhc-2BMIPTJmd=
+UmjDmUJ3XafcbZHCLJqUyAum4RjIq7mYe8iHTnHh7jF2uXOXk3IF0vNgLTxI1s6nxDysNN40mjt=
+ETbMbDBCd8QrkMfy3TMILTGwqDapxMamGap1UBIKRwoEL8hPRc34Nzv8mANHauOxnidHedoULlc=
+u-2FWX461etU-2BSr7oi0-2FhnF-2FdDZ2ORI-2FzcUyIg-3D-3D" target=3D"_blank"><im=
+g style=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/tw=
+itter.gif" alt=3D"Twitter" width=3D"52" height=3D"44" border=3D"0" /></a></=
+td>
+            <td valign=3D"top"><a name=3D"Instagram" href=3D"https://links.=
+mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSSBOl7BseaKUkqZfge3RFmiziQKHl=
+FkDeV7sBZ1t4HYS_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJO=
+CpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5q=
+H9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7z=
+V-2FE8G9-2BdGMAbrv5S4aXHd1nFmJAsxh6DOLnELdI5ratCDhIT0WzdJaoXKUrhjIZtq9SBZ3E=
+wRAuQ2e24XCLOX7ro0TR2-2Br-2FgT2HJVwz5jLykByBC1WY8iF-2FxvySJbL7V4vEgPuNL9S9v=
+Oe-2BDqknazuNLl8VTVBYId1EeVNKzCt3v9X4-2B5DE7LT43we0dhf3Jrbmizx9aRA8TNx9UGED=
+pw-3D-3D" target=3D"_blank"><img style=3D"display:block;" src=3D"https://im=
+ages.mint.com/i/email/common/social_white_insta_2x.gif" alt=3D"Instagram" w=
+idth=3D"52" height=3D"44" border=3D"0" /></a></td>
+			<td valign=3D"top"><a name=3D"RSS" href=3D"https://links.mint.com/wf/cli=
+ck?upn=3D5Utd7G-2B5xhsaQZ2v9X3zj-2Bh2PKvS7D-2B5pyn8kSVJyQS9AneC9NqXgjGVWt4c=
+trLT_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi=
+0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQ=
+Uo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7x78eSf1Ewkz4=
+epqzoVC6GxwsJOYX6rzNXiNrrNtgasL46h9IWbzeIJyMcMcfDfXn89v46lP3L-2Fg72xqWWfmvN=
+OSaTdmlXsrfscG1o7vkUZ6FaGyCuZTqjhrf4bCmXYnvUX356xLYvcwT3aHMcnYYZl3csjxces7J=
+LZgfHTji1riaPUDuh5LSu-2B-2F4pz7GG-2Fk73pp-2BMWqVZxZVU3VXNehkRw-3D-3D" targe=
+t=3D"_blank"><img style=3D"display:block;" src=3D"https://www.mint.com/ei/2=
+014.evergreen/rss.gif" alt=3D"RSS" width=3D"44" height=3D"44" border=3D"0" =
+/></a></td>
+					<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"ht=
+tps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"20" height=3D"1" =
+alt=3D"" border=3D"0" /></td>
+			<td valign=3D"middle"><a name=3D"Apple" href=3D"https://links.mint.com/w=
+f/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSQiRNKtlEXvwowsps10D0UoiQR7778UaTx-2FhL=
+XgXDqN-2BTY5BWE3JHVB-2B4RZXY10pzzzVCYbOy9uSUa7XOTMsNIhdE2sHXHbnihLEvpOKqeZt=
+xk2b8cUH2Tj3gDPRulauxzVDH6dmxN6g54sq0lbOVLaYMlslfOYMRq3zsTg6-2B4cm3mMbd6R-2=
+FCoAzzPImu3PiKggUz5d-2FiMyvNCqHBhy5MmWhJ3-2F68rAxef2rFnZVxLIl94eewaUN1mJjsv=
+tJpbNvHQ-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOC=
+pXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH=
+9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7l-=
+2FRIM27asJrvBv5CDjh9K1LkRahPGq8nwqLsXQjiyS3Nr0XZaA2bUVieYQ3XdYLxXmh8-2Fc7rs=
+gYYMWNC-2BtEMlJCZIPVB3-2FRzuGGh9M5EQo2sLuEPfxxTJbSXKhR69k1VC-2BETWFPzH5GNe8=
+1AqYr2BHtCH8bY9s6w9Ei7t2nxpx8XpiG3o2k2JbDTGczh0C0FnaXqH8O7mJ3EXA65klGVFw-3D=
+-3D" target=3D"_blank"><img style=3D"display:block;" src=3D"https://www.min=
+t.com/ei/2014.evergreen/appstore.gif" alt=3D"Appstore" width=3D"" height=3D=
+"" border=3D"0" /></a></td>
+					<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"ht=
+tps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"35" height=3D"1" =
+alt=3D"" border=3D"0" /></td>
+			<td valign=3D"middle"><a name=3D"Android" href=3D"https://links.mint.com=
+/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSb-2BAqMJ1OwWB6X3LsDkzm5sZ2jxzdAdSj4Y=
+GLEthhw3RN0AAW31LOCTawG9sLv-2FUHUNcmF0i9kO8-2FFTxz9ygyLQ3Nayseql7aMU96EY9oK=
+NU949MH3KsSs1-2FmPu18371QlK87-2BHriETnNjgAklwn1tM3DvUi1EI0ubk0yc4w-2BUvJstf=
+tGVRJoSh1hyOMjoHAvr7itbj6dtOyNWt1oUwlpv1VUtVUk4hkHk6y4zH-2FNkzI_G0-2BAnoQl4=
+dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1X=
+PC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUf=
+FOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7JPrIn8A3VP0h8OK-2B-2Fs3od8a6=
+xSao3FZ-2BWOt2DuGgVs8uLbm-2F-2Bx18v2pE7Pn-2BhJxx6kp7rNudh3AL1dQivZU4onRiChD=
+XNxjfL4zEWO36HEAX0YpWcsoopXalG8yWcEbG-2BF0Rc7c7XkZg9ysFVCzMJqxAURnu5Yg-2FHj=
+Au8PqArvIEiolXxWYXbGOCGnmcBz9xnYgyHgHjjc8-2F-2BiHCDZl3GA-3D-3D" target=3D"_=
+blank"><img style=3D"display:block;" src=3D"https://www.mint.com/ei/2014.ev=
+ergreen/android.gif" alt=3D"Android" width=3D"" height=3D"" border=3D"0" />=
+</a></td>
+					<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"ht=
+tps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"35" height=3D"1" =
+alt=3D"" border=3D"0" /></td>
+		</tr>
+	</table></td>
+</tr>
+<tr>
+	<td><img style=3D"display:block;" src=3D"https://www.mint.com/ei/2014.ever=
+green/spacer.gif" width=3D"1" height=3D"20" alt=3D"" border=3D"0" /></td>
+</tr>
+<tr>
+	<td valign=3D"top" align=3D"center"><span style=3D"font-size:11px; line-he=
+ight:16px; font-family:Avenir, Arial, Helvetica, sans-serif; color:#999999;=
+">This message was sent to alan@itrva.com<br />
+If you would like to update your email address, please&nbsp;<a name=3D"Mana=
+geAccount" href=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPe=
+A2ZCSY5tTOzVn5ugVXsY6DX0I8h9ayYdFSPEKUxj2QS1oNCfVEHNTl2eWjZ1BT-2FMSapsQggUV=
+tMM0S9gmqIU0Gci9uvubNEjIOBYzH-2FxUUbADVvcfYrkaW3E4-2BFrckXNIWAD-2FFsz59XzmU=
+qL9NV-2B2V-2FZE-2BjCYedfsUboY7qnzVBdUmc1vKojvfezV1VNNSK2Q2dLjrdeh636kDLUd80=
+DUoc3psB3aSVXiSHbN3TZ-2FgJuLjWjILM0m6DK4lrGrCBHMO-2BoJ-2F6laFwPlXg34j8S3Opl=
+yYU-3D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDu=
+Ni0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJG=
+xQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7sENsXcJaUX=
+gJptlEmGIpMkHfqg8GHtt0oIvumim-2BY5ikBYeR8Q5TfwcjJCrZ2-2BPR47lUvWXWw8s-2BhWp=
+GZFzrvYbU32EnrZeqk0VNaiWV2I1lFuVMSLLyfVwe7QgDLz-2FyCmAePaPO2cqx-2FeWDy3ywbr=
+7K9TaGwPIGwo7myCPW2SBWPWJmHqjDD-2FQgr8BAJp-2BpkJOaaqQQ9wgQiMKhLnF8kw-3D-3D"=
+ target=3D"_blank" style=3D"color:#999999;">click&nbsp;here</a>.<br /><br/>
+
+	To unsubscribe from emails, please <a name=3D"Alert_Preferences" href=3D"h=
+ttps://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSY5tTOzVn5ugVXsY=
+6DX0I8h9ayYdFSPEKUxj2QS1oNCfVEHNTl2eWjZ1BT-2FMSapsQggUVtMM0S9gmqIU0Gci9uvug=
+3zs5lwWFujMLJ6YaKP-2BOO9ntPtcIMV-2FpXRDMVfeQ2GAauWcQ1a1LHiVbT446sS-2FiMz5og=
+8uHlKo6EF6beG3njlLiDUNGeAxJ3cXbtC-2BYOC4dbTPa-2F1LjUQAjmHl7xpJs52zr8NvScj12=
+1XKZk85gqvW4GbFxAJ-2B25e6-2BD-2FNCB3Dn9Gl62U5qhAg6l3Bx9A-3D_G0-2BAnoQl4dMAX=
+yDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5h=
+MyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVj=
+TbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7rLwdcRF-2BM7T1nFt7aU4TQRumjXUT-2=
+Fwva1n8UinUA5JBYAP4TFIoL-2BqCz9rlrR7owN4dXo2gyfSYq8XooZ-2FqxctQHHD1-2BrQBtF=
+otWAUgh9NeQ5FL742WeDJAy39vz6rvRc16PMUqTMXI6ZbyySvdF9OFx-2B8ziYSPS2BPnqF5IWg=
+WsyQjeV8v1eJs1z79LWtty1rfG9visRFvZ7sjB5-2B-2BQwQ-3D-3D" target=3D"_blank" s=
+tyle=3D"color:#999999;">log in</a> to your Mint account <br/> where you can=
+ manage your email and mobile alerts setting.
+
+
+<br />&nbsp;<br />
+&copy;2007&mdash;2017 Mint Software, Inc. | All Rights&nbsp;Reserved.<br />
+Mint.com 2632 Marine Way, Mountain View, CA&nbsp;94043<br />
+<a name=3D"Privacy" href=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7B=
+EaU-2FKPeA2ZCSYZ-2FHNK1NfVWFeRJuiNEeGu6U7gTr0Y5LEJwiFZcLBjX_G0-2BAnoQl4dMAX=
+yDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5h=
+MyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVj=
+TbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7EL6gqlKnY5MjRT09WhrSv5wDj8r9vJ3U=
+nAB65j7vUCOJOQqRBXcv2qs6KDCmriJzK7xFCTPghnTkX1XibRGEBLvnqMhRXxUxvWWlXZU4Z0f=
+CsHj8KOvqERSWzcLRBPKS1uROFoc7g-2BHHQUen8bpIGR0NPD-2Bk-2FtNG3ETLFXDSAoerPaJU=
+V6ZHzN-2FvJatrHRAC2Gtxkrz-2BNk0R-2FbXO3jksJA-3D-3D" target=3D"_blank" style=
+=3D"color:#999999;">Privacy Policy</a> | <a name=3D"Terms" href=3D"https://=
+links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSdkKA9EoKU51q8-2F3-2BjK=
+HOiqH6ww2HJwXHES0x2bew1qC_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr=
+-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz0=
+2xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8=
+w6OedwtC7tHjS9uwtkAiju7PFyPxUtDFMPzAYugDjWLILd6c5ygdsR-2FX1-2BByOdmKsH-2Ffx=
+Q-2FWxyeO9sumGBMiJY0LzFL8D3Wt1cjlTiPtQHcbP4GYpUuQ6evsqousIgrANYs8V-2BsmbvgD=
+qSwdFj0eoGVsKVdZ7Ms7sK0BU7FH6TVFvZOSOs2YP8FC6nDKTinzK-2FktChMTWNYS2iOYnO-2F=
+fbUROHZul-2FcQ-3D-3D" target=3D"_blank" style=3D"color:#999999;">Terms and&=
+nbsp;Conditions</a></span></td>
+  </tr>
+</table>
+<!-- END DESKTOP -->
+<!-- START MOBILE -->
+<!--[if !gte mso 9]><!-->
+<div style=3D"mso-hide:all">
+<div class=3D"mobile_again" style=3D"width:0; overflow:hidden; display:none=
+; visibility:hidden;">
+<table width=3D"305" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" bgcolor=3D"#FFFFFF">
+	<tr>
+		<td valign=3D"top" style=3D"padding-top:10px;"><a name=3D"Logo_Mobile" hr=
+ef=3D"https://links.mint.com/wf/click?upn=3D5Utd7G-2B5xhsaQZ2v9X3zj4kG92Nxu=
+JnZaw5WyOXRLTrgDsVgmNsgi1o8L5fDrE9nqMvECzyLdlbGrtolJoFvNK9Uaz15z1V1rwNgs-2B=
+HC2E0P2SpONznWm7C1YYVDUJAnXpfr8vm6GJs3AbgRdFOQQ8VrduKFOpXDVaX3Xt8-2FrhOxkFY=
+ptarnVzDpTTuXzwW-2B5WXR-2FHTJw58jaZsT9gtsnw-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp6=
+6UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59=
+MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3=
+-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7jXHMJ2lA7bU4dJqVHNgG-2BF50Nt6HSSUvPbO98TSn=
+i06pV-2BAMTdRNY9hhpmSntUk3FXMFXqE-2FMAFisXAUMMrSCd0NhbTrWU7tpRJFKruMyGi6YDG=
+kgw800V7U6Ud-2BAPgGFgETOUpk54JtVAX6nKDOcU-2BsiuAqHtj4jkWADEa1RdUYTWmBO6-2FZ=
+Bg3xBXWqrq2-2BBx3od0B8QoSuJQHLzL8zfA-3D-3D" target=3D"_blank"><img style=3D=
+"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/mint_logo.jp=
+g" alt=3D"Mint" width=3D"305" height=3D"37" class=3D"emailwrapto100pct logo=
+" border=3D"0" /></a></td>
+	</tr>
+
+			<tr>
+		<td valign=3D"top" align=3D"center" style=3D"padding-left:5px; padding-ri=
+ght:5px; padding-top:30px; padding-bottom:10px;">
+		<span style=3D"font-size:18px; line-height:24px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#000000;"><b><!-- Mobile headline -->You&rs=
+quo;re $4 over budget for Tithe<!-- End Mobile headline --></b></span>
+					</td>
+	</tr>
+				<tr>
+				<td valign=3D"top" align=3D"center" style=3D"line-height:1px; padding-l=
+eft:0px; padding-right:0px; padding-top:20px; padding-bottom:20px;"><img st=
+yle=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/305_gr=
+ay_line.gif" width=3D"305" height=3D"1" alt=3D"" class=3D"emailwrapto100pct=
+ grayline" border=3D"0" /></td>
+	</tr>
+=09
+		<tr>
+		<td valign=3D"top" align=3D"center" style=3D"padding-left:10px; padding-r=
+ight:10px; padding-top:0px; padding-bottom:10px;">
+				<span style=3D"font-size:26px; line-height:28px; font-family:Avenir, Ar=
+ial, Helvetica, sans-serif; color:#000000;">&nbsp;</span>
+		<span style=3D"font-size:36px; line-height:38px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#000000;"><br/>
+		$1,004</span>
+		<span style=3D"font-size:14px; line-height:20px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#999999;"><br/>
+		SPENT</span>
+		<span style=3D"font-size:10px; line-height:14px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#999999;"><br />&nbsp;<br /></span>
+		<span style=3D"font-size:20px; line-height:22px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#000000;"><br/>
+		$1,000</span>
+		<span style=3D"font-size:14px; line-height:20px; font-family:Avenir, Aria=
+l, Helvetica, sans-serif; color:#999999;"><br/>
+		BUDGETED</span>
+		<span style=3D"font-size:8px; line-height:10px; font-family:Avenir, Arial=
+, Helvetica, sans-serif; color:#999999;"><br />&nbsp;</span>
+	<span style=3D"font-size:14px; line-height:22px; font-family:Avenir, Arial=
+, Helvetica, sans-serif; color:#999999;"><br />
+					You&#39;ve gone over the <strong>$1,000</strong> monthly budget you se=
+t for Tithe by <strong>$4</strong> in July.
+				Get back on track by updating your budgets or creating new ones.
+		<br />&nbsp;	</span>
+
+			</td>
+	</tr>
+
+			<tr>
+		<td valign=3D"top" align=3D"center" style=3D"padding-left:0px; padding-ri=
+ght:0px; padding-top:20px; padding-bottom:0px;">
+			<a name=3D"Login_Now_Mobile" href=3D"https://links.mint.com/wf/click?upn=
+=3DFrwdNJz7BEaU-2FKPeA2ZCSSndwnO-2BnYqXHv4uh6-2FmpDXmWPiJQEzw8rABEKutLf255M=
+xT2defZP6oQ18L4lYd1A-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDR=
+r-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz=
+02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg=
+8w6OedwtC7M30BkNR-2B4vBKDBxmsy6bEx-2FVQsflpg0wCwoMTskKzTU3-2BQnvBekaGLkBZFG=
+4NviLdxJhq0jgQJg7wJeaSXIymZ-2BNDh3-2FhalcC0mx-2BflEM7NIn12goeUFe0sh5kSyLjZJ=
+A9vtQ-2Fdma27T3ePMr116608lf3MvscGkn8cpaWDte19Ct8xVNEiBEPSKrH6kyz0sZtEXhI1sE=
+PjD2EfVqir9EQ-3D-3D" style=3D"color:#4dc5e2;" target=3D"_blank"><img style=
+=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/mobile_bu=
+tton_login_now.gif" width=3D"305" height=3D"38" alt=3D"Login Now" class=3D"=
+emailwrapto100pct loginbutton" border=3D"0" /></a>
+		</td>
+	</tr>
+
+
+
+
+	<tr>
+				<td valign=3D"top" align=3D"center" style=3D"line-height:1px; padding-l=
+eft:0px; padding-right:0px; padding-top:20px; padding-bottom:20px;"><img st=
+yle=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergreen/305_gr=
+ay_line.gif" width=3D"305" height=3D"1" alt=3D"" class=3D"emailwrapto100pct=
+ grayline" border=3D"0" /></td>
+	</tr>
+
+
+	<tr>
+		<td align=3D"center">
+			<table width=3D"50%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+			<tr>
+				<td valign=3D"top"><a name=3D"Facebook_Mobile" href=3D"https://links.mi=
+nt.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSd0GgwW-2FQVid9og9fLqeWVhRmQE67=
+tV1auY-2B8P4IzJ1s_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcF=
+JOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD=
+5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC=
+7lGzCieEYescaZ5ochvk4I7janSzf-2F7UMO2DnZos30EWV0vAF7Ge4G3NY6ldJe7ZUsK8ZxLy9=
+I-2FRGdwRQr9vJsSEhkjDrtWmgoMqz9ZkaU9KxGXPqocQrfHvWdpfgTVJRhqLDRoEiBmx2zlS-2=
+FnH-2Fq6g3lID5SJ9pIDvOCiNaNm7jmSDa6oZKu8Om4D35-2BTi8xFh0iQJ9pUdJi80qnEWh21Q=
+-3D-3D" target=3D"_blank"><img style=3D"display:block;" src=3D"https://www.=
+mint.com/ei/2014.evergreen/facebook.gif" alt=3D"Facebook" width=3D"44" heig=
+ht=3D"44" class=3D"emailwrapto100pct social1" border=3D"0" /></a></td>
+				<td valign=3D"top"><a name=3D"Twitter_Mobile" href=3D"https://links.min=
+t.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSa9LRP2cRNBa0dCMMqmAvDY-3D_G0-2B=
+AnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk=
+147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJP=
+Kn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7PcHWHlXKphfNGr83Oaz3kD=
+9J7bqwZAgoOJXr4w34SVjjDXPnj1M2ryI8b3qwUxW2W-2BDOMEQFHfat0uaGZo1rFrprC2xBiOI=
+yLRws4oUzntfIwHxLR5eFPB-2B9OICHvs-2BFLNjAH51EJooN3vt3xOS8bVr2TB-2BkXbQtTXOu=
+RCOUzAQiJc4zYsNSWzrttnZ0swXO3JOQyi84GmqZYCHDc-2FmgPQ-3D-3D" target=3D"_blan=
+k"><img style=3D"display:block;" src=3D"https://www.mint.com/ei/2014.evergr=
+een/twitter.gif" alt=3D"Twitter" width=3D"52" height=3D"44" class=3D"emailw=
+rapto100pct social3" border=3D"0" /></a></td>
+                <td valign=3D"top"><a name=3D"Instagram" href=3D"https://li=
+nks.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSSBOl7BseaKUkqZfge3RFmizi=
+QKHlFkDeV7sBZ1t4HYS_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8A=
+cFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2B=
+OD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6Oedw=
+tC7vYn0FVcwF1-2FJVeqQ5yt5PatdeGpk5iniYVg1HuYgiyxvMtpseJrVQaw6W8cArgr8I9OoVU=
+N5p5-2FpT3Z02Kjbwy3j966Hgkm0NbnEe-2FKO1xuEVOdDualtgGbWR2uH5xbAYjKaiQfexc-2B=
+8gxvU-2FQ3av6FNvC4WNs95wbkNrLaA554dRLAgnGmc5LVbgwIcqvgiUrAwTedCKh0nv-2Bqhtu=
+sdlA-3D-3D" target=3D"_blank"><img style=3D"display:block;" src=3D"https://=
+images.mint.com/i/email/common/social_white_insta_2x.gif" alt=3D"Instagram"=
+ width=3D"52" height=3D"44" class=3D"emailwrapto100pct social3" border=3D"0=
+" /></a></td>
+				<td valign=3D"top"><a name=3D"RSS_Mobile" href=3D"https://links.mint.co=
+m/wf/click?upn=3D5Utd7G-2B5xhsaQZ2v9X3zj-2Bh2PKvS7D-2B5pyn8kSVJyQS9AneC9NqX=
+gjGVWt4ctrLT_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpX=
+aXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9V=
+iIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7eTDa=
+fWVyPUaFsok61g2s4FSi1ZYvxtF1pp8WWI60DfQ9fFCSgCPX8JlF95apbc91SCZMUFbGTefXZ9v=
+8Xrde3C71PjGtIN-2BDUmO6uNyjyWO6-2BvLCn3d-2FjFvvC-2B1xQTXId0Te3poC2rcyazPjJZ=
+bcLepplFvo0jcRHEhRYAZc6LjVwQxdK4a5zquS9eK1SvvOWkX2s8I12VmKwmcu38SBdQ-3D-3D"=
+ target=3D"_blank"><img style=3D"display:block;" src=3D"https://www.mint.co=
+m/ei/2014.evergreen/rss.gif" alt=3D"RSS" width=3D"44" height=3D"44" class=
+=3D"emailwrapto100pct social1" border=3D"0" /></a></td>
+						<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"h=
+ttps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"17" height=3D"1"=
+ alt=3D"" border=3D"0" /></td>
+				<td valign=3D"middle"><a name=3D"Apple_Mobile" href=3D"https://links.mi=
+nt.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSQiRNKtlEXvwowsps10D0UoiQR7778U=
+aTx-2FhLXgXDqN-2BTY5BWE3JHVB-2B4RZXY10pzzzVCYbOy9uSUa7XOTMsNIhdE2sHXHbnihLE=
+vpOKqeZtxk2b8cUH2Tj3gDPRulauxzVDH6dmxN6g54sq0lbOVLaYMlslfOYMRq3zsTg6-2B4cm3=
+mMbd6R-2FCoAzzPImu3PiKggUz5d-2FiMyvNCqHBhy5MmWhJ3-2F68rAxef2rFnZVxLIl94eewa=
+UN1mJjsvtJpbNvHQ-3D-3D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2F=
+Z8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI=
+-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6O=
+edwtC7M7MPY1RTPOM3u4W8WV5tPmHyAXEmjbOpr2x8NB54JmywEvJPFFgUNNxMJ5QPfqc7fdpMe=
+TWIhqPYVYeeF9Gd4ID-2FsBdXK9kKuz6K0Y4M0lxx4Fav2FN4KA4lycBXBXJIOgjcHCKVr-2BGE=
+3Tmr4u7E5cEWXJo8Oopw2rfxWfPpEosopmre3kaLC9qW5nAlHXxgFzSMK9ASoa-2B7MpMB6n30-=
+2Bw-3D-3D" target=3D"_blank"><img style=3D"display:block;" src=3D"https://w=
+ww.mint.com/ei/2014.evergreen/appstore.gif" alt=3D"Appstore" width=3D"" hei=
+ght=3D"" class=3D"emailwrapto100pct social4" border=3D"0" /></a></td>
+						<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"h=
+ttps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"31" height=3D"1"=
+ alt=3D"" border=3D"0" /></td>
+				<td valign=3D"middle"><a name=3D"Android_Mobile" href=3D"https://links.=
+mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSb-2BAqMJ1OwWB6X3LsDkzm5sZ2jx=
+zdAdSj4YGLEthhw3RN0AAW31LOCTawG9sLv-2FUHUNcmF0i9kO8-2FFTxz9ygyLQ3Nayseql7aM=
+U96EY9oKNU949MH3KsSs1-2FmPu18371QlK87-2BHriETnNjgAklwn1tM3DvUi1EI0ubk0yc4w-=
+2BUvJstftGVRJoSh1hyOMjoHAvr7itbj6dtOyNWt1oUwlpv1VUtVUk4hkHk6y4zH-2FNkzI_G0-=
+2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSy=
+Yk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbM=
+JPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7QXT0Zzn8awi9M-2FrDt2=
+00-2FEisqxaDNgIzeT21ebpn57xITy80E0yxBfbEAsNT7dW-2FN7Xr0CI2mCSNux-2BBDr3rt6Q=
+SjLTS-2BRDa8iXZtssdW9ov-2BudmIdY0wG694ovYjXQyFGNGiWlkajjCgH94H5vivPoXPmRdTU=
+6K9RMxABfypSyJStzL5ihPDdQLNYAZn9RfsNQKMA3EeHvfA1uXvhh5kQ-3D-3D" target=3D"_=
+blank"><img style=3D"display:block;" src=3D"https://www.mint.com/ei/2014.ev=
+ergreen/android.gif" alt=3D"Android" width=3D"" height=3D"" class=3D"emailw=
+rapto100pct social4" border=3D"0" /></a></td>
+						<td style=3D"line-height:1px;"><img style=3D"display:block;" src=3D"h=
+ttps://www.mint.com/ei/2014.evergreen/spacer.gif" width=3D"31" height=3D"1"=
+ alt=3D"" border=3D"0" /></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td valign=3D"top" align=3D"center" style=3D"padding-left:14px; padding-r=
+ight:14px; padding-top:21px; padding-bottom:10px;"><span style=3D"font-size=
+:11px; line-height:16px; font-family:Avenir, Arial, Helvetica, sans-serif; =
+color:#999999;">This message was sent to alan@itrva.com<br />
+If you would like to update your email address, please&nbsp;<a name=3D"Mana=
+geAccount_Mobile" href=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7BEa=
+U-2FKPeA2ZCSY5tTOzVn5ugVXsY6DX0I8h9ayYdFSPEKUxj2QS1oNCfVEHNTl2eWjZ1BT-2FMSa=
+psQggUVtMM0S9gmqIU0Gci9uvubNEjIOBYzH-2FxUUbADVvcfYrkaW3E4-2BFrckXNIWAD-2FFs=
+z59XzmUqL9NV-2B2V-2FZE-2BjCYedfsUboY7qnzVBdUmc1vKojvfezV1VNNSK2Q2dLjrdeh636=
+kDLUd80DUoc3psB3aSVXiSHbN3TZ-2FgJuLjWjILM0m6DK4lrGrCBHMO-2BoJ-2F6laFwPlXg34=
+j8S3OplyYU-3D_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCp=
+XaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9=
+ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC73CL=
+JZbvSnD-2F-2FTL89LC4bdK-2F9VSw4-2Fwik-2BuVeOFTMmP5cdCWyOclX-2FE9WKWvqnSjdRp=
+-2Bopozakepgu224-2Bvv6iPcDrpcY3rWtqt0w0PoTUrM5mTtPgl-2FN1-2BORxgXtBaVqZe0cJ=
+RRV7grkWRKYwuwgULJz-2BCyglLrBT-2BYq-2BuzIjfB98HKgXf2mXNQattHnmOqXEk5bnZ3Psh=
+hfnHmw8LwC-2Bw-3D-3D" target=3D"_blank" style=3D"color:#999999;">click&nbsp=
+;here</a>.<br /><br/>
+
+	To unsubscribe from emails, please <a name=3D"Alert_Preferences_Mobile" hr=
+ef=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSY5tTOzVn=
+5ugVXsY6DX0I8h9ayYdFSPEKUxj2QS1oNCfVEHNTl2eWjZ1BT-2FMSapsQggUVtMM0S9gmqIU0G=
+ci9uvug3zs5lwWFujMLJ6YaKP-2BOO9ntPtcIMV-2FpXRDMVfeQ2GAauWcQ1a1LHiVbT446sS-2=
+FiMz5og8uHlKo6EF6beG3njlLiDUNGeAxJ3cXbtC-2BYOC4dbTPa-2F1LjUQAjmHl7xpJs52zr8=
+NvScj121XKZk85gqvW4GbFxAJ-2B25e6-2BD-2FNCB3Dn9Gl62U5qhAg6l3Bx9A-3D_G0-2BAno=
+Ql4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147=
+F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7=
+TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC79jPThYLj-2Ff7usA-2BXiGRCy=
+qEVhNssgYSHQRwyuJpTpDAyqIaEEQVJqjVsUbJHE1aHjhQTy5GpFklEXB3nSD3-2B4LfWpF-2Bq=
+2OhBgGIZctGorPBqnv8s8ARGIljlGs6LzUCH7r2HMjYhP1lgCUdsl8xF09u-2B4pH9w9aZk7Sg7=
+XfbKc8PQy2ry0016nCLV3vRyCNqCj5AdOaoUZ9vPpyWcGsdtQ-3D-3D" target=3D"_blank" =
+style=3D"color:#999999;">log in</a> to your Mint account where you can mana=
+ge your email and mobile alerts setting.
+
+
+<br />&nbsp;<br />
+&copy;2007&mdash;2017 Mint Software, Inc. | All Rights&nbsp;Reserved.<br />
+Mint.com 2632 Marine Way, Mountain View, CA&nbsp;94043<br />
+<a name=3D"Privacy_Mobile" href=3D"https://links.mint.com/wf/click?upn=3DFr=
+wdNJz7BEaU-2FKPeA2ZCSYZ-2FHNK1NfVWFeRJuiNEeGu6U7gTr0Y5LEJwiFZcLBjX_G0-2BAno=
+Ql4dMAXyDaoYkoUp66UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147=
+F1XPC5hMyNmzZTj59MIX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7=
+TUfFOVjTbNwZkano3-2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7RbPGKXowpphHCM6HmvcwoyyhE=
+E8fQSkFstSDemgL9r3eW2DKN4qGsOjgEzjsXC-2F-2Bv0aJcBBuAFbjP-2FqhV2XGt7DJCT5epo=
+P9tsJjEGQ4ip6BZbdDDbOZTFtiojSOIC8WgZ-2FCVxEDbdiknK85705wdUclmYNajV53eZhcO0M=
+lb77BzptR5OQ-2BC-2F7CLnt9uLE0UXFgv76MuHFtXPOYRo6CXA-3D-3D" target=3D"_blank=
+" style=3D"color:#999999;">Privacy Policy</a> | <a name=3D"Terms_Mobile" hr=
+ef=3D"https://links.mint.com/wf/click?upn=3DFrwdNJz7BEaU-2FKPeA2ZCSdkKA9EoK=
+U51q8-2F3-2BjKHOiqH6ww2HJwXHES0x2bew1qC_G0-2BAnoQl4dMAXyDaoYkoUp66UYtbb1JVS=
+qwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59MIX4kQI85X=
+j7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-2FSAUfJO-=
+2F-2FbeJwXmRg8w6OedwtC7pJrsCMQACD1IhoBhsW7wNWfqE2Nrjc9eB1odNJZVXtjrj1pyHUcM=
+UGMh96Xpnt3RQXQXFI5DTxpldQTgdKIgJJrXQ9tvFgLH0Me1ljDmvTugBYQdXd1FeDLvCJ-2FTe=
+8-2F9U1XKd4jXxHkC0HeVSy12oBfvtDab20arPygNJ-2FY83kI97cXlQqSfjm81EApC95LRZ96R=
+RVr2aUTwOZMygF3U3w-3D-3D" target=3D"_blank" style=3D"color:#999999;">Terms =
+and&nbsp;Conditions</a></span></td>
+	</tr>
+</table>
+</div>
+</div>
+<!--<![endif]-->
+<!-- END MOBILE -->
+
+
+<img src=3D"https://links.mint.com/wf/open?upn=3DG0-2BAnoQl4dMAXyDaoYkoUp66=
+UYtbb1JVSqwXjQZS2PWNDRr-2FZ8AcFJOCpXaXXNDuNi0dPbYKSyYk147F1XPC5hMyNmzZTj59M=
+IX4kQI85Xj7-2FVB-2FCXz02xI-2BOD5qH9ViIvCJGxQUo9ORBbMJPKn7TUfFOVjTbNwZkano3-=
+2FSAUfJO-2F-2FbeJwXmRg8w6OedwtC7sMWTaLun-2BxpvkTh-2FMoYO2LVxW1Ol9PzlR8k3Dt1=
+byMcz3-2BvHX013KL8EUaEQcn9MUlwPOMKetkMQXErBaqpUQFmM8WUUR2BzW-2Fso3WdIMFIj6X=
+Eq8y4nIz4GD2I7T5LSozr8fOcAwcvadZ9KkxPSo0clJ1DW2Ew47QgXHEjBxL-2BnBLAIGqWUQqj=
+OsuJf8fLFY4tZYCDHVwLfqIzq7sZpHg-3D-3D" alt=3D"" width=3D"1" height=3D"1" bo=
+rder=3D"0" style=3D"height:1px !important;width:1px !important;border-width=
+:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-rig=
+ht:0 !important;margin-left:0 !important;padding-top:0 !important;padding-b=
+ottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/>
+</body>
+</html>
+
+
+--fb2e9c204c601f34bb4059acfadc05adc2232d3d1bf0fc543104f3331e5e--
